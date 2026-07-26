@@ -80,8 +80,8 @@
     <path d="M 173 196 C 175 208 174 216 170 224" stroke="#43281a" stroke-width="3" fill="none" opacity="0.5" filter="url(#b2)"/>
     <path d="M 207 196 C 205 208 206 216 210 224" stroke="#43281a" stroke-width="3" fill="none" opacity="0.45" filter="url(#b2)"/>
     <ellipse cx="190" cy="220" rx="8" ry="13" fill="#a5714c" opacity="0.4" filter="url(#b4)"/>
-    <path d="M 154 246 C 168 240 180 239 188 242" stroke="#3a2314" stroke-width="1.8" fill="none" opacity="0.6" filter="url(#b2)" stroke-linecap="round"/>
-    <path d="M 226 246 C 212 240 200 239 192 242" stroke="#3a2314" stroke-width="1.8" fill="none" opacity="0.55" filter="url(#b2)" stroke-linecap="round"/>
+    <path d="M 154 246 C 168 240 180 239 188 242" stroke="#3a2314" stroke-width="1.8" fill="none" opacity="0.45" filter="url(#b2)" stroke-linecap="round"/>
+    <path d="M 226 246 C 212 240 200 239 192 242" stroke="#3a2314" stroke-width="1.8" fill="none" opacity="0.4" filter="url(#b2)" stroke-linecap="round"/>
     <path d="M 156 244 C 169 238.4 180 237.6 188 240.4" stroke="#c98f63" stroke-width="1.1" fill="none" opacity="0.6" filter="url(#b1)" stroke-linecap="round"/>
     <path d="M 224 244 C 211 238.4 200 237.6 192 240.4" stroke="#c98f63" stroke-width="1.1" fill="none" opacity="0.5" filter="url(#b1)" stroke-linecap="round"/>
     <path d="M 118 254 C 136 246 154 241 168 239" stroke="#2e1a0e" stroke-width="4" fill="none" opacity="0.35" filter="url(#b4)"/>
@@ -108,19 +108,20 @@
     <ellipse cx="156" cy="106" rx="7" ry="11" fill="#53321f" opacity="0.45" filter="url(#b3)"/>
     <ellipse cx="226" cy="106" rx="7" ry="11" fill="#43281a" opacity="0.55" filter="url(#b3)"/>
     <path d="M 156 88 C 168 80 210 80 226 90" stroke="#53321f" stroke-width="5" fill="none" opacity="0.4" filter="url(#b3)"/>
+    <path d="M 214 84 C 222 88 228 96 231 106" stroke="#43281a" stroke-width="4" fill="none" opacity="0.45" filter="url(#b3)"/>
     <ellipse cx="171" cy="131" rx="10" ry="5.5" fill="#53321f" opacity="0.5" filter="url(#b3)"/>
     <ellipse cx="209" cy="131" rx="10" ry="5.5" fill="#43281a" opacity="0.55" filter="url(#b3)"/>
     <ellipse cx="171.5" cy="142" rx="8" ry="3" fill="#5d3a24" opacity="0.4" filter="url(#b2)"/>
     <ellipse cx="208.5" cy="142" rx="8" ry="3" fill="#53321f" opacity="0.45" filter="url(#b2)"/>
 
     <!-- highlights : warm sheen -->
-    <ellipse cx="180" cy="103" rx="22" ry="13" fill="#c98f63" opacity="0.5" filter="url(#b4)"/>
-    <ellipse cx="177" cy="100" rx="10" ry="6" fill="#e8b88d" opacity="0.35" filter="url(#b3)"/>
+    <ellipse cx="180" cy="103" rx="22" ry="13" fill="#c98f63" opacity="0.42" filter="url(#b4)"/>
+    <ellipse cx="177" cy="100" rx="10" ry="6" fill="#e8b88d" opacity="0.3" filter="url(#b3)"/>
     <ellipse cx="166" cy="146" rx="11" ry="7" fill="#c98f63" opacity="0.55" filter="url(#b3)" transform="rotate(-14 166 146)"/>
     <ellipse cx="164" cy="144" rx="5.5" ry="3.2" fill="#e8b88d" opacity="0.4" filter="url(#b2)" transform="rotate(-14 164 144)"/>
     <ellipse cx="216" cy="148" rx="8" ry="5" fill="#c98f63" opacity="0.32" filter="url(#b3)" transform="rotate(12 216 148)"/>
     <ellipse cx="168" cy="119.5" rx="8" ry="3" fill="#c98f63" opacity="0.45" filter="url(#b2)"/>
-    <ellipse cx="211" cy="119.5" rx="7" ry="2.6" fill="#c98f63" opacity="0.32" filter="url(#b2)"/>
+    <ellipse cx="211" cy="119.5" rx="7" ry="2.6" fill="#c98f63" opacity="0.22" filter="url(#b2)"/>
     <ellipse cx="189" cy="193.5" rx="6" ry="3.5" fill="#c98f63" opacity="0.5" filter="url(#b2)"/>
     <ellipse cx="165" cy="153" rx="10" ry="5.5" fill="#a34d38" opacity="0.2" filter="url(#b4)"/>
     <ellipse cx="215" cy="154" rx="8" ry="4.5" fill="#a34d38" opacity="0.16" filter="url(#b4)"/>
@@ -176,7 +177,7 @@
     <path d="M 175.5 179.2 C 179.5 180.3 200.5 180.3 204.5 179.2 C 201 186.2 195 188.8 190 188.8 C 185 188.8 179 186.2 175.5 179.2 Z" fill="#8a5140" filter="url(#b1)"/>
     <ellipse cx="188" cy="183.6" rx="6.5" ry="2.5" fill="#c98977" opacity="0.65" filter="url(#b2)"/>
     <path d="M 174.5 177.8 C 181 180.6 199 180.6 205.5 177.8" stroke="#2a1710" stroke-width="1.2" fill="none" opacity="0.85" filter="url(#b1)"/>
-    <ellipse cx="190" cy="191.6" rx="7" ry="2.6" fill="#3a2314" opacity="0.45" filter="url(#b2)"/>
+    <ellipse cx="190" cy="191.6" rx="7" ry="2.6" fill="#3a2314" opacity="0.32" filter="url(#b2)"/>
 
     <!-- rim light -->
     <g clip-path="url(#faceclip)">
@@ -193,6 +194,13 @@
       <path d="M 172 44 C 180 35 202 33 212 40" stroke="#3d2b1f" stroke-width="3.5" opacity="0.8"/>
       <path d="M 180 36 C 188 31 200 31 206 35" stroke="#2e2018" stroke-width="2.5" opacity="0.7"/>
       <path d="M 170 58 C 180 50 204 48 218 56" stroke="#4a3628" stroke-width="3" opacity="0.6"/>
+    </g>
+    <g fill="none" stroke="#6b4a33" stroke-width="1" stroke-linecap="round" opacity="0.65">
+      <path d="M 173 49 l 4 -3 M 180 45 l 4.4 -3 M 188 42.5 l 4.6 -2.4 M 196 41.5 l 4.6 -1.6 M 204 42 l 4.4 -0.8 M 211 44.5 l 4 0.6"/>
+      <path d="M 171 56 l 4.2 -2.6 M 179 52.5 l 4.4 -2.4 M 187 50.5 l 4.6 -1.8 M 195 49.5 l 4.6 -1 M 203 50 l 4.4 0 M 211 52 l 4 1"/>
+    </g>
+    <g fill="none" stroke="#1a100a" stroke-width="1.1" stroke-linecap="round" opacity="0.75">
+      <path d="M 177 47.5 l 3.8 2.2 M 184.5 44 l 4.2 2 M 192 42 l 4.4 1.6 M 200 41.5 l 4.4 1.2 M 207.5 43 l 4 1.4"/>
     </g>
     <!-- braids sweeping up -->
     <g fill="none" stroke="#2e2018" stroke-width="4.6" stroke-linecap="round" opacity="0.95">
@@ -245,7 +253,7 @@
     <!-- turquoise bead choker -->
     <path d="M 171 209 Q 190 217 209 209" fill="none" stroke="#20504c" stroke-width="1" opacity="0.6"/>
     <g>
-      <ellipse cx="190" cy="216.5" rx="16" ry="3" fill="#241307" opacity="0.4" filter="url(#b2)"/>
+      <ellipse cx="190" cy="216" rx="15" ry="2.4" fill="#241307" opacity="0.25" filter="url(#b2)"/>
       <circle cx="172" cy="209.8" r="3.3" fill="url(#tq)"/>
       <circle cx="178.8" cy="212.4" r="3.3" fill="url(#tq)"/>
       <circle cx="186" cy="213.8" r="3.3" fill="url(#tq)"/>

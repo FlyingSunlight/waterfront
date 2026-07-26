@@ -196,7 +196,7 @@
   </g>
 
   <!-- scarf back drape (behind head, over shoulders) -->
-  <path d="M 196 40 C 162 42 136 64 128 98 C 122 124 124 150 122 176 C 120 202 116 228 118 252 C 119 259 122 263 128 262 L 272 262 C 278 263 281 259 282 252 C 284 228 280 202 278 176 C 276 150 278 124 272 98 C 264 64 230 42 196 40 Z" fill="url(#p5-tealD)"/>
+  <path d="M 196 40 C 162 42 136 64 128 98 C 122 124 124 150 122 176 C 120 202 116 228 118 252 C 119 259 122 263 128 262 C 150 258 166 238 173 216 L 227 216 C 234 238 250 258 272 262 C 278 263 281 259 282 252 C 284 228 280 202 278 176 C 276 150 278 124 272 98 C 264 64 230 42 196 40 Z" fill="url(#p5-tealD)"/>
 
   <!-- ================= head ================= -->
   <g>
@@ -305,12 +305,10 @@
 
     <!-- soft hairline under scarf -->
     <g>
-      <path d="M 148 128 C 146 92 166 72 194 71 C 224 70 246 90 250 128 C 242 104 228 90 210 86 C 199 83.6 189 83.8 179 87 C 162 92 152 106 148 128 Z" fill="#150d0a"/>
-      <path d="M 186 85 L 186.6 76" stroke="#2e1d14" stroke-width="1" opacity="0.7"/>
-      <g fill="none" stroke="#4a3020" stroke-width="0.7" stroke-linecap="round" opacity="0.5">
-        <path d="M 178 87.6 C 170 90.4 163 95.6 158 103"/>
-        <path d="M 196 84.6 C 206 86 216 91 223 99"/>
-      </g>
+      <path d="M 152 112 C 152 86 168 73 194 72 C 220 71 240 84 246 112 C 238 94 224 84 206 82 C 196 80.8 186 81 177 84 C 164 88 156 98 152 112 Z" fill="#1c120c"/>
+      <path d="M 186 82.5 L 186.4 75.5" stroke="#332015" stroke-width="1" opacity="0.7"/>
+      <ellipse cx="153.5" cy="103" rx="5" ry="11" fill="#1c120c" opacity="0.9" transform="rotate(-30 153.5 103)"/>
+      <ellipse cx="243" cy="101" rx="4.6" ry="10" fill="#1c120c" opacity="0.85" transform="rotate(28 243 101)"/>
     </g>
   </g>
 
@@ -319,9 +317,14 @@
     <!-- crown -->
     <path d="M 130 152 C 122 78 158 42 196 41 C 234 42 272 78 266 152 C 260 120 252 100 240 90 C 226 78 208 72 190 73 C 172 74 156 84 146 98 C 138 110 133 128 130 152 Z" fill="url(#p5-teal)"/>
     <!-- left long tail -->
-    <path d="M 133 92 C 126 116 126 142 124 168 C 122 196 116 224 108 250 C 103 266 98 282 94 298 L 92 300 L 138 300 C 142 280 144 260 146 240 C 148 218 148 196 147 174 C 146 152 145 128 146 106 C 141 98 136 94 133 92 Z" fill="url(#p5-teal)"/>
+    <path d="M 133 92 C 126 116 126 142 124 168 C 122 196 116 224 108 250 C 103 266 96 282 88 296 L 86 300 L 150 300 C 148 292 148.5 284 152 276 C 146 262 144.5 251 146 240 C 148 218 148 196 147 174 C 146 152 145 128 146 106 C 141 98 136 94 133 92 Z" fill="url(#p5-teal)"/>
+    <path d="M 152 276 C 148.5 284 148 292 150 300 L 128 300 C 132 290 140 282 152 276 Z" fill="url(#p5-tealD)"/>
     <!-- right tucked drape -->
     <path d="M 254 94 C 252 102 250.5 116 250 130 C 249 152 248 174 249 196 C 250 220 254 244 262 264 C 270 266 280 264 288 258 C 284 252 281 244 278 230 C 273 208 270 184 269 160 C 268 136 267 112 262 90 C 260 90 257 92 254 94 Z" fill="url(#p5-teal)"/>
+    <!-- rolled hem along face opening -->
+    <path d="M 146 104 C 152 84 170 72.5 191 71.6 C 212 70.6 231 78.5 242 94" fill="none" stroke="#2f7371" stroke-width="6" stroke-linecap="round" opacity="0.95"/>
+    <path d="M 145 102 C 152 82 170 70.5 191 69.6 C 212 68.6 232 77 243 93" fill="none" stroke="#5aa89f" stroke-width="2.2" stroke-linecap="round" opacity="0.75" filter="url(#p5-b2)"/>
+    <path d="M 152 92 C 162 78 178 70.8 194 70.6" fill="none" stroke="#8fd4c6" stroke-width="1.1" stroke-linecap="round" opacity="0.75"/>
     <!-- folds : highlights and creases -->
     <g filter="url(#p5-b3)">
       <ellipse cx="170" cy="58" rx="26" ry="6" fill="url(#p5-thi)" transform="rotate(-16 170 58)"/>
@@ -331,6 +334,10 @@
       <ellipse cx="188" cy="62" rx="30" ry="4.6" fill="url(#p5-tsh)" transform="rotate(-6 188 62)"/>
       <ellipse cx="230" cy="60" rx="20" ry="4.6" fill="url(#p5-tsh)" transform="rotate(24 230 60)"/>
       <ellipse cx="256" cy="102" rx="6" ry="22" fill="url(#p5-tsh)" transform="rotate(10 256 102)"/>
+      <ellipse cx="163" cy="50" rx="20" ry="4.6" fill="url(#p5-tsh)" transform="rotate(-26 163 50)"/>
+      <ellipse cx="222" cy="44" rx="22" ry="4.4" fill="url(#p5-tsh)" transform="rotate(12 222 44)"/>
+      <ellipse cx="186" cy="44" rx="24" ry="5" fill="url(#p5-thi)" transform="rotate(-4 186 44)"/>
+      <ellipse cx="146" cy="70" rx="14" ry="4.6" fill="url(#p5-tsh)" transform="rotate(-50 146 70)"/>
       <!-- left tail folds -->
       <ellipse cx="134" cy="150" rx="4.6" ry="40" fill="url(#p5-thi)" transform="rotate(3 134 150)"/>
       <ellipse cx="140" cy="222" rx="4.2" ry="40" fill="url(#p5-thi2)" transform="rotate(5 140 222)"/>
@@ -352,10 +359,9 @@
     <!-- rim light on right drape -->
     <g filter="url(#p5-b2)">
       <path d="M 262 92 C 267.5 114 268.6 140 269.6 164 C 270.6 188 273.5 210 278.5 229 C 281.5 241 284.5 250 288 257 C 283 251 279.5 242 276.5 230 C 271.5 210 268.6 188 267.6 164 C 266.6 140 265.5 114 259.5 94 Z" fill="#cfe0ea" opacity="0.5"/>
-      <path d="M 240 46 C 254 54 264 66 269 82 C 262 70 252 60 238 53 Z" fill="#bfd4e0" opacity="0.35"/>
     </g>
     <!-- gold thread edge -->
-    <path d="M 146 100 C 156 85 172 75 190 74 C 208 73 226 79 240 91" fill="none" stroke="#c9a24b" stroke-width="0.9" opacity="0.35" stroke-dasharray="5 3"/>
+    <path d="M 147 96 C 158 80 174 71.5 191 70.6 C 209 69.6 226 76 239 87" fill="none" stroke="#c9a24b" stroke-width="0.9" opacity="0.28" stroke-dasharray="5 3"/>
     <path d="M 146 106 C 145 130 146 154 147 176 C 148 198 148 220 146 242 C 144 262 142 282 138 300" fill="none" stroke="#c9a24b" stroke-width="0.7" opacity="0.25" stroke-dasharray="4 4"/>
   </g>
 
