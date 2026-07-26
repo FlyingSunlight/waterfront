@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="ゆるやかにスカーフをまとい、太陽のメダルの長いチェーンを提げた女性の肖像画">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.5" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#eddaa0"/>
+      <stop offset="0.55" stop-color="#c9a24b"/>
+      <stop offset="1" stop-color="#96742f"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="0.44" cy="0.34" r="0.8">
+      <stop offset="0" stop-color="#25262e"/>
+      <stop offset="1" stop-color="#17171c"/>
+    </radialGradient>
+    <radialGradient id="ab" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5bcefa" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#5bcefa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ap" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f5a9b8" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#f5a9b8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <ellipse cx="108" cy="224" rx="168" ry="138" fill="url(#ab)"/>
+  <ellipse cx="300" cy="230" rx="166" ry="138" fill="url(#ap)"/>
+  <g transform="translate(-14,0)">
+    <ellipse cx="190" cy="150" rx="142" ry="122" fill="#c9cdd6" opacity="0.04"/>
+
+    <!-- skin tone : warm tan -->
+    <path d="M 144 110 C 143.5 83 162 64.5 190 64 C 218 64.5 236.5 83 236 110 C 237 138 232 161 222 177 C 214.5 188.5 203.5 197 190 198.5 C 176.5 197 165.5 188.5 158 177 C 148 161 143 138 144 110 Z" fill="#c99e78" opacity="0.42"/>
+    <path d="M 172.5 189 C 174 204 173 214 168.5 224 C 148.5 233 118 240 92 253 C 76 261 63 272 54 287 L 40 300 L 340 300 L 326 287 C 317 272 304 261 288 253 C 262 240 231.5 233 211.5 224 C 207 214 206 204 207.5 189 C 202 196 178 196 172.5 189 Z" fill="#c99e78" opacity="0.34"/>
+
+    <!-- face outline -->
+    <path d="M 144 110 C 143 140 149 162 158 177 C 165.5 188.5 176.5 197 190 198.5 C 203.5 197 214.5 188.5 222 177 C 231 162 237 140 236 110" fill="none" stroke="url(#s)" stroke-width="1.7" stroke-linecap="round" opacity="0.95"/>
+
+    <!-- brows : strong, elegant -->
+    <path d="M 156.5 125 C 163 119.8 173 119.2 181.5 122.8" fill="none" stroke="url(#s)" stroke-width="2.3" stroke-linecap="round" opacity="0.88"/>
+    <path d="M 223.5 125 C 217 119.8 207 119.2 198.5 122.8" fill="none" stroke="url(#s)" stroke-width="2.3" stroke-linecap="round" opacity="0.88"/>
+
+    <!-- eyes : large, defined -->
+    <circle cx="171.5" cy="133.7" r="3.7" fill="url(#s)" opacity="0.9"/>
+    <circle cx="171.5" cy="133.7" r="1.5" fill="#17171c"/>
+    <circle cx="172.9" cy="132.3" r="0.9" fill="#eef1f6"/>
+    <circle cx="208.5" cy="133.7" r="3.7" fill="url(#s)" opacity="0.9"/>
+    <circle cx="208.5" cy="133.7" r="1.5" fill="#17171c"/>
+    <circle cx="209.9" cy="132.3" r="0.9" fill="#eef1f6"/>
+    <path d="M 160.5 134.2 C 165 128.4 174.5 127.6 181 132.8" fill="none" stroke="url(#s)" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M 174 129.4 C 177.2 130 179.4 131.3 181.4 133.4" fill="none" stroke="url(#s)" stroke-width="1.9" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 162.5 136.4 C 166 139.8 174.5 140.2 180.5 134.6" fill="none" stroke="url(#s)" stroke-width="1.1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 219.5 134.2 C 215 128.4 205.5 127.6 199 132.8" fill="none" stroke="url(#s)" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M 206 129.4 C 202.8 130 200.6 131.3 198.6 133.4" fill="none" stroke="url(#s)" stroke-width="1.9" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 217.5 136.4 C 214 139.8 205.5 140.2 199.5 134.6" fill="none" stroke="url(#s)" stroke-width="1.1" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- nose : graceful, slightly long -->
+    <path d="M 186.6 133 C 185.8 144 185.5 152 184.5 159" fill="none" stroke="url(#s)" stroke-width="0.9" stroke-linecap="round" opacity="0.45"/>
+    <path d="M 181.8 159.5 C 179.6 161.4 179.8 164.4 182.4 165.8" fill="none" stroke="url(#s)" stroke-width="0.95" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 183.2 165.5 C 185.2 167.2 187.6 167.8 190 167.8" fill="none" stroke="url(#s)" stroke-width="0.95" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 198.2 159.5 C 200.4 161.4 200.2 164.4 197.6 165.8" fill="none" stroke="url(#s)" stroke-width="0.95" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 196.8 165.5 C 194.8 167.2 192.4 167.8 190 167.8" fill="none" stroke="url(#s)" stroke-width="0.95" stroke-linecap="round" opacity="0.55"/>
+
+    <!-- lips -->
+    <path d="M 175.5 177.8 C 180 174.6 184.8 173.4 188 175.4 C 189.2 176.2 190.8 176.2 192 175.4 C 195.2 173.4 200 174.6 204.5 177.8 C 200 184.2 194 186.2 190 186.2 C 186 186.2 180 184.2 175.5 177.8 Z" fill="#7a5238" opacity="0.32"/>
+    <path d="M 175.5 177.8 C 181 180.4 199 180.4 204.5 177.8" fill="none" stroke="url(#s)" stroke-width="1.5" stroke-linecap="round" opacity="0.95"/>
+    <path d="M 175.5 177.8 C 180 174.6 184.8 173.4 188 175.4 C 189.2 176.2 190.8 176.2 192 175.4 C 195.2 173.4 200 174.6 204.5 177.8" fill="none" stroke="url(#s)" stroke-width="1.05" stroke-linecap="round" opacity="0.75"/>
+    <path d="M 178 180 C 182 185.8 198 185.8 202 180" fill="none" stroke="url(#s)" stroke-width="1.05" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- neck and shoulders -->
+    <path d="M 172.5 191 C 174 204 173 214 168.5 224" fill="none" stroke="url(#s)" stroke-width="1.4" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 207.5 191 C 206 204 207 214 211.5 224" fill="none" stroke="url(#s)" stroke-width="1.4" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 168.5 224 C 148.5 233 118 240 92 253 C 74 262 60 273 50 289" fill="none" stroke="url(#s)" stroke-width="1.6" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 211.5 224 C 231.5 233 262 240 288 253 C 306 262 320 273 330 289" fill="none" stroke="url(#s)" stroke-width="1.6" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 158 250 C 168 245.6 179 244.4 189 246.8" fill="none" stroke="url(#s)" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+    <path d="M 222 250 C 212 245.6 201 244.4 191 246.8" fill="none" stroke="url(#s)" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- garment neckline under scarf -->
+    <path d="M 152 260 C 166 251.5 178 247.5 190 248 C 202 247.5 214 251.5 228 260" fill="none" stroke="url(#s)" stroke-width="0.9" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- hair visible at forehead -->
+    <path d="M 152 116 C 153 98 168 84 190 82 C 212 84 227 98 228 116 C 224 106 216 96 206 91 C 196 86.6 184 86.6 174 91 C 164 96 156 106 152 116 Z" fill="#0c0c11" opacity="0.85"/>
+    <path d="M 190 84 C 181 86 172 91 166 98" fill="none" stroke="url(#s)" stroke-width="0.9" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 190 84 C 199 86 208 91 214 98" fill="none" stroke="url(#s)" stroke-width="0.9" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 190 86 C 183 89 176 94 171 101" fill="none" stroke="url(#s)" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+    <path d="M 190 86 C 197 89 204 94 209 101" fill="none" stroke="url(#s)" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- headscarf : loose drape -->
+    <path d="M 190 46
+      C 156 46 132 70 126 104
+      C 122 130 126 156 124 180
+      C 122.5 200 118 220 112 240
+      C 107 258 100 276 92 292
+      L 88 300 L 116 300
+      C 124 282 130 262 134 242
+      C 138 222 140 202 141 184
+      C 142 162 140 138 144 116
+      C 148 92 166 74 190 72
+      C 214 74 232 92 236 116
+      C 240 138 238 162 239 184
+      C 240 202 242 222 246 242
+      C 250 262 256 282 264 300
+      L 292 300 L 288 292
+      C 280 276 273 258 268 240
+      C 262 220 257.5 200 256 180
+      C 254 156 258 130 254 104
+      C 248 70 224 46 190 46 Z" fill="url(#s)" opacity="0.07"/>
+    <g fill="none" stroke="url(#s)" stroke-linecap="round">
+      <path d="M 190 46 C 156 46 132 70 126 104 C 122 130 126 156 124 180 C 122.5 200 118 220 112 240 C 107 258 100 276 92 292 L 88 300" stroke-width="2" opacity="0.9"/>
+      <path d="M 190 46 C 224 46 248 70 254 104 C 258 130 254 156 256 180 C 257.5 200 262 220 268 240 C 273 258 280 276 288 292 L 292 300" stroke-width="2" opacity="0.9"/>
+      <path d="M 144 116 C 148 92 166 74 190 72 C 214 74 232 92 236 116 C 240 138 238 162 239 184 C 240 202 242 222 246 242 C 250 262 256 282 264 300" stroke-width="1.4" opacity="0.85"/>
+      <path d="M 144 116 C 140 138 142 162 141 184 C 140 202 138 222 134 242 C 130 262 124 282 116 300" stroke-width="1.4" opacity="0.85"/>
+      <path d="M 138 102 C 134 130 137 158 134 188 C 132 212 127 238 120 262" stroke-width="1" opacity="0.5"/>
+      <path d="M 132 112 C 128 140 131 168 128 196 C 126 220 121 246 114 270" stroke-width="0.8" opacity="0.35"/>
+      <path d="M 242 102 C 246 130 243 158 246 188 C 248 212 253 238 260 262" stroke-width="1" opacity="0.5"/>
+      <path d="M 248 112 C 252 140 249 168 252 196 C 254 220 259 246 266 270" stroke-width="0.8" opacity="0.35"/>
+      <path d="M 160 58 C 176 51.5 204 51.5 220 58" stroke-width="0.9" opacity="0.45"/>
+      <path d="M 147 73 C 168 60.5 212 60.5 233 73" stroke-width="0.9" opacity="0.4"/>
+      <path d="M 140 210 C 146 232 144 254 136 274 C 132 284 127 293 122 299" stroke-width="1.2" opacity="0.6"/>
+      <path d="M 146 218 C 151 238 149 258 142 276" stroke-width="0.8" opacity="0.35"/>
+    </g>
+    <path d="M 144 116 C 148 92 166 74 190 72 C 214 74 232 92 236 116" fill="none" stroke="url(#g)" stroke-width="1" stroke-dasharray="4 3" opacity="0.5"/>
+
+    <!-- long chain with sun medallion -->
+    <path d="M 177 220 C 180 236 184 250 187.6 259" fill="none" stroke="url(#s)" stroke-width="1.2" stroke-dasharray="2.4 2" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 203 220 C 200 236 196 250 192.4 259" fill="none" stroke="url(#s)" stroke-width="1.2" stroke-dasharray="2.4 2" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="190" cy="268" r="12.5" fill="#17171c" fill-opacity="0.5" stroke="url(#s)" stroke-width="1.7"/>
+    <circle cx="190" cy="268" r="8.4" fill="none" stroke="url(#g)" stroke-width="1.2" opacity="0.9"/>
+    <circle cx="190" cy="268" r="2.2" fill="url(#g)" opacity="0.85"/>
+    <g stroke="url(#s)" stroke-width="0.9" stroke-linecap="round" opacity="0.75">
+      <path d="M 198.6 268 L 202.3 268"/>
+      <path d="M 197.4 272.3 L 200.6 274.1"/>
+      <path d="M 194.3 275.4 L 196.1 278.6"/>
+      <path d="M 190 276.6 L 190 280.3"/>
+      <path d="M 185.7 275.4 L 183.9 278.6"/>
+      <path d="M 182.6 272.3 L 179.4 274.1"/>
+      <path d="M 181.4 268 L 177.7 268"/>
+      <path d="M 182.6 263.7 L 179.4 261.9"/>
+      <path d="M 185.7 260.6 L 183.9 257.4"/>
+      <path d="M 190 259.4 L 190 255.7"/>
+      <path d="M 194.3 260.6 L 196.1 257.4"/>
+      <path d="M 197.4 263.7 L 200.6 261.9"/>
+    </g>
+  </g>
+</svg>

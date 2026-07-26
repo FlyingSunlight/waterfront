@@ -82,106 +82,110 @@
 
   <!-- ===== the woman, leaning gently into the night ===== -->
   <g transform="rotate(-10 340 260)">
-    <!-- skin: ivory tonal fill -->
+    <!-- skin: ivory tonal fill (face, then neck and chest) -->
     <g filter="url(#opSoft)">
-      <path d="M320 134 C315 146 312.5 156 312.3 161 C308 168 305.3 173 305.4 174.5
-               C306.2 176.5 309 177.2 313 176.8 C312 180.5 311.8 184 312.1 186.6
-               C313.6 189 314.2 192 314.9 195.5 C317.8 199.5 319.8 203 320.9 206.5
-               C323.5 209.8 327.5 211.9 331.5 213.2 C341 216.5 351 218.4 359 218.8
-               C368 216 376 208 380 196 C386 178 386 156 380 142
-               C372 126 358 117 346 116.5 C335 116 325 123 320 134 Z
-               M318 200 C322 206 330 211 338 213.5 L358 218.8 L362 219
-               C364.5 234 366.3 246 368 254 C386 260 404 270 418 284
-               C434 300 444 322 448 350 C451 374 452 400 451 430 L192 430
-               C192 396 196 372 204 354 C210 342 220 332 232 324
-               C250 314 272 302 290 288 C304 276 314 262 319 245
-               C321.5 234 323 222 324.5 210 Z"
+      <path d="M322 130 C317 139 313.5 149 312.6 157 C310.5 163 307.8 169 306.2 173.8
+               C306.4 176 308.4 177 311.6 176.9 C311.1 180 310.2 183 310.4 184.6
+               C310.6 187 310.8 189 311.6 190.8 C312.2 193 313.2 195.4 314.8 197.6
+               C316.8 200.8 320.4 204.2 324.8 206.4 C333 210.6 344 213.6 355 214.2
+               C352.5 200 350.5 184 350.3 168 C349.3 160 346 152 342 146
+               C337 138 330 132 322 130 Z
+               M320 202 C324 206.5 330 210 337 212.4 L355 214.2 L358 218
+               C360 230 361.5 240 363 248 C380 255 398 265 412 279
+               C429 296 440 320 444 348 C447 372 448 400 447 430 L196 430
+               C196 398 200 374 208 356 C214 344 224 334 236 326
+               C253 315 273 303 289 289 C302 277 312 262 317 245
+               C319.5 234 321.5 222 323.5 210 Z"
             fill="#e8cdb5" fill-opacity="0.3"/>
-      <path d="M322 208 C332 214 346 217 358 217 L360 232 C348 232 334 228 324 222 Z"
+      <path d="M321 205 C330 210.5 342 213.5 354 214 L356 228 C344 228 331 224 322 218 Z"
             fill="#e8cdb5" fill-opacity="0.12"/>
     </g>
 
-    <!-- hair cap -->
-    <path d="M320 134 C325 121 335 114 347 114 C361 113 373 122 379 136
-             C384 148 385 166 381 184 C377 200 369 212 361 218
-             C356 208 351 196 348 184 C340 168 328 152 320 134 Z"
-          fill="url(#opHair)" opacity="0.1"/>
+    <!-- hair mass -->
+    <path d="M322 130 C326 117 336 110 348 110 C362 109 374 117 380 130
+             C386 143 387 160 384 176 C381 192 374 205 364 214 L358 218
+             C355 217 355 215.5 355 214.2 C352.5 200 350.5 184 350.3 168
+             C349.3 160 346 152 342 146 C337 138 330 132 322 130 Z"
+          fill="url(#opHair)" opacity="0.13"/>
 
     <!-- profile -->
     <g fill="none" stroke="url(#opSil)" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M320 134 C315.5 146 313 155 312.3 160.5 C308.5 167.5 305.4 172.5 305.4 174.5
-               C306.2 176.5 309 177.2 313 176.8" stroke-width="2"/>
-      <path d="M313 176.8 C310.5 176.9 309.4 176.8 308.6 176.5" stroke-width="1.1" opacity="0.7"/>
-      <path d="M312.4 177.2 C312 180.4 311.8 184 312.1 186.4" stroke-width="1.6"/>
-      <path d="M312.1 186.4 C313.7 188.8 314.3 189.4 314.1 191 C313.9 192.6 313.4 193.6 314.9 195.5
-               C317.8 199.5 319.6 202.8 320.9 206.5" stroke-width="1.8"/>
-      <path d="M320.9 206.5 C323.5 209.8 327.5 211.9 331.5 213.2 C341 216.5 351 218.4 359 218.8" stroke-width="1.6"/>
+      <!-- forehead, nose -->
+      <path d="M322 130 C317 138 313.8 148 312.8 156 C312.4 158.5 311.9 160 311.4 161.5
+               C309.2 166 306.8 170.2 305.6 173.4 C305.4 175.2 306.6 176.4 308.9 176.8" stroke-width="2"/>
+      <path d="M308.9 176.8 C310.4 177 311.8 176.9 312.8 176.6" stroke-width="1.1" opacity="0.7"/>
+      <!-- philtrum, lips, chin -->
+      <path d="M312.6 177.2 C312.2 178.6 311.7 180.2 311.4 181.6 C310.4 182.4 310 183.4 310.4 184.4" stroke-width="1.5"/>
+      <path d="M310.4 184.4 C310.9 185.4 311.2 186 311 186.6 C310.6 187.6 310.6 189.2 311.4 190.6" stroke-width="1.6"/>
+      <path d="M311.4 190.6 C312 191.8 312.4 192.8 312.6 194 C313.4 196.4 314.6 198.4 316.4 199.8" stroke-width="1.8"/>
+      <path d="M316.4 199.8 C319.5 202.6 323.5 205 328.5 207 C337 210.4 347 213 355 214" stroke-width="1.6"/>
       <!-- mouth, gently smiling -->
-      <path d="M312.2 186.4 C315.4 187.2 318.5 187.1 321 186" stroke-width="1.05"/>
-      <path d="M312.6 183 C315.5 182.3 318.4 182.5 320.6 183.5" stroke-width="0.75" opacity="0.55"/>
-      <path d="M314 190 C316.5 190.8 319 190.6 321.2 189.4" stroke-width="0.7" opacity="0.5"/>
+      <path d="M310.8 186.5 C313.6 187.3 316.6 187.1 319 185.9" stroke-width="1.05"/>
+      <path d="M310.6 183.2 C313 182.6 315.8 182.8 318 183.8" stroke-width="0.7" opacity="0.5"/>
+      <path d="M311.4 189.8 C313.6 190.5 316.2 190.3 318.4 189.1" stroke-width="0.65" opacity="0.45"/>
       <!-- brow -->
-      <path d="M313 153.5 C317 150.8 321.5 150.2 325.5 151.4" stroke-width="1.7"/>
+      <path d="M312.6 152.6 C316.5 150 321.5 149.4 325.8 150.6" stroke-width="1.7"/>
       <!-- eye, lifted to the moon -->
-      <ellipse cx="319.5" cy="160.8" rx="1.6" ry="2.2" fill="#17171c" fill-opacity="0.55" stroke-width="0.7"/>
-      <circle cx="318.9" cy="159.9" r="0.5" fill="#eef1f6" stroke="none"/>
-      <path d="M315.5 160.2 C318.5 158.2 322 157.8 325 158.8" stroke-width="1.4"/>
-      <path d="M315.5 160.2 L313.4 160.9" stroke-width="1"/>
-      <path d="M316.5 163.2 C319 164.3 322 164.3 324.5 163.3" stroke-width="0.7" opacity="0.45"/>
+      <ellipse cx="318.8" cy="160.4" rx="1.8" ry="2.4" fill="#17171c" fill-opacity="0.55" stroke-width="0.7"/>
+      <circle cx="318.2" cy="159.4" r="0.55" fill="#eef1f6" stroke="none"/>
+      <path d="M314.6 159.8 C317.8 157.6 321.6 157.2 324.8 158.4" stroke-width="1.5"/>
+      <path d="M314.6 159.8 L312.6 160.6" stroke-width="1"/>
+      <path d="M315.8 163 C318.4 164.1 321.4 164.1 323.8 163" stroke-width="0.7" opacity="0.45"/>
+      <path d="M315 157 C318 155.2 321.6 154.9 324.6 155.9" stroke-width="0.5" opacity="0.3"/>
       <!-- the years, worn kindly -->
-      <path d="M326.5 160.6 L330 160" stroke-width="0.5" opacity="0.35"/>
-      <path d="M326.3 162.6 L329.6 163.3" stroke-width="0.5" opacity="0.3"/>
-      <path d="M316.5 166 C319.5 167.2 322.5 167 325 165.8" stroke-width="0.5" opacity="0.28"/>
-      <path d="M315.5 143 C319 141.6 323 141.4 326.5 142.4" stroke-width="0.5" opacity="0.26"/>
-      <path d="M312.8 177.6 C317 180.2 320.4 183.6 322.4 187.4" stroke-width="0.5" opacity="0.28"/>
-      <path d="M322 210 C326 212.6 330.5 214.4 335 215.6" stroke-width="0.6" opacity="0.3"/>
+      <path d="M325.8 159.8 L329 159.2" stroke-width="0.45" opacity="0.32"/>
+      <path d="M325.6 161.8 L328.8 162.4" stroke-width="0.45" opacity="0.28"/>
+      <path d="M316 166 C318.8 167.1 321.6 166.9 324 165.8" stroke-width="0.45" opacity="0.26"/>
+      <path d="M315.5 142 C319 140.6 323 140.4 326.5 141.4" stroke-width="0.45" opacity="0.24"/>
+      <path d="M312.4 178 C316 180.4 319 183.2 320.8 186.6" stroke-width="0.45" opacity="0.26"/>
+      <!-- hairline -->
+      <path d="M322 130 C330 132 337 138 342 146 C346 152 349 158 350 163" stroke-width="0.9" opacity="0.5"/>
       <!-- ear and a small gold drop -->
-      <path d="M348 164 C353 162 356.5 166 355.5 172 C354.8 177 351.5 181 347.5 182" stroke-width="1.3"/>
-      <path d="M350.5 168 C352.8 168.5 353.6 171 352.6 174" stroke-width="0.8" opacity="0.6"/>
-      <path d="M347.5 182.5 L347.2 186" stroke="#c9a24b" stroke-width="0.9"/>
-      <circle cx="347.1" cy="188" r="1.8" fill="url(#opGold)" stroke="none" opacity="0.95"/>
+      <path d="M347 165 C352.5 163 356 167 355 173 C354.2 178 351 182 347 183" stroke-width="1.3"/>
+      <path d="M349.5 169 C351.8 169.5 352.6 172 351.6 175" stroke-width="0.8" opacity="0.6"/>
+      <path d="M346.8 183.5 L346.5 186.4" stroke="#c9a24b" stroke-width="0.9"/>
+      <circle cx="346.4" cy="188.4" r="1.8" fill="url(#opGold)" stroke="none" opacity="0.95"/>
     </g>
 
     <!-- neck and shoulders -->
     <g fill="none" stroke="url(#opSil)" stroke-linecap="round">
-      <path d="M324.5 210 C323 222 321.5 234 319 245 C314 262 304 276 290 288 C272 302 250 314 232 324 C220 332 210 342 204 354 C196 372 192 396 192 430" stroke-width="1.8"/>
-      <path d="M361 218.5 C364 234 366 246 368 254 C386 260 404 270 418 284 C434 300 444 322 448 350 C451 374 452 400 451 430" stroke-width="1.8"/>
-      <path d="M326 250 C336 256 350 258.5 362 256" stroke-width="1.1" opacity="0.55"/>
+      <path d="M323.5 208 C322 220 320.5 232 318 243 C313 260 303 275 289 287 C273 301 253 313 236 324 C224 332 214 343 208 356 C200 374 196 398 196 430" stroke-width="1.8"/>
+      <path d="M358 218 C360 231 361.5 241 363 248 C380 255 398 265 412 279 C429 296 440 320 444 348 C447 372 448 400 447 430" stroke-width="1.8"/>
+      <path d="M323 249 C333 255 347 257.5 359 255" stroke-width="1.1" opacity="0.55"/>
     </g>
 
     <!-- hair streaming in the night breeze, silver threads among it -->
     <g fill="none" stroke="url(#opHair)" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M320 134 C325 120 336 113 348 113 C360 112.5 371 119 378 130" stroke-width="2.2"/>
-      <path d="M330 126 C360 114 400 117 436 131 C468 143 500 163 524 185" stroke-width="2.2"/>
-      <path d="M336 145 C368 139 404 147 436 163 C462 175 486 193 504 213" stroke-width="1.6" opacity="0.8"/>
-      <path d="M344 164 C374 162 404 172 430 188 C450 200 468 216 480 232" stroke-width="1.3" opacity="0.65"/>
-      <path d="M352 196 C376 200 400 212 420 228 C434 240 446 254 452 266" stroke-width="1.1" opacity="0.5"/>
-      <path d="M360 218 C372 224 384 234 392 246" stroke-width="0.9" opacity="0.4"/>
-      <path d="M320 140 C326 133 334 128 343 126" stroke-width="0.9" opacity="0.5"/>
-      <path d="M312 132 C308 126 306 119 306.5 112" stroke-width="0.8" opacity="0.4"/>
+      <path d="M322 130 C326 117 336 110 348 110 C362 109 374 117 380 130 C386 143 387 160 384 176 C381 192 374 205 364 214" stroke-width="2.2"/>
+      <path d="M340 114 C372 106 410 112 444 128 C474 141 502 161 524 184" stroke-width="2.2"/>
+      <path d="M366 120 C398 118 432 130 460 148 C480 161 498 178 510 194" stroke-width="1.5" opacity="0.75"/>
+      <path d="M382 146 C410 148 438 160 460 176 C476 188 490 203 498 216" stroke-width="1.3" opacity="0.6"/>
+      <path d="M385 170 C408 176 430 188 448 204 C459 214 468 226 473 236" stroke-width="1.1" opacity="0.5"/>
+      <path d="M372 206 C390 216 406 230 418 246" stroke-width="0.9" opacity="0.4"/>
+      <path d="M328 124 C333 118 340 114 348 113" stroke-width="0.8" opacity="0.5"/>
     </g>
     <g fill="none" stroke="#eef1f6" stroke-linecap="round" opacity="0.65">
-      <path d="M334 134 C366 126 402 130 434 144 C460 156 484 174 502 192" stroke-width="0.7"/>
-      <path d="M348 178 C374 178 400 188 422 202" stroke-width="0.6"/>
-      <path d="M338 154 C366 150 396 158 422 172" stroke-width="0.5" opacity="0.8"/>
+      <path d="M344 118 C374 112 408 118 438 132 C464 144 488 162 506 180" stroke-width="0.7"/>
+      <path d="M384 156 C410 160 434 171 454 186" stroke-width="0.55"/>
+      <path d="M376 132 C404 132 432 142 456 158" stroke-width="0.5" opacity="0.8"/>
     </g>
 
     <!-- dress neckline -->
-    <path d="M296 300 C322 306 352 306 378 296" fill="none" stroke="url(#opSil)" stroke-width="1.3" stroke-linecap="round"/>
-    <path d="M300 306 C324 311 350 311 374 302" fill="none" stroke="url(#opSil)" stroke-width="0.7" opacity="0.4" stroke-linecap="round"/>
-    <path d="M296 300 C322 306 352 306 378 296 C398 306 414 322 424 344 L430 430 L206 430 L212 366 C222 344 240 322 262 310 Z"
-          fill="url(#opSil)" opacity="0.06"/>
-    <g fill="none" stroke="url(#opSil)" stroke-linecap="round" opacity="0.3">
-      <path d="M258 330 C256 360 254 396 254 428" stroke-width="0.8"/>
-      <path d="M318 334 C318 364 318 398 318 428" stroke-width="0.8"/>
-      <path d="M378 328 C381 360 383 396 383 426" stroke-width="0.8"/>
+    <path d="M292 300 C318 306 348 306 374 296" fill="none" stroke="url(#opSil)" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M296 306 C320 311 346 311 370 302" fill="none" stroke="url(#opSil)" stroke-width="0.7" opacity="0.4" stroke-linecap="round"/>
+    <path d="M292 300 C318 306 348 306 374 296 C390 305 406 320 416 340 C428 362 434 394 434 430 L214 430 C214 400 218 376 226 358 C236 336 252 320 268 310 Z"
+          fill="url(#opSil)" opacity="0.05"/>
+    <g fill="none" stroke="url(#opSil)" stroke-linecap="round" opacity="0.28">
+      <path d="M262 330 C260 360 258 396 258 428" stroke-width="0.8"/>
+      <path d="M320 334 C320 364 320 398 320 428" stroke-width="0.8"/>
+      <path d="M376 328 C379 360 381 396 381 426" stroke-width="0.8"/>
     </g>
 
     <!-- feather pendant, lifted by the wind -->
-    <path d="M358 222 C349 238 339 250 329 256" fill="none" stroke="url(#opSil)"
+    <path d="M356 221 C348 237 339 249 329.5 255" fill="none" stroke="url(#opSil)"
           stroke-width="3.4" stroke-linecap="round" stroke-dasharray="0.1 6"/>
-    <circle cx="334" cy="250" r="2.2" fill="url(#opTq)"/>
-    <circle cx="328.5" cy="258.5" r="2.6" fill="none" stroke="url(#opSil)" stroke-width="1.2"/>
+    <circle cx="334" cy="249.5" r="2.2" fill="url(#opTq)"/>
+    <circle cx="328.5" cy="258" r="2.6" fill="none" stroke="url(#opSil)" stroke-width="1.2"/>
     <g transform="translate(328 261) rotate(-16) scale(0.9)">
       <path d="M0 0 C -6.5 11 -9.5 24 -6.5 36 C -5 42.5 -2.5 47.5 0.5 52
                C 5 45.5 7.9 36 8.4 26 C 8.9 15.5 6 6.5 2 0.5 Z"
