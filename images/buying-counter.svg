@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="店内のカウンターで、銀のトレイを前に身を乗り出す女性の横顔。ランプの金色の光が頬を照らす線画">
+  <defs>
+    <linearGradient id="bc-sil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.55" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="bc-sil-soft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="bc-gld" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6c97e"/>
+      <stop offset="1" stop-color="#a8823a"/>
+    </linearGradient>
+    <radialGradient id="bc-lamp" cx="0.5" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#c9a24b" stop-opacity="0.32"/>
+      <stop offset="0.55" stop-color="#c9a24b" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#c9a24b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bc-blue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5BCEFA" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#5BCEFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bc-pink" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5A9B8" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#F5A9B8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- faint aurora hints in the shop shadow -->
+  <ellipse cx="110" cy="120" rx="170" ry="130" fill="url(#bc-blue)"/>
+  <ellipse cx="520" cy="150" rx="170" ry="140" fill="url(#bc-pink)"/>
+
+  <!-- back shelves, hinted small silver -->
+  <g fill="none" stroke="#8b8f99" stroke-width="1" opacity="0.4" stroke-linecap="round">
+    <line x1="24" y1="78" x2="188" y2="78"/>
+    <line x1="24" y1="140" x2="188" y2="140"/>
+    <!-- small pieces on upper shelf -->
+    <circle cx="48" cy="70" r="7"/>
+    <circle cx="48" cy="70" r="4"/>
+    <path d="M74 60 C79 65 79 73 74 78 C69 73 69 65 74 60 Z"/>
+    <path d="M74 60 L74 78" stroke-width="0.7"/>
+    <rect x="94" y="62" width="30" height="14" rx="3"/>
+    <path d="M100 69 h18" stroke-width="0.7"/>
+    <circle cx="146" cy="69" r="8"/>
+    <path d="M141 69 h10 M146 64 v10" stroke-width="0.7"/>
+    <circle cx="170" cy="72" r="5"/>
+    <!-- lower shelf -->
+    <path d="M36 122 C42 128 42 136 36 140 C30 136 30 128 36 122 Z"/>
+    <rect x="56" y="126" width="34" height="12" rx="3"/>
+    <circle cx="108" cy="132" r="7"/>
+    <circle cx="122" cy="132" r="7"/>
+    <path d="M144 124 C150 130 150 137 144 141 C138 137 138 130 144 124 Z"/>
+    <circle cx="170" cy="134" r="4"/>
+  </g>
+  <!-- tall case frame at far right -->
+  <g fill="none" stroke="#8b8f99" stroke-width="1" opacity="0.3">
+    <path d="M520 60 V270 M584 60 V270 M520 60 H584 M520 130 H584 M520 200 H584"/>
+    <circle cx="552" cy="100" r="6"/>
+    <path d="M546 168 C552 160 558 160 564 168" />
+    <circle cx="552" cy="238" r="5"/>
+  </g>
+
+  <!-- hanging lamp -->
+  <g>
+    <line x1="366" y1="0" x2="366" y2="58" stroke="#8b8f99" stroke-width="1.2"/>
+    <path d="M344 92 L358 60 H374 L388 92 Z" fill="none" stroke="url(#bc-gld)" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M348 92 H384" stroke="#e6c97e" stroke-width="1.4" stroke-linecap="round"/>
+    <circle cx="366" cy="98" r="4" fill="#e6c97e" opacity="0.9"/>
+  </g>
+  <!-- warm pool of lamp light over counter and her face -->
+  <ellipse cx="350" cy="225" rx="290" ry="215" fill="url(#bc-lamp)"/>
+
+  <!-- ============ the woman, profile facing right, leaning in ============ -->
+  <!-- skin tone: face, cheek, neck -->
+  <path d="M233 126
+           C 243 134 249 144 247 153
+           C 246 157 246 160 248 164
+           C 252 169 257 172 258 175
+           C 258 178 254 180 250 181
+           C 250 183 251 184 251.5 185.5
+           C 254.5 186.5 255.7 188.5 255 190.4
+           C 254.4 191.5 252 192 250.5 192
+           C 253.2 193 254.6 195.5 253.8 198
+           C 253 200 251 201 250.5 201.5
+           C 253 203.5 254.5 207 253 211
+           C 251 215 245 217 239 216
+           C 240 227 239 237 235 246
+           C 226 248 215 246 207 242
+           C 209 228 211 212 212 198
+           C 208 192 206 186 208 172
+           C 210 152 220 132 233 126 Z"
+        fill="#c99e78" opacity="0.4"/>
+  <!-- lamplight on the cheek -->
+  <ellipse cx="238" cy="173" rx="9" ry="6" fill="#c9a24b" opacity="0.08"/>
+
+  <!-- torso and clothing (line only) -->
+  <g fill="none" stroke="url(#bc-sil)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- back of neck into curved, leaning back -->
+    <path d="M209 210 C207 224 206 234 204 242 C164 256 128 280 108 314"/>
+    <!-- front of neck into chest -->
+    <path d="M234 232 C235 240 235 246 234 251"/>
+    <!-- collar -->
+    <path d="M204 242 C215 251 228 254 234 251"/>
+    <path d="M200 250 C213 259 230 262 238 260" stroke-width="1.2" opacity="0.65"/>
+    <!-- chest, leaning over counter -->
+    <path d="M234 251 C253 263 266 284 271 306"/>
+    <!-- far shoulder and reaching arm -->
+    <path d="M232 256 C258 258 282 268 298 282 C310 292 322 297 336 298"/>
+    <path d="M243 271 C262 274 280 284 293 294 C302 300 316 304 331 305" stroke-width="1.6"/>
+    <!-- sleeve cuff -->
+    <path d="M334 298 C336 301 336 304 334 306" stroke-width="1.1" opacity="0.7"/>
+    <!-- garment folds on back -->
+    <g stroke-width="1" opacity="0.5">
+      <path d="M184 260 C162 274 142 292 130 312"/>
+      <path d="M208 266 C190 278 172 294 160 312"/>
+    </g>
+  </g>
+
+  <!-- reaching hand, resting by the tray -->
+  <path d="M341 296 C350 292 360 291 368 294 C376 297 381 302 380 306
+           C374 309 364 310 355 309 L342 307 C338 304 338 299 341 296 Z"
+        fill="#c99e78" opacity="0.4"/>
+  <g fill="none" stroke="url(#bc-sil)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- back of hand to knuckles -->
+    <path d="M341 296 C350 292 360 291 368 294"/>
+    <!-- fingers, softly curled to the counter -->
+    <path d="M368 294 C375 297 380 302 380 306 C377 308 373 308 371 306"/>
+    <path d="M371 306 C372 308 370 310 367 309 L355 308"/>
+    <path d="M361 297 C366 299 371 302 374 305" stroke-width="0.9" opacity="0.55"/>
+    <!-- thumb -->
+    <path d="M341 296 C340 301 341 305 345 308 L355 308"/>
+  </g>
+  <!-- turquoise bead bracelet at her wrist -->
+  <g fill="none" stroke="url(#bc-sil)" stroke-width="1.2">
+    <circle cx="337" cy="294" r="3.2"/>
+    <circle cx="335" cy="300" r="3.2"/>
+    <circle cx="337" cy="306" r="3.2"/>
+  </g>
+  <circle cx="335" cy="300" r="1.9" fill="#3aa8a0"/>
+
+  <!-- head: hair, soft updo with low bun -->
+  <g fill="none" stroke="url(#bc-sil)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M233 126 C226 114 208 110 195 118 C181 127 174 144 176 161 C177 173 183 184 191 190"/>
+    <!-- low bun -->
+    <path d="M191 190 C177 190 169 180 171 168 C159 173 154 187 162 198 C170 209 187 209 194 199"/>
+    <!-- hairline sweep -->
+    <path d="M233 126 C222 129 210 138 204 152" stroke-width="1.2" opacity="0.7"/>
+    <path d="M227 131 C217 138 209 148 205 162" stroke-width="0.9" opacity="0.5"/>
+  </g>
+
+  <!-- one flowing profile line: brow, nose, lips, chin -->
+  <path d="M233 126
+           C 243 134 249 144 247 153
+           C 246 157 246 160 248 164
+           C 252 169 257 172 258 175
+           C 258 178 254 180 250 181
+           C 250 183 251 184 251.5 185.5
+           C 254.5 186.5 255.7 188.5 255 190.4
+           C 254.4 191.5 252 192 250.5 192
+           C 253.2 193 254.6 195.5 253.8 198
+           C 253 200 251 201 250.5 201.5
+           C 253 203.5 254.5 207 253 211
+           C 251 215 245 217 239 216
+           C 230 214 221 207 216 199"
+        fill="none" stroke="url(#bc-sil)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- nostril hint -->
+  <path d="M250 178 C 251 179 252 179 253 180" stroke="#c9cdd6" stroke-width="0.9" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- brow and downcast eye, gazing at the tray -->
+  <g fill="none" stroke="#eef1f6" stroke-width="1.4" stroke-linecap="round">
+    <path d="M226 150 C232 146 239 147 244 152"/>
+    <path d="M228 162 C233 160 239 161 243 165"/>
+    <path d="M231 165 C235 167 239 167 242 166" stroke-width="0.9" opacity="0.7"/>
+    <!-- lip seam, soft upturn -->
+    <path d="M250 192 C247 192.2 245 191.6 243.5 190.6" stroke-width="1" opacity="0.8"/>
+  </g>
+  <!-- ear + gold hoop -->
+  <path d="M214 174 C219 172 222 177 220 182 C218.5 185.5 215.5 186.5 213.5 184.5" fill="none" stroke="url(#bc-sil)" stroke-width="1.3"/>
+  <circle cx="216" cy="193" r="5" fill="none" stroke="url(#bc-gld)" stroke-width="1.4"/>
+
+  <!-- ============ counter ============ -->
+  <g stroke-linecap="round">
+    <!-- warm wood tone -->
+    <rect x="0" y="312" width="600" height="26" fill="#c9a24b" opacity="0.10"/>
+    <line x1="0" y1="312" x2="600" y2="312" stroke="url(#bc-sil)" stroke-width="2"/>
+    <line x1="0" y1="338" x2="600" y2="338" stroke="url(#bc-sil-soft)" stroke-width="1.4"/>
+    <!-- wood grain -->
+    <g fill="none" stroke="#c9a24b" stroke-width="0.9" opacity="0.4">
+      <path d="M30 322 C120 318 240 320 330 323 C430 326 530 324 590 321"/>
+      <path d="M60 330 C170 327 300 330 420 332 C490 333 550 331 585 329"/>
+    </g>
+    <!-- counter front panel -->
+    <g fill="none" stroke="#8b8f99" stroke-width="1" opacity="0.35">
+      <line x1="60" y1="338" x2="54" y2="450"/>
+      <line x1="300" y1="338" x2="300" y2="450"/>
+      <line x1="540" y1="338" x2="546" y2="450"/>
+      <path d="M90 380 C200 376 400 376 510 380" stroke-width="0.8"/>
+    </g>
+  </g>
+
+  <!-- ============ tray of silver, presented from the right ============ -->
+  <!-- tray -->
+  <g>
+    <rect x="400" y="288" width="176" height="24" rx="9" fill="#17171c" opacity="0.55"/>
+    <rect x="400" y="288" width="176" height="24" rx="9" fill="none" stroke="url(#bc-sil)" stroke-width="1.8"/>
+    <path d="M410 308 H566" stroke="#8b8f99" stroke-width="0.8" opacity="0.5"/>
+    <!-- pieces lying on the tray -->
+    <g fill="none" stroke="url(#bc-sil)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <!-- feather -->
+      <path d="M412 300 C426 293 446 292 460 297 C446 303 426 304 412 300 Z"/>
+      <path d="M412 300 C428 299 446 298 460 297" stroke-width="0.8"/>
+      <!-- gold-tip feather -->
+      <path d="M474 303 C486 296 504 295 516 299 C504 305 486 306 474 303 Z"/>
+      <path d="M508 297 C512 298 515 299 516 299 C513 301 510 302 506 303" stroke="url(#bc-gld)" stroke-width="1.2"/>
+      <!-- wheel ring -->
+      <circle cx="538" cy="300" r="7"/>
+      <circle cx="538" cy="300" r="2.6" stroke-width="1"/>
+    </g>
+    <!-- turquoise bead pair -->
+    <circle cx="466" cy="304" r="2.6" fill="#3aa8a0"/>
+    <circle cx="470" cy="306" r="2" fill="#3aa8a0" opacity="0.8"/>
+  </g>
+
+  <!-- staff hands entering the frame: line only, no tone -->
+  <g fill="none" stroke="url(#bc-sil)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- hand steadying the tray's right end: thumb over the rim, fingers beneath -->
+    <path d="M600 292 C591 291 584 292 578 294"/>
+    <path d="M578 294 C570 290 561 289 554 292 C551 293 551 296 554 297 C559 298 565 297 569 295" stroke-width="1.5"/>
+    <path d="M600 318 C591 319 583 318 577 315 C571 318 564 319 558 318" />
+    <!-- staff cuff -->
+    <path d="M596 288 C593 298 593 310 596 320" stroke-width="1.1" opacity="0.7"/>
+    <!-- open hand above, palm up, quietly presenting -->
+    <path d="M600 254 C588 254 574 257 563 262 C559 264 559 267 563 268"/>
+    <path d="M563 268 C572 270 583 270 592 268 C595 267 598 267 600 267"/>
+    <path d="M566 261.5 C571 261.8 576 262.4 581 263" stroke-width="0.9" opacity="0.6"/>
+    <path d="M565 264.5 C570 265.2 575 265.8 580 266.4" stroke-width="0.9" opacity="0.6"/>
+    <!-- thumb -->
+    <path d="M592 256 C588 258 585 261 584 265" stroke-width="1.2" opacity="0.8"/>
+    <!-- staff cuff -->
+    <path d="M598 250 C596 258 596 264 598 271" stroke-width="1.1" opacity="0.7"/>
+  </g>
+
+  <!-- sparkles -->
+  <g stroke="#eef1f6" stroke-width="1.1" stroke-linecap="round" opacity="0.65">
+    <path d="M484 284 v8 M480 288 h8"/>
+    <path d="M428 286 v6 M425 289 h6"/>
+    <path d="M554 286 v6 M551 289 h6"/>
+  </g>
+  <circle cx="366" cy="150" r="1.3" fill="#eef1f6" opacity="0.6"/>
+  <circle cx="300" cy="120" r="1" fill="#eef1f6" opacity="0.45"/>
+</svg>

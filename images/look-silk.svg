@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="シルクブラウスにフェザーペンダントの女性">
+  <defs>
+    <linearGradient id="slv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.55" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="slv2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0" stop-color="#1c1c22"/>
+      <stop offset="1" stop-color="#101014"/>
+    </radialGradient>
+    <radialGradient id="glow-b" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5BCEFA" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#5BCEFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-p" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5A9B8" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#F5A9B8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <ellipse cx="100" cy="240" rx="160" ry="130" fill="url(#glow-b)"/>
+  <ellipse cx="310" cy="240" rx="160" ry="130" fill="url(#glow-p)"/>
+
+  <!-- ===== skin tonal fills (warm ivory) ===== -->
+  <g fill="#e8cdb5" opacity="0.3">
+    <!-- face -->
+    <path d="M196 52 C168 54 152 76 154 108 C155 128 159 146 168 158 C176 168 186 173 193 173 C205 173 218 162 228 146 C238 130 242 108 240 88 C236 62 220 50 196 52 Z"/>
+    <!-- neck -->
+    <path d="M176 166 C177 182 175 194 171 205 L230 202 C225 190 224 176 224 158 C210 170 190 174 176 166 Z"/>
+    <!-- décolleté -->
+    <path d="M171 205 C182 218 191 240 200 252 C209 240 220 216 230 202 Z"/>
+  </g>
+
+  <!-- ===== hair : long straight, centre part ===== -->
+  <path d="M126 252 C130 200 132 156 132 116 C132 68 158 40 198 40 C240 40 264 68 264 116 C264 156 266 200 270 252 L254 252 C250 200 246 160 246 122 C245 108 240 100 236 100 C232 78 214 62 190 58 C170 64 160 80 157 98 C155 106 152 112 150 118 C148 156 144 210 138 252 Z"
+        fill="#0c0c10" opacity="0.92"/>
+  <g fill="none" stroke="url(#slv)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- outer hair contour -->
+    <path d="M132 116 C132 68 158 40 198 40 C240 40 264 68 264 116 C264 156 266 200 270 252" stroke-width="2.2"/>
+    <path d="M132 116 C132 156 130 200 126 252" stroke-width="2.2"/>
+    <!-- hairline / centre part -->
+    <path d="M190 58 C170 64 160 80 157 98 C155 106 152 112 150 118" stroke-width="1.2"/>
+    <path d="M190 58 C214 62 232 78 236 100 C240 100 245 108 246 122" stroke-width="1.2"/>
+    <!-- flowing strands -->
+    <path d="M190 58 C174 70 164 88 162 104" stroke-width="0.8"/>
+    <path d="M190 58 C214 56 238 74 244 100" stroke-width="0.8"/>
+    <path d="M176 48 C156 60 146 84 145 112 C144 156 141 204 134 250" stroke-width="0.9"/>
+    <path d="M218 46 C240 58 252 84 253 112 C253 156 257 204 263 250" stroke-width="0.9"/>
+    <path d="M139 140 C139 184 136 220 130 250" stroke-width="0.7"/>
+    <path d="M258 140 C258 184 261 220 266 250" stroke-width="0.7"/>
+    <path d="M246 130 C247 170 249 210 253 248" stroke-width="0.7"/>
+    <path d="M150 126 C148 168 146 210 141 248" stroke-width="0.7"/>
+  </g>
+
+  <!-- ===== face line work ===== -->
+  <g fill="none" stroke="url(#slv)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- face contour (three-quarter, turned to her right) -->
+    <path d="M156 96 C153 118 156 142 168 158 C176 168 186 173 193 173 C204 173 217 163 227 148" stroke-width="2"/>
+    <!-- near jaw / ear -->
+    <path d="M231 116 C240 113 243 123 239 133 C237 139 233 142 230 139" stroke-width="1.3"/>
+    <!-- eyebrows -->
+    <path d="M163 103 C168 98 176 96 183 99" stroke-width="1.5"/>
+    <path d="M198 99 C205 95 217 96 224 101" stroke-width="1.5"/>
+    <!-- far eye -->
+    <path d="M165 113 C170 110 178 110 182 113" stroke-width="1.4"/>
+    <path d="M168 116.5 C172 118 178 118 181 115.5" stroke-width="0.8"/>
+    <!-- near eye -->
+    <path d="M197 113 C202 109 212 109 217 113" stroke-width="1.4"/>
+    <path d="M199 116.5 C204 118 212 118 216 114.5" stroke-width="0.8"/>
+    <!-- nose -->
+    <path d="M187 112 C185 124 182 134 179 140" stroke-width="1"/>
+    <path d="M179 140 C182 143 187 144 191 142" stroke-width="1"/>
+    <!-- lips -->
+    <path d="M178 152 C182 149.8 185 150.2 187.5 152 C190 150.2 194 149.8 197 152" stroke-width="1.3"/>
+    <path d="M180 155.5 C185 158.4 192 158.4 196 154.8" stroke-width="1.1"/>
+    <!-- neck -->
+    <path d="M176 168 C177 182 175 194 171 205" stroke-width="1.6"/>
+    <path d="M224 160 C225 176 226 190 230 202" stroke-width="1.6"/>
+    <!-- collarbone hints -->
+    <path d="M176 210 C186 214 194 215 199 214" stroke-width="0.8"/>
+    <path d="M226 209 C216 213 208 214 203 213" stroke-width="0.8"/>
+  </g>
+  <!-- irises -->
+  <g stroke="url(#slv)" stroke-width="1" fill="none">
+    <path d="M171 111.5 A 2.6 2.6 0 0 0 171 116.5 A 2.6 2.6 0 0 0 176.4 114"/>
+    <path d="M204.5 111.2 A 2.7 2.7 0 0 0 204.5 116.4 A 2.7 2.7 0 0 0 210 113.8"/>
+  </g>
+  <g fill="#c9cdd6">
+    <circle cx="173.4" cy="114" r="1.1"/>
+    <circle cx="207.2" cy="113.8" r="1.1"/>
+  </g>
+
+  <!-- ===== silk blouse : soft collar, fluid drape ===== -->
+  <g fill="none" stroke="url(#slv2)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- shoulders -->
+    <path d="M168 205 C140 214 112 226 96 244 C88 254 84 272 82 300" stroke-width="2"/>
+    <path d="M234 202 C262 212 290 224 306 242 C314 252 318 272 320 300" stroke-width="2"/>
+    <!-- open collar, soft rolled lines -->
+    <path d="M166 206 C176 220 188 240 200 254 C212 240 226 218 236 204" stroke-width="1.6"/>
+    <path d="M160 209 C154 226 158 252 172 274 C182 260 192 258 200 254" stroke-width="1.3"/>
+    <path d="M242 206 C248 224 244 250 230 272 C220 258 208 258 200 254" stroke-width="1.3"/>
+    <!-- fluid drape lines -->
+    <path d="M132 236 C126 254 122 276 120 298" stroke-width="0.8"/>
+    <path d="M272 234 C278 252 282 274 284 296" stroke-width="0.8"/>
+    <path d="M172 278 C170 286 169 292 168 300" stroke-width="0.7"/>
+    <path d="M230 276 C232 284 233 292 234 300" stroke-width="0.7"/>
+    <path d="M200 260 C199 274 199 288 200 300" stroke-width="0.7"/>
+  </g>
+
+  <!-- ===== chain + feather pendant at sternum ===== -->
+  <g fill="none" stroke="url(#slv)" stroke-linecap="round">
+    <path d="M180 206 C188 220 195 229 199 236" stroke-width="0.9" stroke-dasharray="2 1.6"/>
+    <path d="M223 203 C213 219 205 229 201 236" stroke-width="0.9" stroke-dasharray="2 1.6"/>
+    <circle cx="200" cy="239" r="2.2" stroke-width="1"/>
+  </g>
+  <g stroke="url(#slv)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M200 242 C206 248 208 258 204 268 C202 273 199 275 197 273 C193 268 192 255 195 247 Z" fill="#17171c" stroke-width="1.2"/>
+    <path d="M199.5 244 C198.5 252 197.5 262 197 271" stroke-width="0.8" fill="none"/>
+    <g stroke-width="0.6" fill="none">
+      <path d="M199 249 L203.5 247"/>
+      <path d="M198.6 253 L204.5 251"/>
+      <path d="M198.2 257 L204.8 255.5"/>
+      <path d="M197.8 261 L204.2 260"/>
+      <path d="M197.5 265 L202.8 264.5"/>
+      <path d="M199 249 L195.5 248"/>
+      <path d="M198.6 253 L194.5 252.5"/>
+      <path d="M198.2 257 L194 257"/>
+      <path d="M197.8 261 L194.4 261.5"/>
+    </g>
+  </g>
+</svg>

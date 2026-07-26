@@ -1,0 +1,360 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="朝の光が差し込む表参道のカフェ。テーブルを囲む三人の女性——新しいフェザーを笑顔で見せる人、バングルを着けた手でカップを持つ人、頬づえをついて身を乗り出す人">
+  <defs>
+    <linearGradient id="cc-sil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.55" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="cc-sil-soft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="cc-gld" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6c97e"/>
+      <stop offset="1" stop-color="#a8823a"/>
+    </linearGradient>
+    <radialGradient id="cc-sun" cx="0.5" cy="0.2" r="0.75">
+      <stop offset="0" stop-color="#c9a24b" stop-opacity="0.26"/>
+      <stop offset="0.6" stop-color="#c9a24b" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#c9a24b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cc-blue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5BCEFA" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#5BCEFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cc-pink" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5A9B8" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#F5A9B8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- morning sun through the window -->
+  <ellipse cx="600" cy="70" rx="560" ry="300" fill="url(#cc-sun)"/>
+  <polygon points="430,0 560,0 760,400 610,400" fill="#c9a24b" opacity="0.05"/>
+  <polygon points="250,0 320,0 470,400 390,400" fill="#c9a24b" opacity="0.035"/>
+  <!-- soft aurora corners -->
+  <ellipse cx="90" cy="330" rx="220" ry="150" fill="url(#cc-blue)"/>
+  <ellipse cx="1110" cy="330" rx="220" ry="150" fill="url(#cc-pink)"/>
+
+  <!-- window frame -->
+  <g stroke="#8b8f99" stroke-width="1.2" opacity="0.4">
+    <line x1="0" y1="84" x2="1200" y2="84"/>
+    <line x1="150" y1="0" x2="150" y2="222"/>
+    <line x1="460" y1="0" x2="460" y2="222"/>
+    <line x1="750" y1="0" x2="750" y2="222"/>
+    <line x1="1060" y1="0" x2="1060" y2="222"/>
+  </g>
+  <!-- windowsill, broken around the faces -->
+  <g stroke="#8b8f99" stroke-width="1.4" opacity="0.4">
+    <line x1="0" y1="222" x2="248" y2="222"/>
+    <line x1="352" y1="222" x2="540" y2="222"/>
+    <line x1="655" y1="222" x2="835" y2="222"/>
+    <line x1="935" y1="222" x2="1200" y2="222"/>
+  </g>
+
+  <!-- the street beyond: 表参道, faint -->
+  <g fill="none" stroke="#8b8f99" stroke-width="1" opacity="0.24" stroke-linecap="round">
+    <!-- zelkova trees -->
+    <path d="M60 218 V150 M60 168 C50 158 46 144 50 132 M60 160 C70 150 76 138 74 126 M40 140 C44 124 56 112 72 110 C90 108 102 120 104 136"/>
+    <path d="M1130 218 V156 M1130 176 C1120 166 1116 154 1120 142 M1130 168 C1140 158 1146 148 1144 138 M1112 148 C1116 132 1128 122 1142 122"/>
+    <!-- far storefront + awning -->
+    <path d="M190 218 V160 H340 V218 M190 176 H340"/>
+    <path d="M196 160 L206 146 H330 L340 160"/>
+    <!-- street lamp -->
+    <path d="M400 218 V128 M400 128 C400 118 410 114 418 118"/>
+    <circle cx="421" cy="120" r="4"/>
+    <!-- distant passers-by -->
+    <path d="M500 218 C500 208 498 202 500 194 M500 194 C497 190 498 184 502 183 C507 183 509 188 506 193 M506 196 C508 204 508 212 507 218"/>
+    <path d="M980 218 C980 210 978 204 980 196 M980 196 C977 192 978 186 982 185 C987 185 989 190 986 195 M986 198 C988 206 988 214 987 218"/>
+    <path d="M1000 200 C1004 198 1008 198 1011 200 M1005 200 V218" stroke-width="0.8"/>
+    <!-- crossing stripes -->
+    <path d="M640 214 h34 M690 214 h34" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <!-- table -->
+  <path d="M0 322 C220 317 980 317 1200 322" fill="none" stroke="url(#cc-sil)" stroke-width="2"/>
+  <path d="M0 330 C220 325 980 325 1200 330" fill="none" stroke="url(#cc-sil-soft)" stroke-width="1" opacity="0.5"/>
+
+  <!-- ================= woman 1 (left): laughing, showing her new feather ================= -->
+  <g transform="rotate(-5 295 150)">
+    <!-- skin -->
+    <path d="M270 128 C268 150 272 170 282 180 C290 188 302 189 310 182
+             C318 174 322 158 321 138 C318 118 280 112 270 128 Z"
+          fill="#7a5238" opacity="0.45"/>
+    <path d="M285 184 C285 198 283 208 278 216 L322 216 C317 208 315 198 315 184 Z"
+          fill="#7a5238" opacity="0.45"/>
+    <!-- face outline -->
+    <path d="M270 128 C268 150 272 170 282 180 C290 188 302 189 310 182 C318 174 322 158 321 138"
+          fill="none" stroke="url(#cc-sil)" stroke-width="1.7" stroke-linecap="round"/>
+    <!-- closed joyful eyes -->
+    <g fill="none" stroke="#eef1f6" stroke-width="1.5" stroke-linecap="round">
+      <path d="M279 148 Q 286 142 293 148"/>
+      <path d="M305 147 Q 311 141 317 147"/>
+      <path d="M277 138 Q 286 132 295 136" stroke-width="1.2"/>
+      <path d="M304 135 Q 312 131 319 136" stroke-width="1.2"/>
+    </g>
+    <!-- nose -->
+    <path d="M301 152 C303 156 304 159 302 161" fill="none" stroke="#c9cdd6" stroke-width="1.1" stroke-linecap="round"/>
+    <path d="M297 163 Q 301 165 305 163" fill="none" stroke="#c9cdd6" stroke-width="0.9" stroke-linecap="round" opacity="0.7"/>
+    <!-- open laughing mouth -->
+    <path d="M287 170 C293 167 307 167 313 170 C311 180 306 185 300 185 C294 185 289 180 287 170 Z"
+          fill="#0e0e11" opacity="0.8"/>
+    <path d="M287 170 C293 167 307 167 313 170 C311 180 306 185 300 185 C294 185 289 180 287 170 Z"
+          fill="none" stroke="url(#cc-sil)" stroke-width="1.3" stroke-linejoin="round"/>
+    <path d="M289 171 C295 173.5 305 173.5 311 171" fill="none" stroke="#eef1f6" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+    <!-- raised-cheek creases -->
+    <path d="M282 166 Q 280 170 282 173" fill="none" stroke="#c9cdd6" stroke-width="0.8" opacity="0.4"/>
+    <path d="M318 165 Q 320 169 318 172" fill="none" stroke="#c9cdd6" stroke-width="0.8" opacity="0.4"/>
+  </g>
+  <!-- hair: joyful curls -->
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M272 132 C258 130 250 118 258 106 C262 96 274 92 282 96 C286 86 302 82 312 90 C322 84 336 88 340 100 C352 102 356 116 348 126 C356 132 354 148 344 152"/>
+    <path d="M272 132 C266 140 264 152 268 162 C260 164 254 158 254 150" stroke-width="1.5"/>
+    <path d="M344 152 C348 160 346 170 340 175 C346 180 344 190 337 192" stroke-width="1.5"/>
+    <!-- inner curl accents -->
+    <g stroke-width="1" opacity="0.55">
+      <path d="M276 108 c -4 2 -4 8 0 10"/>
+      <path d="M300 94 c -5 1 -6 7 -2 10"/>
+      <path d="M328 98 c 5 2 5 8 1 10"/>
+      <path d="M342 118 c 4 3 3 9 -2 10"/>
+      <path d="M262 148 c -3 4 0 9 4 9"/>
+    </g>
+  </g>
+  <!-- neck + blouse -->
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M283 190 C283 202 281 210 276 217"/>
+    <path d="M313 189 C314 200 316 208 321 214"/>
+    <!-- shoulders / scoop neckline -->
+    <path d="M276 217 C262 222 250 230 243 242 C238 252 236 268 237 286"/>
+    <path d="M321 214 C334 218 344 224 350 233"/>
+    <path d="M276 217 C287 227 309 227 321 214" stroke-width="1.3"/>
+    <!-- body to table -->
+    <path d="M237 286 C236 296 236 306 237 316"/>
+    <path d="M354 262 C356 280 356 300 354 316"/>
+    <path d="M262 250 C258 272 257 294 258 314" stroke-width="1" opacity="0.5"/>
+    <!-- raised right arm, holding up the cord -->
+    <path d="M350 233 C360 224 368 212 372 198 C376 184 384 170 394 162"/>
+    <path d="M336 226 C348 218 356 206 361 192 C365 180 372 168 380 160" stroke-width="1.6"/>
+  </g>
+  <!-- her bracelet -->
+  <path d="M378 166 C382 162 387 159 392 158" fill="none" stroke="url(#cc-gld)" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- hand pinching the cord -->
+  <path d="M394 162 C398 156 405 154 410 157 C414 160 414 166 410 169 C405 172 398 171 395 167 Z"
+        fill="#7a5238" opacity="0.45"/>
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M394 162 C398 156 405 154 410 157 C414 160 414 166 410 169 C405 172 398 171 395 167"/>
+    <path d="M401 160 C404 161 406 163 407 166" stroke-width="0.9" opacity="0.6"/>
+  </g>
+  <!-- leather cord + the new feather -->
+  <g fill="none" stroke="url(#cc-sil)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M406 156 C402 148 406 140 414 140 C422 140 425 148 421 156" stroke-width="1.3"/>
+    <path d="M412 168 C413 176 413 184 413 190" stroke-width="1.3"/>
+  </g>
+  <circle cx="413" cy="194" r="3.4" fill="none" stroke="url(#cc-gld)" stroke-width="1.4"/>
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M413 198 C422 210 425 230 413 248 C401 230 404 210 413 198 Z"/>
+    <path d="M413 198 L413 248" stroke-width="1.1"/>
+    <g stroke-width="0.9" opacity="0.75">
+      <path d="M413 208 L420 204"/>
+      <path d="M413 216 L406 212"/>
+      <path d="M413 224 L420 220"/>
+      <path d="M413 232 L406 228"/>
+      <path d="M413 239 L418 236"/>
+    </g>
+  </g>
+  <circle cx="413" cy="199" r="1.8" fill="#3aa8a0"/>
+
+  <!-- ================= woman 2 (center): silver hair, coffee cup, bangle ================= -->
+  <!-- skin -->
+  <path d="M574 132 C571 152 575 170 584 180 C591 188 603 189 611 182
+           C619 174 623 158 621 138 C618 118 582 114 574 132 Z"
+        fill="#e8cdb5" opacity="0.32"/>
+  <path d="M588 185 C588 198 586 207 581 214 L618 214 C613 207 611 198 611 185 Z"
+        fill="#e8cdb5" opacity="0.32"/>
+  <!-- face outline -->
+  <path d="M574 132 C571 152 575 170 584 180 C591 188 603 189 611 182 C619 174 623 158 621 138"
+        fill="none" stroke="url(#cc-sil)" stroke-width="1.7" stroke-linecap="round"/>
+  <!-- gentle eyes, looking toward her friend -->
+  <g fill="none" stroke="#eef1f6" stroke-width="1.4" stroke-linecap="round">
+    <path d="M579 152 C583 149 589 149 592 152"/>
+    <path d="M603 152 C607 149 613 149 616 152"/>
+    <path d="M578 143 Q 585 139 593 142" stroke-width="1.1"/>
+    <path d="M602 142 Q 610 139 617 143" stroke-width="1.1"/>
+  </g>
+  <circle cx="584" cy="153.5" r="1.7" fill="#eef1f6" opacity="0.9"/>
+  <circle cx="608" cy="153.5" r="1.7" fill="#eef1f6" opacity="0.9"/>
+  <!-- nose, turned slightly left -->
+  <path d="M594 158 C592 162 592 165 594 167" fill="none" stroke="#c9cdd6" stroke-width="1.1" stroke-linecap="round"/>
+  <!-- warm closed smile -->
+  <path d="M585 175 C590 178.5 600 178.5 605 175" fill="none" stroke="#eef1f6" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M590 181 C594 182.5 598 182.5 601 181" fill="none" stroke="#c9cdd6" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+  <!-- soft smile lines, a life well laughed -->
+  <path d="M581 168 Q 579 172 582 176" fill="none" stroke="#c9cdd6" stroke-width="0.8" opacity="0.4"/>
+  <path d="M609 168 Q 611 172 608 176" fill="none" stroke="#c9cdd6" stroke-width="0.8" opacity="0.4"/>
+  <!-- silver bob -->
+  <g fill="none" stroke="#eef1f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M574 132 C566 120 576 108 592 107 C610 106 624 114 621 132"/>
+    <path d="M574 132 C568 148 568 166 575 180 C570 184 564 182 562 176 C558 162 560 142 568 128"/>
+    <path d="M621 132 C627 148 627 166 620 180 C625 184 631 182 633 176 C637 162 635 142 627 128"/>
+    <g stroke-width="1" opacity="0.6">
+      <path d="M582 114 C576 126 573 144 574 160"/>
+      <path d="M612 112 C619 126 622 144 621 160"/>
+      <path d="M596 108 C590 112 585 120 582 130"/>
+    </g>
+  </g>
+  <!-- neck + cardigan -->
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M586 190 C586 200 584 207 580 213"/>
+    <path d="M612 189 C612 199 614 206 618 212"/>
+    <path d="M580 213 C564 218 552 226 545 238 C540 248 537 262 536 280"/>
+    <path d="M618 212 C634 217 646 226 653 238 C658 248 661 262 662 280"/>
+    <!-- open cardigan front -->
+    <path d="M588 218 C586 248 585 282 586 316" stroke-width="1.2" opacity="0.7"/>
+    <path d="M610 218 C612 248 613 282 612 316" stroke-width="1.2" opacity="0.7"/>
+    <path d="M536 280 C535 292 535 304 536 316"/>
+    <path d="M662 280 C663 292 663 304 662 316"/>
+    <!-- right arm raising the cup -->
+    <path d="M551 232 C548 244 546 256 547 266 C548 274 552 280 558 282" stroke-width="1.6"/>
+    <path d="M570 246 C568 256 568 264 571 271" stroke-width="1.4"/>
+  </g>
+  <!-- hand + cup -->
+  <path d="M560 246 C566 242 574 241 580 244 C584 246 585 251 582 254 L562 258 C558 255 557 250 560 246 Z"
+        fill="#e8cdb5" opacity="0.32"/>
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- cup -->
+    <path d="M552 228 H586 L582 250 H556 Z" stroke-width="1.6"/>
+    <path d="M586 232 C592 232 594 238 590 243 C588 245 585 246 583 245" stroke-width="1.3"/>
+    <!-- fingers around the cup -->
+    <path d="M556 238 C562 236 570 236 576 238" stroke-width="1.1" opacity="0.8"/>
+    <path d="M556 244 C562 242 570 242 576 244" stroke-width="1.1" opacity="0.8"/>
+    <path d="M558 250 C564 252 572 253 578 252" stroke-width="1.2"/>
+  </g>
+  <!-- steam -->
+  <g fill="none" stroke="#eef1f6" stroke-width="1" stroke-linecap="round" opacity="0.4">
+    <path d="M562 222 q 4 -8 0 -15"/>
+    <path d="M574 222 q 4 -8 0 -15"/>
+  </g>
+  <!-- silver bangle at her wrist -->
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.6">
+    <path d="M556 264 C562 268 570 269 576 266"/>
+    <path d="M555 268 C561 272 570 273 577 270" stroke-width="1.1" opacity="0.7"/>
+  </g>
+  <circle cx="566" cy="270" r="1.7" fill="#3aa8a0"/>
+
+  <!-- ================= woman 3 (right): chin on hand, bead choker ================= -->
+  <g transform="rotate(-4 880 160)">
+    <!-- skin -->
+    <path d="M858 140 C855 160 859 178 868 188 C875 196 887 197 895 190
+             C903 182 907 166 905 146 C902 126 866 122 858 140 Z"
+          fill="#c99e78" opacity="0.4"/>
+    <path d="M872 193 C872 205 870 214 866 221 L900 221 C896 214 894 205 894 193 Z"
+          fill="#c99e78" opacity="0.4"/>
+    <!-- face outline -->
+    <path d="M858 140 C855 160 859 178 868 188 C875 196 887 197 895 190 C903 182 907 166 905 146"
+          fill="none" stroke="url(#cc-sil)" stroke-width="1.7" stroke-linecap="round"/>
+    <!-- attentive eyes toward the feather -->
+    <g fill="none" stroke="#eef1f6" stroke-width="1.4" stroke-linecap="round">
+      <path d="M863 160 C867 157 873 157 876 160"/>
+      <path d="M887 160 C891 157 897 157 900 160"/>
+      <path d="M862 151 Q 869 147 877 150" stroke-width="1.1"/>
+      <path d="M886 150 Q 894 147 901 151" stroke-width="1.1"/>
+    </g>
+    <circle cx="868" cy="161.5" r="1.7" fill="#eef1f6" opacity="0.9"/>
+    <circle cx="892" cy="161.5" r="1.7" fill="#eef1f6" opacity="0.9"/>
+    <!-- nose -->
+    <path d="M878 166 C876 170 876 173 878 175" fill="none" stroke="#c9cdd6" stroke-width="1.1" stroke-linecap="round"/>
+    <!-- soft delighted smile -->
+    <path d="M869 182 C874 185.5 884 185.5 889 182" fill="none" stroke="#eef1f6" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- long hair -->
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M859 138 C853 118 870 106 884 107 C900 108 910 120 905 138"/>
+    <path d="M859 138 C850 162 849 200 855 240 C857 264 855 286 848 304"/>
+    <path d="M905 138 C915 166 917 212 913 260 C911 286 913 306 919 320"/>
+    <g stroke-width="1" opacity="0.55">
+      <path d="M864 150 C858 180 857 220 861 258"/>
+      <path d="M900 150 C907 180 909 224 906 266"/>
+      <path d="M884 108 C878 112 872 120 868 132"/>
+    </g>
+  </g>
+  <!-- resting arm + hand under chin -->
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M893 316 C893 288 890 258 884 232"/>
+    <path d="M908 316 C908 292 906 264 901 240"/>
+  </g>
+  <path d="M862 208 C866 202 874 199 881 201 C888 203 892 209 890 216 L886 222 C878 224 868 221 863 216 Z"
+        fill="#c99e78" opacity="0.4"/>
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M884 232 C880 226 878 220 880 214"/>
+    <path d="M862 208 C866 202 874 199 881 201 C888 203 892 209 890 216"/>
+    <path d="M862 208 C860 212 861 216 864 218" stroke-width="1.2"/>
+    <path d="M868 206 C872 205 877 205 881 207" stroke-width="0.9" opacity="0.6"/>
+    <path d="M867 212 C872 211 878 212 882 214" stroke-width="0.9" opacity="0.6"/>
+  </g>
+  <!-- bead choker -->
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.2">
+    <circle cx="868" cy="226" r="3"/>
+    <circle cx="876" cy="228.5" r="3"/>
+    <circle cx="885" cy="229" r="3"/>
+    <circle cx="893" cy="227" r="3"/>
+    <circle cx="900" cy="223.5" r="3"/>
+  </g>
+  <circle cx="885" cy="229" r="1.8" fill="#3aa8a0"/>
+  <!-- shoulders / blouse leaning in -->
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M866 224 C850 230 838 240 831 254 C825 266 821 284 820 304"/>
+    <path d="M900 226 C916 230 928 240 935 254 C941 266 945 284 946 304"/>
+    <path d="M820 304 C819 308 819 312 820 316"/>
+    <path d="M946 304 C947 308 947 312 946 316"/>
+    <!-- left arm resting toward the table -->
+    <path d="M831 254 C822 268 814 288 810 308" stroke-width="1.6"/>
+    <path d="M846 262 C838 276 832 292 828 308" stroke-width="1.2" opacity="0.6"/>
+    <path d="M868 250 C866 268 866 288 868 308" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- ================= on the table ================= -->
+  <!-- cup and saucer before the laughing woman -->
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.4" stroke-linecap="round">
+    <ellipse cx="322" cy="336" rx="26" ry="5"/>
+    <path d="M306 322 H338 L335 334 H309 Z" stroke-width="1.5"/>
+    <path d="M338 325 C343 325 345 329 341 332" stroke-width="1.2"/>
+  </g>
+  <g fill="none" stroke="#eef1f6" stroke-width="1" stroke-linecap="round" opacity="0.35">
+    <path d="M316 316 q 4 -7 0 -13"/>
+    <path d="M328 316 q 4 -7 0 -13"/>
+  </g>
+  <!-- the deerskin pouch her feather came in -->
+  <g fill="none" stroke="url(#cc-gld)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M466 336 C462 326 464 314 472 308 C470 304 472 300 476 300 C480 300 482 304 480 308 C488 314 490 326 486 336 C480 339 472 339 466 336 Z"/>
+    <path d="M468 310 C473 313 479 313 484 310" stroke-width="1" opacity="0.7"/>
+  </g>
+  <!-- a small plate shared between them -->
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.3" stroke-linecap="round">
+    <ellipse cx="742" cy="334" rx="30" ry="5.5"/>
+    <path d="M730 330 C734 324 750 324 754 330" stroke-width="1.1" opacity="0.7"/>
+  </g>
+  <!-- saucer waiting for the lifted cup -->
+  <ellipse cx="600" cy="337" rx="24" ry="4.5" fill="none" stroke="url(#cc-sil)" stroke-width="1.3"/>
+
+  <!-- plants at the window -->
+  <g fill="none" stroke="#3aa8a0" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.55">
+    <path d="M40 400 C42 360 50 320 68 288 M68 288 C58 284 50 272 52 260 C64 262 72 272 72 284 M68 288 C76 280 88 278 96 284 C90 294 78 296 70 290 M56 330 C46 326 40 316 42 306 C52 308 58 316 58 326 M62 310 C70 302 80 300 88 306 C82 314 72 316 64 312"/>
+    <path d="M1160 400 C1158 364 1150 330 1136 300 M1136 300 C1144 292 1156 290 1164 296 C1158 306 1146 308 1138 302 M1136 300 C1128 294 1124 284 1128 274 C1138 278 1142 288 1140 298 M1148 340 C1156 334 1166 334 1172 340 C1166 348 1156 348 1150 342"/>
+  </g>
+  <!-- small pot on the sill -->
+  <g fill="none" stroke="#3aa8a0" stroke-width="1.2" stroke-linecap="round" opacity="0.5">
+    <path d="M718 222 h20 l-3 -14 h-14 Z" stroke="#8b8f99"/>
+    <path d="M728 208 C724 200 724 192 728 186 M728 208 C732 202 734 194 731 187 M728 208 C722 204 718 198 718 192"/>
+  </g>
+
+  <!-- sparkles on the silver -->
+  <g stroke="#eef1f6" stroke-width="1.1" stroke-linecap="round" opacity="0.65">
+    <path d="M432 190 v8 M428 194 h8"/>
+    <path d="M398 232 v6 M395 235 h6"/>
+    <path d="M572 262 v6 M569 265 h6"/>
+    <path d="M902 218 v6 M899 221 h6"/>
+  </g>
+  <circle cx="452" cy="160" r="1.3" fill="#eef1f6" opacity="0.6"/>
+  <circle cx="640" cy="120" r="1" fill="#eef1f6" opacity="0.45"/>
+  <circle cx="840" cy="140" r="1.2" fill="#eef1f6" opacity="0.5"/>
+</svg>

@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="フェザーペンダントを胸に、まっすぐ前を見つめる女性の肖像線画">
+  <defs>
+    <linearGradient id="hpSil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.55" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="hpHair" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.5" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="hpGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6c97e"/>
+      <stop offset="1" stop-color="#a8823a"/>
+    </linearGradient>
+    <radialGradient id="hpTq" cx="0.35" cy="0.3" r="0.9">
+      <stop offset="0" stop-color="#7ccfc8"/>
+      <stop offset="0.6" stop-color="#3aa8a0"/>
+      <stop offset="1" stop-color="#2d8a84"/>
+    </radialGradient>
+    <radialGradient id="hpBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5BCEFA" stop-opacity="0.11"/>
+      <stop offset="0.6" stop-color="#5BCEFA" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#5BCEFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hpPink" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5A9B8" stop-opacity="0.10"/>
+      <stop offset="0.6" stop-color="#F5A9B8" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#F5A9B8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="hpSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.6"/>
+    </filter>
+  </defs>
+
+  <!-- faintest aurora behind her -->
+  <ellipse cx="122" cy="196" rx="210" ry="160" fill="url(#hpBlue)"/>
+  <ellipse cx="292" cy="176" rx="200" ry="150" fill="url(#hpPink)"/>
+
+  <!-- quiet halo, echo of sun and moon metal -->
+  <circle cx="208" cy="130" r="103" fill="none" stroke="#8b8f99" stroke-width="0.7" opacity="0.18"/>
+  <circle cx="208" cy="130" r="95" fill="none" stroke="url(#hpGold)" stroke-width="0.5" opacity="0.14"/>
+
+  <!-- drifting feather outlines -->
+  <g fill="none" stroke="url(#hpSil)" stroke-linecap="round" stroke-linejoin="round" opacity="0.36">
+    <g transform="translate(58 72) rotate(24) scale(0.5)">
+      <path d="M0 0 C -6 10 -8 24 -4 38 C -2 44 0 48 2 52 C 6 43 8 28 6 14 C 5 7 3 3 0 0 Z" stroke-width="1.7"/>
+      <path d="M0 3 C 0 20 1 36 1.6 49" stroke-width="1.1"/>
+      <path d="M0 16 L -4 21 M0 27 L -4 33 M1 20 L 5 25 M1 31 L 5 37" stroke-width="0.9" opacity="0.7"/>
+    </g>
+    <g transform="translate(346 60) rotate(-20) scale(0.44)">
+      <path d="M0 0 C -6 10 -8 24 -4 38 C -2 44 0 48 2 52 C 6 43 8 28 6 14 C 5 7 3 3 0 0 Z" stroke-width="1.7"/>
+      <path d="M0 3 C 0 20 1 36 1.6 49" stroke-width="1.1"/>
+      <path d="M0 16 L -4 21 M0 27 L -4 33 M1 20 L 5 25 M1 31 L 5 37" stroke-width="0.9" opacity="0.7"/>
+    </g>
+    <g transform="translate(76 236) rotate(42) scale(0.4)" opacity="0.8">
+      <path d="M0 0 C -6 10 -8 24 -4 38 C -2 44 0 48 2 52 C 6 43 8 28 6 14 C 5 7 3 3 0 0 Z" stroke-width="1.7"/>
+      <path d="M0 3 C 0 20 1 36 1.6 49" stroke-width="1.1"/>
+    </g>
+  </g>
+
+  <!-- skin: warm tan tonal fill under the silver line (face + neck + chest as one) -->
+  <g filter="url(#hpSoft)">
+    <path d="M185.5 72 C178 88 173.5 102 173.2 115 C173 131 178 146 187 156
+             C192 161.5 199 163.4 205 161.2 C213.5 158 224 151.5 232 143.5
+             C235.5 129 238 110 241 96 C234 82 222 73.5 208 71.5
+             C200 70.4 191.5 69.6 185.5 72 Z
+             M188 154 L185 202 C172 211 152 217 139 223 C132.6 226.6 128 234 126 244
+             L129.5 268 C155 255 195 249 225 251 C255 253 283 259 299 267
+             L303 241 C295 229 271 219 251 211 L237 201 L233 146 L206 160 Z"
+          fill="#c99e78" fill-opacity="0.35"/>
+    <path d="M190 156 C200 166 218 166 231 153 L234 194 C220 206 200 206 186 198 Z"
+          fill="#c99e78" fill-opacity="0.14"/>
+  </g>
+
+  <!-- hair mass: soft silver tone silhouette -->
+  <path d="M185.5 72 C183 60 190 50 202 46.5 C220 41 244 46 258 58
+           C272 70 279 88 281 108 C283 130 280 152 283 176
+           C286 206 284 224 290 246 C294 264 296 284 291 300
+           L240 300 C247 276 248 252 244 228 C240 204 236.5 178 237.5 152
+           L241 96 C234 82 222 73.5 208 71.5 C199 70.3 191 69.8 185.5 72 Z"
+        fill="url(#hpHair)" opacity="0.1"/>
+  <path d="M185.5 72 C177 82 171.5 96 170.3 112 C169.5 126 171.5 141 176.5 152
+           C170 143 166.5 128 167 112 C167.5 95 174 79 182 71 Z"
+        fill="url(#hpHair)" opacity="0.1"/>
+
+  <!-- face -->
+  <g fill="none" stroke="url(#hpSil)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- contour: temple, cheek, chin, jaw to hair edge -->
+    <path d="M185.5 74 C178 88 173.5 102 173.2 115 C173 131 178 146 187 156 C192 161.5 199 163.4 205 161.2 C213.5 158 226 151 234.5 142" stroke-width="2"/>
+    <!-- hairline -->
+    <path d="M185.5 72 C192 68.5 200 67 208 68 C220 69.4 231 74.5 239 83" stroke-width="1" opacity="0.6"/>
+    <!-- brows -->
+    <path d="M174.5 104 C179.5 100.2 186 99.4 191 101.8" stroke-width="1.8"/>
+    <path d="M205 101.4 C211.5 98.4 219 99 225.2 102.8" stroke-width="1.8"/>
+    <!-- far eye -->
+    <circle cx="183" cy="114" r="2.7" fill="#17171c" fill-opacity="0.55" stroke-width="0.8"/>
+    <circle cx="182" cy="113.1" r="0.6" fill="#eef1f6" stroke="none"/>
+    <path d="M176 115 C179.8 110.9 185.6 110.3 189.8 113.4" stroke-width="1.7"/>
+    <path d="M177.8 118.2 C181.4 120 186 119.8 189.6 116.6" stroke-width="0.75" opacity="0.45"/>
+    <!-- near eye -->
+    <circle cx="214.9" cy="113.4" r="2.9" fill="#17171c" fill-opacity="0.55" stroke-width="0.8"/>
+    <circle cx="213.8" cy="112.4" r="0.65" fill="#eef1f6" stroke="none"/>
+    <path d="M206.5 114 C211.2 109.9 217.8 109.7 223 113.2" stroke-width="1.7"/>
+    <path d="M223 113.2 L227 111.7" stroke-width="1.2"/>
+    <path d="M207.6 117.2 C212.2 119.6 217.8 119.3 222.2 115.9" stroke-width="0.75" opacity="0.45"/>
+    <!-- lid creases -->
+    <path d="M177.5 110 C181.5 107 187 106.6 190.5 108.4" stroke-width="0.55" opacity="0.28"/>
+    <path d="M207.5 109 C212 106 218.5 105.8 223.5 108.8" stroke-width="0.55" opacity="0.3"/>
+    <!-- nose -->
+    <path d="M197 112 C195.5 120 194.3 127 193 133" stroke-width="0.8" opacity="0.6"/>
+    <path d="M193 133 C191.2 136 191.4 138.6 193.6 139.8 C196 141 198.6 140.4 200.2 139" stroke-width="1.25"/>
+    <path d="M202.8 139.2 C204 138.6 204.6 137.6 204.5 136.4" stroke-width="0.75" opacity="0.5"/>
+    <!-- lips -->
+    <path d="M190 148.6 C193.6 146.4 196.4 146 198.2 147.2 C200 146 202.6 146.2 205.2 147.1 C206.8 147.7 208 148.3 208.8 148.9" stroke-width="1.3"/>
+    <path d="M188.4 147.9 C189 148.2 189.4 148.4 190 148.6 C195 150.7 203.6 150.8 209 148.8 C209.7 148.5 210.2 148.2 210.8 147.8" stroke-width="1" opacity="0.85"/>
+    <path d="M192 151.2 C195 154.8 203.4 155 207 151.4" stroke-width="1" opacity="0.68"/>
+    <!-- chin -->
+    <path d="M196 158.2 C198.4 159.4 201.4 159.4 203.6 158.2" stroke-width="0.65" opacity="0.32"/>
+    <!-- cheek hint -->
+    <path d="M177.5 128 C180 133 181.8 137.5 182.8 142" stroke-width="0.5" opacity="0.22"/>
+  </g>
+
+  <!-- neck, collarbones, shoulders -->
+  <g fill="none" stroke="url(#hpSil)" stroke-linecap="round">
+    <path d="M188.5 163 C187 177 186 190 185 202" stroke-width="1.6"/>
+    <path d="M233.5 148 C235 166 236 185 237 200" stroke-width="1.6"/>
+    <path d="M230.5 158 C222.5 178 214.5 195 209 211" stroke-width="0.8" opacity="0.38"/>
+    <path d="M184 198 C170 209 150 216 134 224" stroke-width="1.8"/>
+    <path d="M238 197 C254 206 276 214 296 224" stroke-width="1.8"/>
+    <path d="M204 224 C192 218 172 214 152 218 C146 219.2 140 221.4 136 224" stroke-width="1.6"/>
+    <path d="M214 223 C228 217 248 213 268 217 C274 218.2 280 220.4 284 223" stroke-width="1.6"/>
+    <path d="M205 218 C207 222 211 222 213 218" stroke-width="0.9" opacity="0.5"/>
+  </g>
+
+  <!-- hair: flowing engraved strands -->
+  <g fill="none" stroke="url(#hpHair)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- crown outer -->
+    <path d="M185.5 72 C183 60 190 50 202 46.5 C220 41 244 46 258 58 C272 70 279 88 281 108 C283 130 280 152 283 176" stroke-width="2.4"/>
+    <!-- cascade outer, waved -->
+    <path d="M283 176 C286 206 284 224 290 246 C294 264 296 284 291 300" stroke-width="2.2"/>
+    <!-- front sweep over near temple -->
+    <path d="M190 66 C214 62 238 72 252 92 C260.5 104 264 120 264 134" stroke-width="2.2"/>
+    <path d="M264 134 C264 158 258 176 262 198 C266 220 271 244 267 270 C265 284 261 294 257 300" stroke-width="1.4" opacity="0.85"/>
+    <path d="M187 69 C205 66 224 72 237 86 C246 96 251 108 253 120" stroke-width="1.3" opacity="0.6"/>
+    <!-- inner boundary along cheek/neck -->
+    <path d="M241 96 C239.5 118 238 138 237.5 154 C237 188 241 212 244 230 C248 254 247 278 241 300" stroke-width="1.4" opacity="0.9"/>
+    <!-- mid flows -->
+    <path d="M273 104 C276 128 272 150 275 172 C278 194 282 220 279 246 C277 264 273 282 269 296" stroke-width="1.2" opacity="0.6"/>
+    <path d="M250 128 C252 150 248 170 251 192 C254 212 257 236 254 260 C252 276 249 290 246 300" stroke-width="1" opacity="0.5"/>
+    <!-- strand crossing shoulder -->
+    <path d="M243 158 C239 186 243 214 251 240 C257 260 257 280 251 298" stroke-width="1.2" opacity="0.75"/>
+    <!-- far side framing -->
+    <path d="M185.5 72 C177 82 171.5 96 170.3 112 C169.5 126 171.5 141 176.5 152" stroke-width="1.4"/>
+    <path d="M182 74 C175 84 170.5 98 170 112" stroke-width="0.8" opacity="0.45"/>
+    <path d="M176.5 152 C178.5 160 180 168 180 176" stroke-width="1" opacity="0.5"/>
+    <!-- flyaways -->
+    <path d="M258 58 C266 54 274 54 280 58" stroke-width="0.7" opacity="0.4"/>
+    <path d="M290 248 C296 254 298 262 297 270" stroke-width="0.7" opacity="0.35"/>
+    <path d="M281 110 C287 108 293 110 297 114" stroke-width="0.7" opacity="0.35"/>
+  </g>
+
+  <!-- necklace: silver beads, turquoise, feather -->
+  <path d="M186 190 C194 211 202 223 209 229" fill="none" stroke="url(#hpSil)"
+        stroke-width="4" stroke-linecap="round" stroke-dasharray="0.1 7"/>
+  <path d="M237 189 C231 210 221 223 212 229" fill="none" stroke="url(#hpSil)"
+        stroke-width="4" stroke-linecap="round" stroke-dasharray="0.1 7"/>
+  <circle cx="210.5" cy="225" r="2.8" fill="url(#hpTq)"/>
+  <circle cx="209.6" cy="224" r="0.8" fill="#eef1f6" opacity="0.6"/>
+  <circle cx="210.5" cy="232.5" r="3" fill="none" stroke="url(#hpSil)" stroke-width="1.4"/>
+  <path d="M210.5 236 C204 247 201 260 204 272 C205.5 278.5 208 283.5 211 288
+           C215.5 281.5 218.4 272 218.9 262 C219.4 251.5 216.5 242.5 212.5 236.5 Z"
+        fill="#17171c" fill-opacity="0.4" stroke="url(#hpSil)" stroke-width="1.5"
+        stroke-linejoin="round"/>
+  <path d="M204 270 C205 277 208 282.6 211 287.6 C215 281.6 218 273.5 218.8 264.5
+           C214.5 269.5 209.3 271.5 204 270 Z"
+        fill="url(#hpGold)" fill-opacity="0.8" stroke="#c9a24b" stroke-width="0.8"/>
+  <path d="M210.5 236.5 C209 252 209.5 268 211 286.5" fill="none" stroke="#eef1f6" stroke-width="1" opacity="0.9"/>
+  <g stroke="#c9cdd6" stroke-width="0.55" opacity="0.6">
+    <path d="M209.6 246 L204.6 251 M209 256 L204 262 M209.5 266 L205.5 272"/>
+    <path d="M211.2 248 L216.2 253 M211.4 258 L216.4 264"/>
+  </g>
+  <!-- the light it catches -->
+  <path d="M222 247 L223.4 251.6 L228 253 L223.4 254.4 L222 259 L220.6 254.4 L216 253 L220.6 251.6 Z" fill="#eef1f6" opacity="0.85"/>
+  <path d="M200 260 L200.9 262.8 L203.7 263.7 L200.9 264.6 L200 267.4 L199.1 264.6 L196.3 263.7 L199.1 262.8 Z" fill="#eef1f6" opacity="0.5"/>
+</svg>
