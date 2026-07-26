@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="編み込んだ髪を高く結い上げ、ターコイズのビーズを首もとに添えた女性の肖像画">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.5" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="t" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#5fc4bc"/>
+      <stop offset="1" stop-color="#2d8a84"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="0.44" cy="0.34" r="0.8">
+      <stop offset="0" stop-color="#25262e"/>
+      <stop offset="1" stop-color="#17171c"/>
+    </radialGradient>
+    <radialGradient id="ab" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5bcefa" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#5bcefa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ap" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f5a9b8" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#f5a9b8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <ellipse cx="110" cy="222" rx="168" ry="138" fill="url(#ap)"/>
+  <ellipse cx="302" cy="230" rx="166" ry="136" fill="url(#ab)"/>
+  <g transform="translate(-12,0)">
+    <ellipse cx="190" cy="148" rx="140" ry="122" fill="#c9cdd6" opacity="0.04"/>
+
+    <!-- skin tone : deep brown -->
+    <path d="M 144 110 C 143.5 83 162 64.5 190 64 C 218 64.5 236.5 83 236 110 C 237 138 232 161 222 177 C 214.5 188.5 203.5 197 190 198.5 C 176.5 197 165.5 188.5 158 177 C 148 161 143 138 144 110 Z" fill="#7a5238" opacity="0.5"/>
+    <path d="M 172.5 189 C 174 204 173 214 168.5 224 C 148.5 233 118 240 92 253 C 76 261 63 272 54 287 L 40 300 L 340 300 L 326 287 C 317 272 304 261 288 253 C 262 240 231.5 233 211.5 224 C 207 214 206 204 207.5 189 C 202 196 178 196 172.5 189 Z" fill="#7a5238" opacity="0.42"/>
+
+    <!-- face outline -->
+    <path d="M 144 110 C 143 140 149 162 158 177 C 165.5 188.5 176.5 197 190 198.5 C 203.5 197 214.5 188.5 222 177 C 231 162 237 140 236 110" fill="none" stroke="url(#s)" stroke-width="1.7" stroke-linecap="round" opacity="0.95"/>
+
+    <!-- ears + small silver studs -->
+    <path d="M 144.5 128 C 138.5 126 136 134 139.5 143 C 141.8 148.5 145.6 150.5 146.8 145" fill="none" stroke="url(#s)" stroke-width="1.1" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 235.5 128 C 241.5 126 244 134 240.5 143 C 238.2 148.5 234.4 150.5 233.2 145" fill="none" stroke="url(#s)" stroke-width="1.1" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="144.6" cy="147.5" r="1.7" fill="url(#s)"/>
+    <circle cx="235.4" cy="147.5" r="1.7" fill="url(#s)"/>
+
+    <!-- cheekbone light -->
+    <path d="M 158 151 C 162 146.6 168 144.6 173.5 145.6" fill="none" stroke="#eef1f6" stroke-width="0.9" stroke-linecap="round" opacity="0.28"/>
+    <path d="M 222 151 C 218 146.6 212 144.6 206.5 145.6" fill="none" stroke="#eef1f6" stroke-width="0.9" stroke-linecap="round" opacity="0.28"/>
+
+    <!-- brows : full, softly arched -->
+    <path d="M 157.5 125 C 163.5 120.4 173 119.8 181 123.2" fill="none" stroke="url(#s)" stroke-width="2.1" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 222.5 125 C 216.5 120.4 207 119.8 199 123.2" fill="none" stroke="url(#s)" stroke-width="2.1" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- eyes -->
+    <circle cx="171.5" cy="133.9" r="3.5" fill="url(#s)" opacity="0.9"/>
+    <circle cx="171.5" cy="133.9" r="1.4" fill="#17171c"/>
+    <circle cx="172.8" cy="132.6" r="0.85" fill="#eef1f6"/>
+    <circle cx="208.5" cy="133.9" r="3.5" fill="url(#s)" opacity="0.9"/>
+    <circle cx="208.5" cy="133.9" r="1.4" fill="#17171c"/>
+    <circle cx="209.8" cy="132.6" r="0.85" fill="#eef1f6"/>
+    <path d="M 161.5 134.2 C 165.5 129.2 174.5 128.4 180.5 133" fill="none" stroke="url(#s)" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M 174.5 129.6 C 177.4 130.2 179.2 131.4 180.9 133.3" fill="none" stroke="url(#s)" stroke-width="1.6" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 163 136.2 C 166.5 139.2 174.5 139.6 180 134.4" fill="none" stroke="url(#s)" stroke-width="0.8" stroke-linecap="round" opacity="0.45"/>
+    <path d="M 218.5 134.2 C 214.5 129.2 205.5 128.4 199.5 133" fill="none" stroke="url(#s)" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M 205.5 129.6 C 202.6 130.2 200.8 131.4 199.1 133.3" fill="none" stroke="url(#s)" stroke-width="1.6" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 217 136.2 C 213.5 139.2 205.5 139.6 200 134.4" fill="none" stroke="url(#s)" stroke-width="0.8" stroke-linecap="round" opacity="0.45"/>
+
+    <!-- nose : soft, rounded -->
+    <path d="M 186.6 136 C 186 145 185.8 151 184.9 156.5" fill="none" stroke="url(#s)" stroke-width="0.9" stroke-linecap="round" opacity="0.4"/>
+    <path d="M 180.6 158.2 C 177.8 160.4 178 164 181.2 165.6" fill="none" stroke="url(#s)" stroke-width="0.95" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 182 165.4 C 184.4 167.3 187.2 167.9 190 167.9" fill="none" stroke="url(#s)" stroke-width="0.95" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 199.4 158.2 C 202.2 160.4 202 164 198.8 165.6" fill="none" stroke="url(#s)" stroke-width="0.95" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 198 165.4 C 195.6 167.3 192.8 167.9 190 167.9" fill="none" stroke="url(#s)" stroke-width="0.95" stroke-linecap="round" opacity="0.55"/>
+
+    <!-- lips : full, serene -->
+    <path d="M 174.5 177.4 C 179.5 173.6 184.6 172.4 188 174.6 C 189.2 175.4 190.8 175.4 192 174.6 C 195.4 172.4 200.5 173.6 205.5 177.4 C 200.8 184.6 195 187 190 187 C 185 187 179.2 184.6 174.5 177.4 Z" fill="#4a2f1e" opacity="0.4"/>
+    <path d="M 174.5 177.4 C 180.5 180.2 199.5 180.2 205.5 177.4" fill="none" stroke="url(#s)" stroke-width="1.5" stroke-linecap="round" opacity="0.95"/>
+    <path d="M 174.5 177.4 C 179.5 173.6 184.6 172.4 188 174.6 C 189.2 175.4 190.8 175.4 192 174.6 C 195.4 172.4 200.5 173.6 205.5 177.4" fill="none" stroke="url(#s)" stroke-width="1.1" stroke-linecap="round" opacity="0.75"/>
+    <path d="M 177.5 180 C 181.5 186.4 198.5 186.4 202.5 180" fill="none" stroke="url(#s)" stroke-width="1.1" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 184 189 Q 190 190.6 196 189" fill="none" stroke="url(#s)" stroke-width="0.8" stroke-linecap="round" opacity="0.3"/>
+
+    <!-- neck and shoulders -->
+    <path d="M 172.5 191 C 174 204 173 214 168.5 224" fill="none" stroke="url(#s)" stroke-width="1.4" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 207.5 191 C 206 204 207 214 211.5 224" fill="none" stroke="url(#s)" stroke-width="1.4" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 168.5 224 C 148.5 233 118 240 92 253 C 74 262 60 273 50 289" fill="none" stroke="url(#s)" stroke-width="1.6" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 211.5 224 C 231.5 233 262 240 288 253 C 306 262 320 273 330 289" fill="none" stroke="url(#s)" stroke-width="1.6" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 156 247 C 167 242.4 179 241.2 189 243.8" fill="none" stroke="url(#s)" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+    <path d="M 224 247 C 213 242.4 201 241.2 191 243.8" fill="none" stroke="url(#s)" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+    <path d="M 187 246.5 Q 190 249 193 246.5" fill="none" stroke="url(#s)" stroke-width="0.9" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- garment : bateau neckline -->
+    <path d="M 112 262 C 150 249 230 249 268 262" fill="none" stroke="url(#s)" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+    <path d="M 122 268 C 156 256 224 256 258 268" fill="none" stroke="url(#s)" stroke-width="0.8" stroke-linecap="round" opacity="0.28"/>
+
+    <!-- hair : braids gathered into high crown -->
+    <path d="M 144 112
+      C 142 88 154 68 172 58
+      C 167 49 171 37 182 31
+      C 194 24.5 213 26.5 221 36
+      C 228 44 227 54 221 61
+      C 232 71 238 88 238 112
+      C 234 105 230 99 226 95
+      C 218 84 206 77.5 190 77.2
+      C 174 77.5 160 84 151 95.5
+      C 148 100 145.5 106 144 112 Z" fill="#0c0c11" opacity="0.9"/>
+    <g fill="none" stroke="url(#s)" stroke-linecap="round">
+      <path d="M 144 112 C 142 88 154 68 172 58" stroke-width="1.8" opacity="0.85"/>
+      <path d="M 221 61 C 232 71 238 88 238 112" stroke-width="1.8" opacity="0.85"/>
+      <path d="M 172 58 C 167 49 171 37 182 31 C 194 24.5 213 26.5 221 36 C 228 44 227 54 221 61" stroke-width="1.8" opacity="0.9"/>
+      <path d="M 144 112 C 145.5 106 148 100 151 95.5 C 160 84 174 77.5 190 77.2 C 206 77.5 218 84 226 95 C 230 99 234 105 238 112" stroke-width="1.2" opacity="0.8"/>
+      <!-- braid strands sweeping up -->
+      <path d="M 152 100 C 154 82 162 66 176 55" stroke-width="1.2" opacity="0.7"/>
+      <path d="M 155 96 C 157.5 80 165 65 179 54" stroke-width="0.7" opacity="0.4"/>
+      <path d="M 162 90 C 164 74 172 60 186 49" stroke-width="1.2" opacity="0.7"/>
+      <path d="M 165 86.5 C 167.5 73 175 59 189 48" stroke-width="0.7" opacity="0.4"/>
+      <path d="M 173 82 C 176 68 184 55 195 45" stroke-width="1.2" opacity="0.7"/>
+      <path d="M 176 79.5 C 179.5 67 187 54 198 44.5" stroke-width="0.7" opacity="0.4"/>
+      <path d="M 185 78.5 C 190 66 198 54 208 45" stroke-width="1.2" opacity="0.7"/>
+      <path d="M 188 77 C 193 66 201 55 210.5 46" stroke-width="0.7" opacity="0.4"/>
+      <path d="M 198 79 C 205 68 213 58 219 49" stroke-width="1.2" opacity="0.7"/>
+      <path d="M 201 78 C 208 68 215.5 59 221 51" stroke-width="0.7" opacity="0.4"/>
+      <path d="M 211 83 C 219 74 226 64 228 54" stroke-width="1.2" opacity="0.7"/>
+      <path d="M 221 91 C 229 82 234 72 234 62" stroke-width="1.2" opacity="0.7"/>
+      <!-- braid texture ticks -->
+      <path d="M 153.5 92 l 5 -2.4 M 156.5 84 l 5 -2.6 M 160.5 76 l 5 -2.8 M 165.5 68 l 5 -3" stroke-width="0.75" opacity="0.5"/>
+      <path d="M 164 82 l 5 -2.4 M 168 74 l 5 -2.8 M 173 66 l 5.4 -3 M 179 58.5 l 5.4 -3" stroke-width="0.75" opacity="0.5"/>
+      <path d="M 175.5 74 l 5.4 -2.6 M 180 66 l 5.6 -2.8 M 186 58 l 5.6 -3" stroke-width="0.75" opacity="0.5"/>
+      <path d="M 188 70 l 5.6 -2.4 M 193.5 61.5 l 5.6 -2.6 M 199.5 53.5 l 5.6 -2.6" stroke-width="0.75" opacity="0.5"/>
+      <path d="M 202 71 l 5.4 -2 M 208 63 l 5.4 -2.2 M 214 55.5 l 5.2 -2.4" stroke-width="0.75" opacity="0.5"/>
+      <path d="M 214.5 76 l 5 -1.8 M 220.5 68.5 l 5 -2 M 226 60.5 l 4.6 -2.2" stroke-width="0.75" opacity="0.5"/>
+      <!-- crown coil -->
+      <path d="M 177 45 C 181 33.5 207 31.5 215 41" stroke-width="1.1" opacity="0.75"/>
+      <path d="M 183 41 C 187 34.5 203 33.5 209 40" stroke-width="0.9" opacity="0.6"/>
+      <path d="M 190 37.5 C 193 34.5 201 34.5 204 38.5" stroke-width="0.8" opacity="0.5"/>
+      <!-- baby-hair wisps -->
+      <path d="M 148 108 q -3.5 5 -2.5 10" stroke-width="0.8" opacity="0.5"/>
+      <path d="M 232 108 q 3.5 5 2.5 10" stroke-width="0.8" opacity="0.5"/>
+    </g>
+
+    <!-- turquoise bead choker -->
+    <path d="M 172 213 Q 190 220 208 213" fill="none" stroke="url(#s)" stroke-width="0.7" opacity="0.4"/>
+    <circle cx="173" cy="213.6" r="3.1" fill="url(#t)"/>
+    <circle cx="179.5" cy="216" r="3.1" fill="url(#t)"/>
+    <circle cx="186" cy="217.3" r="3.1" fill="url(#t)"/>
+    <circle cx="192.5" cy="217.4" r="3.1" fill="url(#t)"/>
+    <circle cx="199" cy="216.2" r="3.1" fill="url(#t)"/>
+    <circle cx="205.5" cy="213.9" r="3.1" fill="url(#t)"/>
+    <circle cx="176.3" cy="215" r="1.3" fill="url(#s)"/>
+    <circle cx="182.8" cy="216.9" r="1.3" fill="url(#s)"/>
+    <circle cx="189.3" cy="217.6" r="1.3" fill="url(#s)"/>
+    <circle cx="195.8" cy="217.1" r="1.3" fill="url(#s)"/>
+    <circle cx="202.3" cy="215.3" r="1.3" fill="url(#s)"/>
+    <circle cx="173.8" cy="212.7" r="0.75" fill="#d9f3f1" opacity="0.85"/>
+    <circle cx="186.8" cy="216.4" r="0.75" fill="#d9f3f1" opacity="0.85"/>
+    <circle cx="199.8" cy="215.3" r="0.75" fill="#d9f3f1" opacity="0.85"/>
+  </g>
+</svg>

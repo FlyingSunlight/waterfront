@@ -57,9 +57,9 @@
     <!-- zelkova trees -->
     <path d="M60 218 V150 M60 168 C50 158 46 144 50 132 M60 160 C70 150 76 138 74 126 M40 140 C44 124 56 112 72 110 C90 108 102 120 104 136"/>
     <path d="M1130 218 V156 M1130 176 C1120 166 1116 154 1120 142 M1130 168 C1140 158 1146 148 1144 138 M1112 148 C1116 132 1128 122 1142 122"/>
-    <!-- far storefront + awning -->
-    <path d="M190 218 V160 H340 V218 M190 176 H340"/>
-    <path d="M196 160 L206 146 H330 L340 160"/>
+    <!-- far storefront + awning, partly behind her -->
+    <path d="M190 218 V160 H250 M190 176 H248"/>
+    <path d="M196 160 L206 146 H246"/>
     <!-- street lamp -->
     <path d="M400 218 V128 M400 128 C400 118 410 114 418 118"/>
     <circle cx="421" cy="120" r="4"/>
@@ -168,9 +168,9 @@
   <!-- skin -->
   <path d="M574 132 C571 152 575 170 584 180 C591 188 603 189 611 182
            C619 174 623 158 621 138 C618 118 582 114 574 132 Z"
-        fill="#e8cdb5" opacity="0.32"/>
+        fill="#e8cdb5" opacity="0.45"/>
   <path d="M588 185 C588 198 586 207 581 214 L618 214 C613 207 611 198 611 185 Z"
-        fill="#e8cdb5" opacity="0.32"/>
+        fill="#e8cdb5" opacity="0.45"/>
   <!-- face outline -->
   <path d="M574 132 C571 152 575 170 584 180 C591 188 603 189 611 182 C619 174 623 158 621 138"
         fill="none" stroke="url(#cc-sil)" stroke-width="1.7" stroke-linecap="round"/>
@@ -181,8 +181,8 @@
     <path d="M578 143 Q 585 139 593 142" stroke-width="1.1"/>
     <path d="M602 142 Q 610 139 617 143" stroke-width="1.1"/>
   </g>
-  <circle cx="584" cy="153.5" r="1.7" fill="#eef1f6" opacity="0.9"/>
-  <circle cx="608" cy="153.5" r="1.7" fill="#eef1f6" opacity="0.9"/>
+  <circle cx="584" cy="152.8" r="1.4" fill="#eef1f6" opacity="0.9"/>
+  <circle cx="608" cy="152.8" r="1.4" fill="#eef1f6" opacity="0.9"/>
   <!-- nose, turned slightly left -->
   <path d="M594 158 C592 162 592 165 594 167" fill="none" stroke="#c9cdd6" stroke-width="1.1" stroke-linecap="round"/>
   <!-- warm closed smile -->
@@ -191,14 +191,14 @@
   <!-- soft smile lines, a life well laughed -->
   <path d="M581 168 Q 579 172 582 176" fill="none" stroke="#c9cdd6" stroke-width="0.8" opacity="0.4"/>
   <path d="M609 168 Q 611 172 608 176" fill="none" stroke="#c9cdd6" stroke-width="0.8" opacity="0.4"/>
-  <!-- silver bob -->
+  <!-- silver bob, tucked close to the face -->
   <g fill="none" stroke="#eef1f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
     <path d="M574 132 C566 120 576 108 592 107 C610 106 624 114 621 132"/>
-    <path d="M574 132 C568 148 568 166 575 180 C570 184 564 182 562 176 C558 162 560 142 568 128"/>
-    <path d="M621 132 C627 148 627 166 620 180 C625 184 631 182 633 176 C637 162 635 142 627 128"/>
+    <path d="M578 112 C570 124 566 142 568 160 C569 172 572 181 578 187"/>
+    <path d="M616 111 C624 123 628 142 626 160 C625 172 621 181 615 187"/>
     <g stroke-width="1" opacity="0.6">
-      <path d="M582 114 C576 126 573 144 574 160"/>
-      <path d="M612 112 C619 126 622 144 621 160"/>
+      <path d="M584 115 C578 128 576 146 578 163"/>
+      <path d="M610 113 C617 127 620 146 618 163"/>
       <path d="M596 108 C590 112 585 120 582 130"/>
     </g>
   </g>
@@ -218,21 +218,22 @@
     <path d="M570 246 C568 256 568 264 571 271" stroke-width="1.4"/>
   </g>
   <!-- hand + cup -->
-  <path d="M560 246 C566 242 574 241 580 244 C584 246 585 251 582 254 L562 258 C558 255 557 250 560 246 Z"
-        fill="#e8cdb5" opacity="0.32"/>
+  <path d="M556 244 C562 240 576 239 584 243 C588 246 589 252 585 256 L560 259 C555 255 553 249 556 244 Z"
+        fill="#e8cdb5" opacity="0.45"/>
   <g fill="none" stroke="url(#cc-sil)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
     <!-- cup -->
     <path d="M552 228 H586 L582 250 H556 Z" stroke-width="1.6"/>
     <path d="M586 232 C592 232 594 238 590 243 C588 245 585 246 583 245" stroke-width="1.3"/>
     <!-- fingers around the cup -->
-    <path d="M556 238 C562 236 570 236 576 238" stroke-width="1.1" opacity="0.8"/>
-    <path d="M556 244 C562 242 570 242 576 244" stroke-width="1.1" opacity="0.8"/>
-    <path d="M558 250 C564 252 572 253 578 252" stroke-width="1.2"/>
+    <path d="M556 240 C553 244 553 250 557 254" stroke-width="1.3"/>
+    <path d="M558 242 C564 240 572 240 578 242" stroke-width="1.1" opacity="0.8"/>
+    <path d="M558 248 C564 246 572 246 578 248" stroke-width="1.1" opacity="0.8"/>
+    <path d="M558 254 C566 257 576 257 584 255" stroke-width="1.2"/>
   </g>
   <!-- steam -->
-  <g fill="none" stroke="#eef1f6" stroke-width="1" stroke-linecap="round" opacity="0.4">
-    <path d="M562 222 q 4 -8 0 -15"/>
-    <path d="M574 222 q 4 -8 0 -15"/>
+  <g fill="none" stroke="#eef1f6" stroke-width="1" stroke-linecap="round" opacity="0.3">
+    <path d="M561 221 q 3 -6 0 -11"/>
+    <path d="M571 221 q 3 -6 0 -11"/>
   </g>
   <!-- silver bangle at her wrist -->
   <g fill="none" stroke="url(#cc-sil)" stroke-width="1.6">
@@ -259,47 +260,33 @@
       <path d="M862 151 Q 869 147 877 150" stroke-width="1.1"/>
       <path d="M886 150 Q 894 147 901 151" stroke-width="1.1"/>
     </g>
-    <circle cx="868" cy="161.5" r="1.7" fill="#eef1f6" opacity="0.9"/>
-    <circle cx="892" cy="161.5" r="1.7" fill="#eef1f6" opacity="0.9"/>
+    <circle cx="868" cy="161" r="1.5" fill="#eef1f6" opacity="0.9"/>
+    <circle cx="892" cy="161" r="1.5" fill="#eef1f6" opacity="0.9"/>
     <!-- nose -->
     <path d="M878 166 C876 170 876 173 878 175" fill="none" stroke="#c9cdd6" stroke-width="1.1" stroke-linecap="round"/>
     <!-- soft delighted smile -->
     <path d="M869 182 C874 185.5 884 185.5 889 182" fill="none" stroke="#eef1f6" stroke-width="1.5" stroke-linecap="round"/>
   </g>
-  <!-- long hair -->
+  <!-- long hair, swept behind the shoulders -->
   <g fill="none" stroke="url(#cc-sil)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
     <path d="M859 138 C853 118 870 106 884 107 C900 108 910 120 905 138"/>
-    <path d="M859 138 C850 162 849 200 855 240 C857 264 855 286 848 304"/>
-    <path d="M905 138 C915 166 917 212 913 260 C911 286 913 306 919 320"/>
+    <path d="M859 138 C851 160 850 190 854 218 C856 240 852 258 844 270"/>
+    <path d="M905 138 C914 164 916 200 913 234 C911 258 915 276 923 288"/>
     <g stroke-width="1" opacity="0.55">
-      <path d="M864 150 C858 180 857 220 861 258"/>
-      <path d="M900 150 C907 180 909 224 906 266"/>
+      <path d="M864 150 C860 168 859 188 860 206"/>
+      <path d="M900 150 C905 168 907 190 906 212"/>
       <path d="M884 108 C878 112 872 120 868 132"/>
     </g>
   </g>
-  <!-- resting arm + hand under chin -->
-  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M893 316 C893 288 890 258 884 232"/>
-    <path d="M908 316 C908 292 906 264 901 240"/>
-  </g>
-  <path d="M862 208 C866 202 874 199 881 201 C888 203 892 209 890 216 L886 222 C878 224 868 221 863 216 Z"
-        fill="#c99e78" opacity="0.4"/>
-  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M884 232 C880 226 878 220 880 214"/>
-    <path d="M862 208 C866 202 874 199 881 201 C888 203 892 209 890 216"/>
-    <path d="M862 208 C860 212 861 216 864 218" stroke-width="1.2"/>
-    <path d="M868 206 C872 205 877 205 881 207" stroke-width="0.9" opacity="0.6"/>
-    <path d="M867 212 C872 211 878 212 882 214" stroke-width="0.9" opacity="0.6"/>
-  </g>
   <!-- bead choker -->
   <g fill="none" stroke="url(#cc-sil)" stroke-width="1.2">
-    <circle cx="868" cy="226" r="3"/>
-    <circle cx="876" cy="228.5" r="3"/>
-    <circle cx="885" cy="229" r="3"/>
-    <circle cx="893" cy="227" r="3"/>
-    <circle cx="900" cy="223.5" r="3"/>
+    <circle cx="878" cy="227.5" r="3"/>
+    <circle cx="886" cy="229.5" r="3"/>
+    <circle cx="894" cy="229" r="3"/>
+    <circle cx="901" cy="226" r="3"/>
+    <circle cx="906" cy="221.5" r="3"/>
   </g>
-  <circle cx="885" cy="229" r="1.8" fill="#3aa8a0"/>
+  <circle cx="894" cy="229" r="1.8" fill="#3aa8a0"/>
   <!-- shoulders / blouse leaning in -->
   <g fill="none" stroke="url(#cc-sil)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
     <path d="M866 224 C850 230 838 240 831 254 C825 266 821 284 820 304"/>
@@ -309,7 +296,21 @@
     <!-- left arm resting toward the table -->
     <path d="M831 254 C822 268 814 288 810 308" stroke-width="1.6"/>
     <path d="M846 262 C838 276 832 292 828 308" stroke-width="1.2" opacity="0.6"/>
-    <path d="M868 250 C866 268 866 288 868 308" stroke-width="1" opacity="0.5"/>
+  </g>
+  <!-- forearm from the table, chin resting on the hand -->
+  <path d="M854 226 C853 214 858 204 866 199 C874 195 883 197 888 202
+           C892 206 892 212 888 216 C879 222 864 226 856 228 Z"
+        fill="#c99e78" opacity="0.4"/>
+  <g fill="none" stroke="url(#cc-sil)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M858 318 C856 292 854 260 862 230"/>
+    <path d="M842 318 C840 288 844 252 854 226"/>
+    <!-- side of the hand -->
+    <path d="M854 226 C853 214 858 204 866 199"/>
+    <!-- fingers curled under the chin -->
+    <path d="M866 199 C870 196 875 196 878 199" stroke-width="1.5"/>
+    <path d="M878 199 C882 197 886 199 888 202" stroke-width="1.5"/>
+    <path d="M888 202 C891 206 891 211 887 215" stroke-width="1.4"/>
+    <path d="M866 206 C872 204 880 205 885 208" stroke-width="0.9" opacity="0.55"/>
   </g>
 
   <!-- ================= on the table ================= -->

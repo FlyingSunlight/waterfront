@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="夜風に髪をなびかせ、三日月を見上げる女性の横顔。胸元のフェザーペンダントが風にゆれている">
+  <defs>
+    <linearGradient id="opSil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.55" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="opHair" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.5" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="opGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6c97e"/>
+      <stop offset="1" stop-color="#a8823a"/>
+    </linearGradient>
+    <radialGradient id="opTq" cx="0.35" cy="0.3" r="0.9">
+      <stop offset="0" stop-color="#7ccfc8"/>
+      <stop offset="0.6" stop-color="#3aa8a0"/>
+      <stop offset="1" stop-color="#2d8a84"/>
+    </radialGradient>
+    <radialGradient id="opBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5BCEFA" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#5BCEFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="opPink" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5A9B8" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#F5A9B8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="opSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.6"/>
+    </filter>
+  </defs>
+
+  <!-- faintest aurora at the horizon -->
+  <ellipse cx="175" cy="352" rx="230" ry="72" fill="url(#opBlue)"/>
+  <ellipse cx="425" cy="352" rx="230" ry="72" fill="url(#opPink)"/>
+
+  <!-- stars -->
+  <g fill="#eef1f6">
+    <circle cx="62" cy="58" r="1.3" opacity="0.7"/>
+    <circle cx="96" cy="152" r="1" opacity="0.5"/>
+    <circle cx="230" cy="48" r="1.2" opacity="0.6"/>
+    <circle cx="272" cy="112" r="1" opacity="0.5"/>
+    <circle cx="420" cy="56" r="1.2" opacity="0.65"/>
+    <circle cx="502" cy="106" r="1.4" opacity="0.7"/>
+    <circle cx="548" cy="182" r="1" opacity="0.5"/>
+    <circle cx="256" cy="84" r="0.9" opacity="0.45"/>
+    <circle cx="530" cy="262" r="1" opacity="0.4"/>
+  </g>
+  <g stroke="#eef1f6" stroke-width="1.1" stroke-linecap="round" opacity="0.6" fill="none">
+    <path d="M208 132 v10 M203 137 h10"/>
+    <path d="M478 66 v9 M473.5 70.5 h9"/>
+  </g>
+
+  <!-- crescent moon, opening toward her -->
+  <circle cx="140" cy="96" r="50" fill="none" stroke="url(#opSil)" stroke-width="0.8" opacity="0.22"/>
+  <path d="M158 56 A44 44 0 1 0 158 136" fill="none" stroke="url(#opSil)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M158 136 A40 40 0 0 1 158 56" fill="none" stroke="url(#opSil)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M111 120 A38 38 0 0 1 111 72" fill="none" stroke="url(#opGold)" stroke-width="1.4" stroke-linecap="round" opacity="0.9"/>
+  <g fill="none" stroke="url(#opSil)" stroke-width="0.9" stroke-linecap="round" opacity="0.4">
+    <path d="M117 82 C114 88 113 95 114 101"/>
+    <path d="M122 110 C120 114 119.6 118 120.4 122"/>
+  </g>
+
+  <!-- a feather riding the breeze between her and the moon -->
+  <path d="M262 158 Q 246 178 238 198" fill="none" stroke="#eef1f6" stroke-width="1" stroke-dasharray="1 7" stroke-linecap="round" opacity="0.3"/>
+  <g transform="translate(236 202) rotate(30) scale(0.38)" fill="none" stroke="url(#opSil)" stroke-linecap="round" stroke-linejoin="round" opacity="0.42">
+    <path d="M0 0 C -7 12 -9 28 -5 44 C -3 51 0 56 2 60 C 7 50 10 32 8 16 C 7 8 4 3 0 0 Z" stroke-width="1.8"/>
+    <path d="M0 2 C 0 22 1 42 1 58" stroke-width="1.2"/>
+  </g>
+
+  <!-- still horizon -->
+  <path d="M44 348 H556" stroke="url(#opSil)" stroke-width="1.4" stroke-linecap="round" opacity="0.6" fill="none"/>
+  <path d="M76 354 H520" stroke="url(#opSil)" stroke-width="0.7" stroke-linecap="round" opacity="0.2" fill="none"/>
+  <!-- moonlight on the water -->
+  <g stroke="url(#opSil)" stroke-width="1.1" stroke-linecap="round" opacity="0.3" fill="none">
+    <path d="M124 358 H156"/>
+    <path d="M130 366 H150"/>
+    <path d="M135 374 H145"/>
+  </g>
+
+  <!-- ===== the woman, leaning gently into the night ===== -->
+  <g transform="rotate(-10 340 260)">
+    <!-- skin: ivory tonal fill -->
+    <g filter="url(#opSoft)">
+      <path d="M320 134 C315 146 312.5 156 312.3 161 C308 168 305.3 173 305.4 174.5
+               C306.2 176.5 309 177.2 313 176.8 C312 180.5 311.8 184 312.1 186.6
+               C313.6 189 314.2 192 314.9 195.5 C317.8 199.5 319.8 203 320.9 206.5
+               C323.5 209.8 327.5 211.9 331.5 213.2 C341 216.5 351 218.4 359 218.8
+               C368 216 376 208 380 196 C386 178 386 156 380 142
+               C372 126 358 117 346 116.5 C335 116 325 123 320 134 Z
+               M318 200 C322 206 330 211 338 213.5 L358 218.8 L362 219
+               C364.5 234 366.3 246 368 254 C386 260 404 270 418 284
+               C434 300 444 322 448 350 C451 374 452 400 451 430 L192 430
+               C192 396 196 372 204 354 C210 342 220 332 232 324
+               C250 314 272 302 290 288 C304 276 314 262 319 245
+               C321.5 234 323 222 324.5 210 Z"
+            fill="#e8cdb5" fill-opacity="0.3"/>
+      <path d="M322 208 C332 214 346 217 358 217 L360 232 C348 232 334 228 324 222 Z"
+            fill="#e8cdb5" fill-opacity="0.12"/>
+    </g>
+
+    <!-- hair cap -->
+    <path d="M320 134 C325 121 335 114 347 114 C361 113 373 122 379 136
+             C384 148 385 166 381 184 C377 200 369 212 361 218
+             C356 208 351 196 348 184 C340 168 328 152 320 134 Z"
+          fill="url(#opHair)" opacity="0.1"/>
+
+    <!-- profile -->
+    <g fill="none" stroke="url(#opSil)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M320 134 C315.5 146 313 155 312.3 160.5 C308.5 167.5 305.4 172.5 305.4 174.5
+               C306.2 176.5 309 177.2 313 176.8" stroke-width="2"/>
+      <path d="M313 176.8 C310.5 176.9 309.4 176.8 308.6 176.5" stroke-width="1.1" opacity="0.7"/>
+      <path d="M312.4 177.2 C312 180.4 311.8 184 312.1 186.4" stroke-width="1.6"/>
+      <path d="M312.1 186.4 C313.7 188.8 314.3 189.4 314.1 191 C313.9 192.6 313.4 193.6 314.9 195.5
+               C317.8 199.5 319.6 202.8 320.9 206.5" stroke-width="1.8"/>
+      <path d="M320.9 206.5 C323.5 209.8 327.5 211.9 331.5 213.2 C341 216.5 351 218.4 359 218.8" stroke-width="1.6"/>
+      <!-- mouth, gently smiling -->
+      <path d="M312.2 186.4 C315.4 187.2 318.5 187.1 321 186" stroke-width="1.05"/>
+      <path d="M312.6 183 C315.5 182.3 318.4 182.5 320.6 183.5" stroke-width="0.75" opacity="0.55"/>
+      <path d="M314 190 C316.5 190.8 319 190.6 321.2 189.4" stroke-width="0.7" opacity="0.5"/>
+      <!-- brow -->
+      <path d="M313 153.5 C317 150.8 321.5 150.2 325.5 151.4" stroke-width="1.7"/>
+      <!-- eye, lifted to the moon -->
+      <ellipse cx="319.5" cy="160.8" rx="1.6" ry="2.2" fill="#17171c" fill-opacity="0.55" stroke-width="0.7"/>
+      <circle cx="318.9" cy="159.9" r="0.5" fill="#eef1f6" stroke="none"/>
+      <path d="M315.5 160.2 C318.5 158.2 322 157.8 325 158.8" stroke-width="1.4"/>
+      <path d="M315.5 160.2 L313.4 160.9" stroke-width="1"/>
+      <path d="M316.5 163.2 C319 164.3 322 164.3 324.5 163.3" stroke-width="0.7" opacity="0.45"/>
+      <!-- the years, worn kindly -->
+      <path d="M326.5 160.6 L330 160" stroke-width="0.5" opacity="0.35"/>
+      <path d="M326.3 162.6 L329.6 163.3" stroke-width="0.5" opacity="0.3"/>
+      <path d="M316.5 166 C319.5 167.2 322.5 167 325 165.8" stroke-width="0.5" opacity="0.28"/>
+      <path d="M315.5 143 C319 141.6 323 141.4 326.5 142.4" stroke-width="0.5" opacity="0.26"/>
+      <path d="M312.8 177.6 C317 180.2 320.4 183.6 322.4 187.4" stroke-width="0.5" opacity="0.28"/>
+      <path d="M322 210 C326 212.6 330.5 214.4 335 215.6" stroke-width="0.6" opacity="0.3"/>
+      <!-- ear and a small gold drop -->
+      <path d="M348 164 C353 162 356.5 166 355.5 172 C354.8 177 351.5 181 347.5 182" stroke-width="1.3"/>
+      <path d="M350.5 168 C352.8 168.5 353.6 171 352.6 174" stroke-width="0.8" opacity="0.6"/>
+      <path d="M347.5 182.5 L347.2 186" stroke="#c9a24b" stroke-width="0.9"/>
+      <circle cx="347.1" cy="188" r="1.8" fill="url(#opGold)" stroke="none" opacity="0.95"/>
+    </g>
+
+    <!-- neck and shoulders -->
+    <g fill="none" stroke="url(#opSil)" stroke-linecap="round">
+      <path d="M324.5 210 C323 222 321.5 234 319 245 C314 262 304 276 290 288 C272 302 250 314 232 324 C220 332 210 342 204 354 C196 372 192 396 192 430" stroke-width="1.8"/>
+      <path d="M361 218.5 C364 234 366 246 368 254 C386 260 404 270 418 284 C434 300 444 322 448 350 C451 374 452 400 451 430" stroke-width="1.8"/>
+      <path d="M326 250 C336 256 350 258.5 362 256" stroke-width="1.1" opacity="0.55"/>
+    </g>
+
+    <!-- hair streaming in the night breeze, silver threads among it -->
+    <g fill="none" stroke="url(#opHair)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M320 134 C325 120 336 113 348 113 C360 112.5 371 119 378 130" stroke-width="2.2"/>
+      <path d="M330 126 C360 114 400 117 436 131 C468 143 500 163 524 185" stroke-width="2.2"/>
+      <path d="M336 145 C368 139 404 147 436 163 C462 175 486 193 504 213" stroke-width="1.6" opacity="0.8"/>
+      <path d="M344 164 C374 162 404 172 430 188 C450 200 468 216 480 232" stroke-width="1.3" opacity="0.65"/>
+      <path d="M352 196 C376 200 400 212 420 228 C434 240 446 254 452 266" stroke-width="1.1" opacity="0.5"/>
+      <path d="M360 218 C372 224 384 234 392 246" stroke-width="0.9" opacity="0.4"/>
+      <path d="M320 140 C326 133 334 128 343 126" stroke-width="0.9" opacity="0.5"/>
+      <path d="M312 132 C308 126 306 119 306.5 112" stroke-width="0.8" opacity="0.4"/>
+    </g>
+    <g fill="none" stroke="#eef1f6" stroke-linecap="round" opacity="0.65">
+      <path d="M334 134 C366 126 402 130 434 144 C460 156 484 174 502 192" stroke-width="0.7"/>
+      <path d="M348 178 C374 178 400 188 422 202" stroke-width="0.6"/>
+      <path d="M338 154 C366 150 396 158 422 172" stroke-width="0.5" opacity="0.8"/>
+    </g>
+
+    <!-- dress neckline -->
+    <path d="M296 300 C322 306 352 306 378 296" fill="none" stroke="url(#opSil)" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M300 306 C324 311 350 311 374 302" fill="none" stroke="url(#opSil)" stroke-width="0.7" opacity="0.4" stroke-linecap="round"/>
+    <path d="M296 300 C322 306 352 306 378 296 C398 306 414 322 424 344 L430 430 L206 430 L212 366 C222 344 240 322 262 310 Z"
+          fill="url(#opSil)" opacity="0.06"/>
+    <g fill="none" stroke="url(#opSil)" stroke-linecap="round" opacity="0.3">
+      <path d="M258 330 C256 360 254 396 254 428" stroke-width="0.8"/>
+      <path d="M318 334 C318 364 318 398 318 428" stroke-width="0.8"/>
+      <path d="M378 328 C381 360 383 396 383 426" stroke-width="0.8"/>
+    </g>
+
+    <!-- feather pendant, lifted by the wind -->
+    <path d="M358 222 C349 238 339 250 329 256" fill="none" stroke="url(#opSil)"
+          stroke-width="3.4" stroke-linecap="round" stroke-dasharray="0.1 6"/>
+    <circle cx="334" cy="250" r="2.2" fill="url(#opTq)"/>
+    <circle cx="328.5" cy="258.5" r="2.6" fill="none" stroke="url(#opSil)" stroke-width="1.2"/>
+    <g transform="translate(328 261) rotate(-16) scale(0.9)">
+      <path d="M0 0 C -6.5 11 -9.5 24 -6.5 36 C -5 42.5 -2.5 47.5 0.5 52
+               C 5 45.5 7.9 36 8.4 26 C 8.9 15.5 6 6.5 2 0.5 Z"
+            fill="#17171c" fill-opacity="0.4" stroke="url(#opSil)" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M -6.5 34 C -5.5 41 -2.5 46.6 0.5 51.6 C 4.5 45.6 7.5 37.5 8.3 28.5
+               C 4 33.5 -1.2 35.5 -6.5 34 Z"
+            fill="url(#opGold)" fill-opacity="0.8" stroke="#c9a24b" stroke-width="0.8"/>
+      <path d="M0 0.5 C -1.5 16 -1 32 0.5 50.5" fill="none" stroke="#eef1f6" stroke-width="1" opacity="0.9"/>
+      <g stroke="#c9cdd6" stroke-width="0.5" opacity="0.6" fill="none">
+        <path d="M -1.4 10 L -6 14.6 M -2 19 L -6.6 24.4 M -1.6 28 L -5.4 33.4"/>
+        <path d="M 1.4 12 L 5.8 16.6 M 1.6 21 L 6.2 26.4"/>
+      </g>
+    </g>
+    <path d="M340 268 L341.3 272.2 L345.5 273.5 L341.3 274.8 L340 279 L338.7 274.8 L334.5 273.5 L338.7 272.2 Z" fill="#eef1f6" opacity="0.75"/>
+  </g>
+</svg>

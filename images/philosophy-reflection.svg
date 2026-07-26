@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="姿見の前に立つ女性の後ろ姿。鏡の中の彼女は、フェザーペンダントを胸に、静かな喜びをたたえてこちらを見つめている">
+  <defs>
+    <linearGradient id="prSil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.55" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="prSilUp" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.6" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="prGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6c97e"/>
+      <stop offset="1" stop-color="#a8823a"/>
+    </linearGradient>
+    <radialGradient id="prTq" cx="0.35" cy="0.3" r="0.9">
+      <stop offset="0" stop-color="#7ccfc8"/>
+      <stop offset="0.6" stop-color="#3aa8a0"/>
+      <stop offset="1" stop-color="#2d8a84"/>
+    </radialGradient>
+    <radialGradient id="prBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5BCEFA" stop-opacity="0.12"/>
+      <stop offset="0.6" stop-color="#5BCEFA" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#5BCEFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="prPink" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5A9B8" stop-opacity="0.11"/>
+      <stop offset="0.6" stop-color="#F5A9B8" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#F5A9B8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="prSheen" cx="0.34" cy="0.24" r="0.9">
+      <stop offset="0" stop-color="#eef1f6" stop-opacity="0.10"/>
+      <stop offset="0.6" stop-color="#c9cdd6" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#c9cdd6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="prSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.6"/>
+    </filter>
+    <clipPath id="prGlass">
+      <path d="M316 378 L316 152 A74 74 0 0 1 464 152 L464 378 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- floor -->
+  <path d="M96 432 H524" stroke="url(#prSil)" stroke-width="1" stroke-linecap="round" opacity="0.18" fill="none"/>
+
+  <!-- ===== tall mirror ===== -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M310 388 L302 430" stroke="url(#prSil)" stroke-width="2.2"/>
+    <path d="M470 388 L478 430" stroke="url(#prSil)" stroke-width="2.2"/>
+    <path d="M302 388 L302 148 A88 88 0 0 1 478 148 L478 388 Z" stroke="url(#prSil)" stroke-width="3.2"/>
+    <path d="M309 384 L309 150 A81 81 0 0 1 471 150 L471 384" stroke="url(#prSilUp)" stroke-width="1"/>
+    <path d="M316 378 L316 152 A74 74 0 0 1 464 152 L464 378 Z" stroke="url(#prSil)" stroke-width="1.5"/>
+  </g>
+  <!-- stamped bezel dots -->
+  <g fill="#c9cdd6" opacity="0.7">
+    <circle cx="305.5" cy="200" r="1.5"/><circle cx="305.5" cy="260" r="1.5"/>
+    <circle cx="305.5" cy="320" r="1.5"/><circle cx="305.5" cy="378" r="1.5"/>
+    <circle cx="474.5" cy="200" r="1.5"/><circle cx="474.5" cy="260" r="1.5"/>
+    <circle cx="474.5" cy="320" r="1.5"/><circle cx="474.5" cy="378" r="1.5"/>
+    <circle cx="318" cy="122" r="1.5"/><circle cx="352" cy="88" r="1.5"/>
+    <circle cx="390" cy="76" r="1.5"/><circle cx="428" cy="88" r="1.5"/>
+    <circle cx="462" cy="122" r="1.5"/>
+  </g>
+
+  <!-- ===== inside the mirror ===== -->
+  <g clip-path="url(#prGlass)">
+    <!-- glass base -->
+    <rect x="316" y="78" width="148" height="300" fill="url(#prSheen)"/>
+    <!-- aurora lives only in the mirror -->
+    <ellipse cx="358" cy="330" rx="150" ry="130" fill="url(#prBlue)"/>
+    <ellipse cx="434" cy="210" rx="140" ry="140" fill="url(#prPink)"/>
+
+    <!-- her reflection -->
+    <g opacity="0.95" transform="translate(221 98) scale(0.8)">
+      <!-- skin: deep brown tonal fill -->
+      <g filter="url(#prSoft)">
+        <path d="M186 78 C178.5 90 174.5 102 174.3 114 C174 129 178.5 143 187 153
+                 C192.5 159 200 161 206.5 158.5 C214.5 155.5 225 148.5 233 140
+                 C236.5 127 238.5 108 241 96 C234 83 222 75.5 208 73.5
+                 C200 72.4 191.5 72.6 186 78 Z
+                 M188 152 L185 200 C172 209 152 215 139 221 C132.6 224.6 128 232 126 242
+                 L129.5 268 C155 255 195 249 225 251 C255 253 283 259 299 267
+                 L303 239 C295 227 271 217 251 209 L237 199 L233 144 L206 158 Z"
+              fill="#7a5238" fill-opacity="0.45"/>
+        <path d="M190 154 C200 164 218 164 231 151 L234 192 C220 204 200 204 186 196 Z"
+              fill="#7a5238" fill-opacity="0.18"/>
+      </g>
+
+      <!-- coily hair: soft cloud -->
+      <path d="M172 110 C164 104 161 94 166 86 C161 76 166 65 175 61
+               C175 49 185 41 196 43 C201 33 216 30 226 36
+               C238 32 251 38 255 49 C266 51 273 62 270 73
+               C279 80 281 93 274 101 C279 110 276 121 268 126
+               C270 134 266 142 259 145 L244 134
+               C240 104 230 84 214 78 C202 73.5 190 76 184 84
+               C178 92 174 100 172 110 Z"
+            fill="url(#prSil)" opacity="0.12"/>
+      <g fill="none" stroke="url(#prSil)" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M172 110 C164 104 161 94 166 86 C161 76 166 65 175 61 C175 49 185 41 196 43 C201 33 216 30 226 36 C238 32 251 38 255 49 C266 51 273 62 270 73 C279 80 281 93 274 101 C279 110 276 121 268 126 C270 134 266 142 259 145" stroke-width="1.8"/>
+        <!-- hairline scallops -->
+        <path d="M186 78 q7 -6 13 -1 q7 -6 13 0 q8 -4 12 3 q8 -1 10 6 q6 1 7 8" stroke-width="1" opacity="0.6"/>
+        <!-- curl hints -->
+        <path d="M192 56 a6 6 0 1 1 6 7" stroke-width="0.9" opacity="0.5"/>
+        <path d="M224 46 a6 6 0 1 0 7 5" stroke-width="0.9" opacity="0.5"/>
+        <path d="M250 66 a5.5 5.5 0 1 1 4 7" stroke-width="0.9" opacity="0.5"/>
+        <path d="M262 96 a5.5 5.5 0 1 0 5 6" stroke-width="0.9" opacity="0.45"/>
+        <path d="M174 86 a5.5 5.5 0 1 1 5 -6" stroke-width="0.9" opacity="0.45"/>
+        <path d="M258 128 a5 5 0 1 1 3 6" stroke-width="0.9" opacity="0.4"/>
+      </g>
+
+      <!-- face: quiet joy, eyes meeting yours -->
+      <g fill="none" stroke="url(#prSil)" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M186 80 C178.5 91 174.5 103 174.3 114 C174 129 178.5 143 187 153 C192.5 159 200 161 206.5 158.5 C214.5 155.5 226 149 234 140" stroke-width="2"/>
+        <!-- brows -->
+        <path d="M176 104 C180.5 100.4 186.5 99.8 191 102" stroke-width="1.9"/>
+        <path d="M205 101.6 C211.5 98.8 218.5 99.4 224.5 103" stroke-width="1.9"/>
+        <!-- far eye, softly lifted by the smile -->
+        <circle cx="183.2" cy="114" r="2.6" fill="#17171c" fill-opacity="0.55" stroke-width="0.8"/>
+        <circle cx="182.3" cy="113.2" r="0.6" fill="#eef1f6" stroke="none"/>
+        <path d="M176.4 115 C180 111.2 185.6 110.6 189.6 113.4" stroke-width="1.7"/>
+        <path d="M177.8 117.6 C181.4 119.2 186 119 189.4 116.2" stroke-width="0.8" opacity="0.5"/>
+        <!-- near eye -->
+        <circle cx="214.8" cy="113.4" r="2.8" fill="#17171c" fill-opacity="0.55" stroke-width="0.8"/>
+        <circle cx="213.8" cy="112.5" r="0.65" fill="#eef1f6" stroke="none"/>
+        <path d="M206.6 114 C211.2 110.2 217.6 110 222.6 113.2" stroke-width="1.7"/>
+        <path d="M222.6 113.2 L226.4 111.8" stroke-width="1.2"/>
+        <path d="M207.8 116.8 C212.2 118.8 217.6 118.5 221.8 115.6" stroke-width="0.8" opacity="0.5"/>
+        <!-- cheeks lifted -->
+        <path d="M179 126 q4.5 3.5 10 2.5" stroke-width="0.55" opacity="0.3"/>
+        <path d="M207 125.5 q5.5 3.5 11 1.5" stroke-width="0.55" opacity="0.3"/>
+        <!-- nose -->
+        <path d="M197 112 C195.5 120 194.3 127 193 132.5" stroke-width="0.8" opacity="0.6"/>
+        <path d="M193 132.5 C191 135.6 191.2 138.2 193.6 139.4 C196.2 140.7 199 140.1 200.6 138.6" stroke-width="1.25"/>
+        <path d="M203.2 138.8 C204.4 138.2 205 137.2 204.9 136" stroke-width="0.75" opacity="0.5"/>
+        <!-- lips: full, smiling -->
+        <path d="M189 147.6 C193 145.2 196.2 144.8 198.2 146.2 C200.2 144.8 203.2 145 206.2 146.1 C208 146.8 209.4 147.5 210.4 148.2" stroke-width="1.35"/>
+        <path d="M186.8 146.4 C190.6 150.4 205.4 150.9 212.6 146.2" stroke-width="1.05" opacity="0.9"/>
+        <path d="M191 150.6 C194.4 155.4 204.8 155.7 208.8 150.8" stroke-width="1.05" opacity="0.7"/>
+        <path d="M185.2 144.6 C184.3 146 184.4 147.4 185.5 148.6" stroke-width="0.7" opacity="0.45"/>
+        <path d="M214.2 144.4 C215.2 145.7 215.1 147.2 214 148.4" stroke-width="0.7" opacity="0.45"/>
+        <!-- chin -->
+        <path d="M196 158 C198.4 159.2 201.4 159.2 203.6 158" stroke-width="0.65" opacity="0.3"/>
+      </g>
+
+      <!-- neck, collarbones -->
+      <g fill="none" stroke="url(#prSil)" stroke-linecap="round">
+        <path d="M188.5 161 C187 175 186 188 185 200" stroke-width="1.6"/>
+        <path d="M233.5 146 C235 164 236 183 237 198" stroke-width="1.6"/>
+        <path d="M184 196 C170 207 150 214 134 222" stroke-width="1.8"/>
+        <path d="M238 195 C254 204 276 212 296 222" stroke-width="1.8"/>
+        <path d="M204 222 C192 216 172 212 152 216 C146 217.2 140 219.4 136 222" stroke-width="1.6"/>
+        <path d="M214 221 C228 215 248 211 268 215 C274 216.2 280 218.4 284 221" stroke-width="1.6"/>
+      </g>
+
+      <!-- camisole neckline -->
+      <path d="M148 246 C180 263 230 263 260 243" fill="none" stroke="url(#prSil)" stroke-width="1.3" stroke-linecap="round"/>
+      <path d="M148 246 C180 263 230 263 260 243 L266 300 L142 300 Z" fill="url(#prSil)" opacity="0.06"/>
+
+      <!-- feather pendant in the reflection -->
+      <path d="M186 190 C194 211 202 223 209 229" fill="none" stroke="url(#prSil)"
+            stroke-width="4" stroke-linecap="round" stroke-dasharray="0.1 7"/>
+      <path d="M237 189 C231 210 221 223 212 229" fill="none" stroke="url(#prSil)"
+            stroke-width="4" stroke-linecap="round" stroke-dasharray="0.1 7"/>
+      <circle cx="210.5" cy="225" r="2.8" fill="url(#prTq)"/>
+      <circle cx="210.5" cy="232.5" r="3" fill="none" stroke="url(#prSil)" stroke-width="1.4"/>
+      <path d="M210.5 236 C204 247 201 260 204 272 C205.5 278.5 208 283.5 211 288
+               C215.5 281.5 218.4 272 218.9 262 C219.4 251.5 216.5 242.5 212.5 236.5 Z"
+            fill="#17171c" fill-opacity="0.4" stroke="url(#prSil)" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M204 270 C205 277 208 282.6 211 287.6 C215 281.6 218 273.5 218.8 264.5
+               C214.5 269.5 209.3 271.5 204 270 Z"
+            fill="url(#prGold)" fill-opacity="0.8" stroke="#c9a24b" stroke-width="0.8"/>
+      <path d="M210.5 236.5 C209 252 209.5 268 211 286.5" fill="none" stroke="#eef1f6" stroke-width="1" opacity="0.9"/>
+      <path d="M221 246 L222.3 250.2 L226.5 251.5 L222.3 252.8 L221 257 L219.7 252.8 L215.5 251.5 L219.7 250.2 Z" fill="#eef1f6" opacity="0.8"/>
+    </g>
+
+    <!-- glass sheen streaks over the reflection -->
+    <g stroke="#eef1f6" stroke-width="0.7" opacity="0.13">
+      <line x1="322" y1="150" x2="422" y2="92"/>
+      <line x1="330" y1="196" x2="452" y2="122"/>
+      <line x1="372" y1="360" x2="460" y2="306"/>
+    </g>
+  </g>
+
+  <!-- ===== the woman, seen from behind ===== -->
+  <!-- skin: deep brown tonal fill -->
+  <g filter="url(#prSoft)">
+    <path d="M212 222 C222 230 236 230 246 220 L250 256 C272 262 296 272 314 284
+             L306 308 C260 332 194 330 152 306 L138 290 C158 274 188 262 210 256 Z"
+          fill="#7a5238" fill-opacity="0.45"/>
+    <path d="M276 176 C284 186 287 200 283 212 L272 206 C276 196 277 186 276 176 Z"
+          fill="#7a5238" fill-opacity="0.4"/>
+  </g>
+
+  <!-- coily hair cloud, from behind -->
+  <path d="M172 195 C160 188 154 174 160 162 C152 150 156 134 168 128
+           C164 112 174 98 190 96 C192 80 208 70 224 74
+           C238 64 258 68 266 82 C282 82 294 96 292 112
+           C304 122 306 140 296 152 C304 164 300 182 288 190
+           C290 202 282 214 270 216 C260 224 244 226 234 220
+           C220 228 200 226 190 216 C180 214 172 206 172 195 Z"
+        fill="url(#prSil)" opacity="0.11"/>
+  <g fill="none" stroke="url(#prSil)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M172 195 C160 188 154 174 160 162 C152 150 156 134 168 128 C164 112 174 98 190 96 C192 80 208 70 224 74 C238 64 258 68 266 82 C282 82 294 96 292 112 C304 122 306 140 296 152 C304 164 300 182 288 190 C290 202 282 214 270 216 C260 224 244 226 234 220 C220 228 200 226 190 216 C180 214 172 206 172 195 Z" stroke-width="2"/>
+    <!-- curls -->
+    <path d="M196 112 a8 8 0 1 1 8 8" stroke-width="1" opacity="0.5"/>
+    <path d="M232 90 a8 8 0 1 0 9 6" stroke-width="1" opacity="0.5"/>
+    <path d="M262 110 a7 7 0 1 1 5 8" stroke-width="1" opacity="0.5"/>
+    <path d="M276 146 a7 7 0 1 0 6 7" stroke-width="1" opacity="0.45"/>
+    <path d="M180 150 a7 7 0 1 1 -6 -8" stroke-width="1" opacity="0.45"/>
+    <path d="M214 146 a8 8 0 1 0 8 7" stroke-width="1" opacity="0.4"/>
+    <path d="M246 172 a7 7 0 1 1 7 6" stroke-width="1" opacity="0.4"/>
+    <path d="M206 186 a7 7 0 1 0 7 6" stroke-width="1" opacity="0.38"/>
+    <path d="M258 196 a6 6 0 1 1 6 5" stroke-width="1" opacity="0.35"/>
+  </g>
+
+  <!-- sliver of her cheek and a gold hoop -->
+  <path d="M283 186 C288 193 289 202 285 210" fill="none" stroke="url(#prSil)" stroke-width="1.4" stroke-linecap="round"/>
+  <circle cx="281" cy="216" r="5.5" fill="none" stroke="url(#prGold)" stroke-width="1.5"/>
+
+  <!-- neck, shoulders, arms, back -->
+  <g fill="none" stroke="url(#prSil)" stroke-linecap="round">
+    <path d="M214 224 C215 236 214.5 246 212 254" stroke-width="1.6"/>
+    <path d="M244 220 C246 234 247 246 247 254" stroke-width="1.6"/>
+    <path d="M229 232 C229.5 240 229.5 246 229 251" stroke-width="0.7" opacity="0.35"/>
+    <path d="M212 250 C190 258 160 272 138 288" stroke-width="1.8"/>
+    <path d="M246 250 C272 258 298 266 318 278" stroke-width="1.8"/>
+    <path d="M138 288 C124 300 114 318 110 340 C106 366 104 398 104 432" stroke-width="1.6"/>
+    <path d="M318 278 C330 290 338 308 341 330 C344 360 344 400 342 432" stroke-width="1.6"/>
+  </g>
+
+  <!-- camisole back -->
+  <path d="M152 306 C190 330 260 332 306 306" fill="none" stroke="url(#prSil)" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M158 312 C192 332 258 334 300 312" fill="none" stroke="url(#prSil)" stroke-width="0.7" opacity="0.4" stroke-linecap="round"/>
+  <path d="M152 306 C190 330 260 332 306 306 C320 318 332 336 336 356 L339 432 L107 432 L107 344 C112 322 126 306 140 292 Z"
+        fill="url(#prSil)" opacity="0.06"/>
+  <g fill="none" stroke="url(#prSil)" stroke-linecap="round" opacity="0.3">
+    <path d="M176 330 C178 360 178 396 176 428" stroke-width="0.8"/>
+    <path d="M226 336 C227 366 227 400 226 430" stroke-width="0.8"/>
+    <path d="M276 330 C279 362 280 398 279 428" stroke-width="0.8"/>
+  </g>
+</svg>
