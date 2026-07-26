@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="手入れの道具の静物画。磨き布の上に休むフェザーペンダント、布袋、小さなブラシ">
+  <defs>
+    <linearGradient id="ct-ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1b19"/>
+      <stop offset="1" stop-color="#6b6f78"/>
+    </linearGradient>
+  </defs>
+
+  <!-- table edge -->
+  <line x1="30" y1="392" x2="570" y2="392" stroke="#6b6f78" stroke-width="1.2" opacity="0.6"/>
+  <line x1="60" y1="404" x2="540" y2="404" stroke="#6b6f78" stroke-width="0.7" opacity="0.35"/>
+
+  <!-- polishing cloth, softly draped -->
+  <g fill="none" stroke="url(#ct-ink)" stroke-width="2" stroke-linejoin="round">
+    <path d="M96 372 C90 330 118 300 168 288 C240 272 330 274 396 292 C428 300 446 322 440 352 C436 372 416 382 386 384 C300 390 160 392 118 386 C104 384 98 380 96 372 Z"/>
+    <!-- folds -->
+    <g stroke-width="1" opacity="0.55">
+      <path d="M140 300 C170 322 200 334 236 340"/>
+      <path d="M300 282 C306 308 306 336 300 362"/>
+      <path d="M368 292 C352 316 344 340 344 366"/>
+      <path d="M128 344 C160 356 208 364 260 366"/>
+    </g>
+    <!-- hem stitches -->
+    <g stroke-width="0.8" opacity="0.45" stroke-dasharray="4 5">
+      <path d="M104 366 C100 332 124 306 170 294"/>
+    </g>
+  </g>
+
+  <!-- feather pendant resting on the cloth -->
+  <g fill="none" stroke="#1c1b19" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- loop and hook -->
+    <circle cx="212" cy="306" r="7"/>
+    <path d="M212 299 C206 292 208 284 216 282"/>
+    <!-- feather shaft, curving right -->
+    <path d="M216 312 C246 322 290 328 336 326"/>
+    <!-- feather outline -->
+    <path d="M218 306 C252 300 300 304 340 318 C344 320 344 324 340 326 C300 338 252 336 220 318 C216 316 215 308 218 306 Z"/>
+    <!-- barbs -->
+    <g stroke-width="1" opacity="0.6">
+      <line x1="238" y1="305" x2="234" y2="326"/>
+      <line x1="258" y1="305" x2="254" y2="330"/>
+      <line x1="278" y1="306" x2="275" y2="332"/>
+      <line x1="298" y1="309" x2="296" y2="333"/>
+      <line x1="316" y1="312" x2="315" y2="331"/>
+    </g>
+  </g>
+  <!-- gold tip micro-accent on the feather -->
+  <path d="M336 316 C342 318 345 321 346 322 C345 324 342 326 336 328" fill="none" stroke="#c9a24b" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- small turquoise bead beside the pendant -->
+  <circle cx="196" cy="332" r="6.5" fill="#3aa8a0" stroke="#1c1b19" stroke-width="1.4"/>
+  <circle cx="194" cy="330" r="1.6" fill="#f7f4ee" opacity="0.8"/>
+
+  <!-- drawstring cloth pouch, back left -->
+  <g fill="none" stroke="url(#ct-ink)" stroke-width="2" stroke-linejoin="round">
+    <path d="M118 256 C96 232 92 196 108 168 C114 158 112 148 108 140 C130 152 150 152 172 140 C168 148 166 158 172 168 C188 196 184 232 162 256 C148 262 132 262 118 256 Z"/>
+    <!-- gathered neck -->
+    <path d="M112 150 C130 158 150 158 168 150" stroke-width="1.2" opacity="0.7"/>
+    <!-- drawstring -->
+    <path d="M108 146 C126 154 154 154 172 146" stroke-width="1.6"/>
+    <path d="M172 146 C186 148 192 156 190 166 C188 172 182 174 178 170" stroke-width="1.6"/>
+    <circle cx="177" cy="173" r="3" stroke-width="1.4"/>
+    <!-- fabric folds -->
+    <g stroke-width="1" opacity="0.5">
+      <path d="M124 170 C118 198 118 226 126 250"/>
+      <path d="M144 172 C142 200 142 228 144 254"/>
+      <path d="M160 170 C166 198 166 226 158 250"/>
+    </g>
+  </g>
+
+  <!-- small brush, right -->
+  <g fill="none" stroke="url(#ct-ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- handle -->
+    <path d="M470 208 L522 300 C526 308 522 316 514 318 C508 320 502 316 500 310 L456 216 C462 210 466 208 470 208 Z"/>
+    <!-- ferrule -->
+    <path d="M452 218 L472 206" stroke-width="2.4"/>
+    <path d="M446 208 L466 196" stroke-width="1.2" opacity="0.7"/>
+    <!-- bristles -->
+    <g stroke-width="1.2" opacity="0.75">
+      <path d="M448 214 C436 208 426 200 420 190"/>
+      <path d="M452 210 C442 202 434 192 430 182"/>
+      <path d="M458 206 C450 196 444 186 442 176"/>
+      <path d="M464 202 C458 192 454 182 454 172"/>
+    </g>
+  </g>
+  <!-- gold ferrule accent -->
+  <line x1="454" y1="215" x2="470" y2="205" stroke="#c9a24b" stroke-width="1.6" opacity="0.9"/>
+
+  <!-- leather thong coiled, front right -->
+  <g fill="none" stroke="#6b6f78" stroke-width="1.8" stroke-linecap="round">
+    <ellipse cx="470" cy="366" rx="46" ry="14"/>
+    <ellipse cx="470" cy="360" rx="38" ry="11" opacity="0.7"/>
+    <path d="M508 372 C520 376 528 382 532 388" opacity="0.8"/>
+  </g>
+
+  <!-- faint hatching shadows to seat the objects -->
+  <g stroke="#6b6f78" stroke-width="0.7" opacity="0.3">
+    <line x1="104" y1="266" x2="176" y2="266"/>
+    <line x1="112" y1="272" x2="168" y2="272"/>
+    <line x1="430" y1="382" x2="516" y2="382"/>
+    <line x1="500" y1="326" x2="524" y2="326"/>
+  </g>
+</svg>

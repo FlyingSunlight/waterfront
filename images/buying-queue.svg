@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="夜明けの原宿。小さな店の前に、静かに並ぶ人々の列">
+  <defs>
+    <linearGradient id="bq-sil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.55" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="bq-sil-soft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="bq-dawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5BCEFA" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#5BCEFA" stop-opacity="0.10"/>
+      <stop offset="0.82" stop-color="#F5A9B8" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#F5A9B8" stop-opacity="0.05"/>
+    </linearGradient>
+    <radialGradient id="bq-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#c9a24b" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#c9a24b" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#c9a24b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bq-window" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6c97e" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#a8823a" stop-opacity="0.65"/>
+    </linearGradient>
+  </defs>
+
+  <!-- dawn sky: very soft trans-hued light on the horizon -->
+  <rect x="0" y="60" width="1200" height="260" fill="url(#bq-dawn)"/>
+
+  <!-- distant skyline, faint engraved lines -->
+  <g fill="none" stroke="#8b8f99" stroke-width="1" opacity="0.35">
+    <path d="M0 288 H70 V236 H108 V288 H150 V254 H196 V288 H240 V222 H300 V288"/>
+    <path d="M300 288 H352 V246 H420 V288 H470 V230 H520 V288 H560 V262 H610 V288"/>
+    <path d="M610 288 H668 V240 H726 V288"/>
+    <line x1="0" y1="288" x2="1200" y2="288"/>
+  </g>
+  <!-- overhead wires, a Tokyo morning -->
+  <g fill="none" stroke="#8b8f99" stroke-width="0.8" opacity="0.3">
+    <path d="M0 96 C300 120 620 108 900 92"/>
+    <path d="M0 116 C320 140 640 126 900 104"/>
+  </g>
+
+  <!-- street lamp still lit, left -->
+  <g stroke="url(#bq-sil-soft)" stroke-width="2" fill="none" opacity="0.7">
+    <line x1="96" y1="330" x2="96" y2="150"/>
+    <path d="M96 150 C96 138 106 132 118 132"/>
+  </g>
+  <circle cx="122" cy="132" r="14" fill="url(#bq-glow)"/>
+  <circle cx="122" cy="132" r="3.4" fill="#e6c97e" opacity="0.9"/>
+
+  <!-- the storefront, right side -->
+  <ellipse cx="1035" cy="252" rx="180" ry="120" fill="url(#bq-glow)"/>
+  <g fill="none" stroke="url(#bq-sil)" stroke-width="2.4" stroke-linejoin="round">
+    <!-- building block -->
+    <path d="M905 330 V150 H1175 V330"/>
+    <!-- awning -->
+    <path d="M898 196 H1182 L1170 172 H910 Z"/>
+    <g stroke-width="1.2" opacity="0.7">
+      <line x1="922" y1="196" x2="930" y2="174"/>
+      <line x1="958" y1="196" x2="964" y2="174"/>
+      <line x1="994" y1="196" x2="998" y2="174"/>
+      <line x1="1030" y1="196" x2="1032" y2="174"/>
+      <line x1="1066" y1="196" x2="1066" y2="174"/>
+      <line x1="1102" y1="196" x2="1100" y2="174"/>
+      <line x1="1138" y1="196" x2="1134" y2="174"/>
+    </g>
+    <!-- door -->
+    <path d="M1108 330 V222 H1156 V330"/>
+    <circle cx="1116" cy="278" r="2.4"/>
+  </g>
+  <!-- warm shop window -->
+  <rect x="928" y="216" width="156" height="90" rx="3" fill="url(#bq-window)" opacity="0.5"/>
+  <rect x="928" y="216" width="156" height="90" rx="3" fill="none" stroke="url(#bq-sil)" stroke-width="2"/>
+  <line x1="1006" y1="216" x2="1006" y2="306" stroke="#8b8f99" stroke-width="1" opacity="0.6"/>
+  <!-- small eagle mark above the window -->
+  <g fill="none" stroke="#e6c97e" stroke-width="1.6" stroke-linecap="round" opacity="0.9">
+    <path d="M1041 156 C1033 150 1023 148 1012 150 C1018 154 1020 157 1021 160 C1027 159 1032 160 1035 162"/>
+    <path d="M1041 156 C1049 150 1059 148 1070 150 C1064 154 1062 157 1061 160 C1055 159 1050 160 1047 162"/>
+    <path d="M1041 156 C1040 152 1040 148 1041 145 C1043 148 1045 150 1047 151"/>
+    <path d="M1039 160 C1039 165 1040 169 1041 172 C1042 169 1043 165 1043 160"/>
+  </g>
+
+  <!-- pavement -->
+  <line x1="0" y1="330" x2="1200" y2="330" stroke="url(#bq-sil)" stroke-width="2"/>
+  <g stroke="#8b8f99" stroke-width="0.8" opacity="0.35">
+    <line x1="60" y1="352" x2="260" y2="352"/>
+    <line x1="330" y1="366" x2="600" y2="366"/>
+    <line x1="700" y1="352" x2="940" y2="352"/>
+    <line x1="1000" y1="368" x2="1180" y2="368"/>
+  </g>
+
+  <!-- the queue: varied figures, engraved silhouettes, waiting quietly -->
+  <g fill="none" stroke="url(#bq-sil)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 1: long coat, long hair, closest to the door -->
+    <g>
+      <circle cx="862" cy="216" r="11"/>
+      <path d="M856 224 C852 232 851 244 852 252"/>
+      <path d="M852 227 C848 258 848 296 852 330 M872 227 C876 258 876 296 872 330"/>
+      <path d="M852 262 C858 266 866 266 872 262"/>
+    </g>
+    <!-- 2: figure with shoulder bag -->
+    <g>
+      <circle cx="778" cy="222" r="10.4"/>
+      <path d="M770 233 C765 262 765 300 768 330 M786 233 C791 262 791 300 788 330"/>
+      <path d="M770 240 L790 288"/>
+      <path d="M788 288 C798 288 800 296 799 304 C798 310 792 312 786 310 C782 308 781 300 783 294"/>
+    </g>
+    <!-- 3: shorter figure, hands in pockets -->
+    <g>
+      <circle cx="700" cy="234" r="9.6"/>
+      <path d="M693 244 C689 268 689 302 692 330 M707 244 C711 268 711 302 708 330"/>
+      <path d="M693 252 C690 262 690 272 693 280 M707 252 C710 262 710 272 707 280"/>
+    </g>
+    <!-- 4: figure holding warm drink, slight vapor -->
+    <g>
+      <circle cx="618" cy="226" r="10.2"/>
+      <path d="M610 237 C606 264 606 300 609 330 M626 237 C630 264 630 300 627 330"/>
+      <path d="M610 246 C606 256 604 264 606 270 L616 268 M626 246 C630 256 632 264 630 270 L620 268"/>
+      <rect x="611" y="264" width="11" height="13" rx="2" stroke-width="1.8"/>
+    </g>
+    <!-- 5: tall figure, folded arms -->
+    <g>
+      <circle cx="534" cy="214" r="10.8"/>
+      <path d="M526 226 C521 258 521 298 525 330 M542 226 C547 258 547 298 543 330"/>
+      <path d="M525 254 C533 260 539 260 543 254"/>
+    </g>
+    <!-- 6: figure looking toward the dawn -->
+    <g>
+      <circle cx="446" cy="228" r="10"/>
+      <path d="M438 239 C434 266 434 302 437 330 M454 239 C458 266 458 302 455 330"/>
+      <path d="M438 248 C434 258 433 266 435 274 M454 248 C458 258 459 266 457 274"/>
+    </g>
+    <!-- 7: last in line, just arriving with tote -->
+    <g>
+      <circle cx="352" cy="234" r="9.8"/>
+      <path d="M345 244 C341 268 341 302 344 330 M359 244 C363 268 363 302 360 330"/>
+      <path d="M359 252 L366 284"/>
+      <path d="M360 284 H376 L373 312 H363 Z" stroke-width="1.8"/>
+    </g>
+  </g>
+  <!-- vapor from the warm drink -->
+  <path d="M616 254 C614 250 618 248 616 244" fill="none" stroke="#eef1f6" stroke-width="1" opacity="0.5"/>
+
+  <!-- soft ground reflections of the window light -->
+  <g stroke="#c9a24b" stroke-width="1" opacity="0.28">
+    <line x1="940" y1="338" x2="1080" y2="338"/>
+    <line x1="960" y1="346" x2="1060" y2="346"/>
+  </g>
+
+  <!-- a few fading stars -->
+  <g fill="#eef1f6" opacity="0.55">
+    <circle cx="180" cy="52" r="1.4"/>
+    <circle cx="330" cy="34" r="1.1"/>
+    <circle cx="520" cy="58" r="1.2"/>
+    <circle cx="760" cy="40" r="1"/>
+  </g>
+</svg>
