@@ -41,10 +41,6 @@
     <circle cx="144.6" cy="147.5" r="1.7" fill="url(#s)"/>
     <circle cx="235.4" cy="147.5" r="1.7" fill="url(#s)"/>
 
-    <!-- cheekbone light -->
-    <path d="M 158 151 C 162 146.6 168 144.6 173.5 145.6" fill="none" stroke="#eef1f6" stroke-width="0.9" stroke-linecap="round" opacity="0.28"/>
-    <path d="M 222 151 C 218 146.6 212 144.6 206.5 145.6" fill="none" stroke="#eef1f6" stroke-width="0.9" stroke-linecap="round" opacity="0.28"/>
-
     <!-- brows : full, softly arched -->
     <path d="M 157.5 125 C 163.5 120.4 173 119.8 181 123.2" fill="none" stroke="url(#s)" stroke-width="2.1" stroke-linecap="round" opacity="0.85"/>
     <path d="M 222.5 125 C 216.5 120.4 207 119.8 199 123.2" fill="none" stroke="url(#s)" stroke-width="2.1" stroke-linecap="round" opacity="0.85"/>

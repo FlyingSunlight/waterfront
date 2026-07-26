@@ -111,29 +111,36 @@
     <path d="M 140 112
       C 138 78 160 55 190 54
       C 220 55 242 78 240 112
-      C 240 119 239 125 237.5 130
-      C 235 121 236 114 235 107
-      C 231 86 213 71 190 71
-      C 167 71 149 86 145 107
-      C 144 114 145 121 142.5 130
-      C 141 125 140 119 140 112 Z" fill="url(#s)" opacity="0.22"/>
+      C 240 119 239 125 237.5 131
+      L 235 128
+      C 235.4 122 235.2 116 235 112
+      C 233 93 216 82 190 82
+      C 164 82 147 93 145 112
+      C 144.8 116 144.6 122 145 128
+      L 142.5 131
+      C 141 125 140 119 140 112 Z" fill="url(#s)" opacity="0.32"/>
     <g fill="none" stroke="url(#s)" stroke-linecap="round">
       <path d="M 140 112 C 138 78 160 55 190 54 C 220 55 242 78 240 112 C 240 120 239 126 237.5 131" stroke-width="1.8" opacity="0.9"/>
-      <path d="M 142.5 130 C 140.8 124 140 118 140 112" stroke-width="1.4" opacity="0.75"/>
-      <path d="M 148 88 C 156 72 172 62 190 61" stroke-width="1.1" opacity="0.65"/>
-      <path d="M 152 78 C 162 66 176 59 191 58" stroke-width="0.9" opacity="0.5"/>
-      <path d="M 232 88 C 224 72 208 62 190 61" stroke-width="1.1" opacity="0.65"/>
-      <path d="M 228 78 C 218 66 204 59 189 58" stroke-width="0.9" opacity="0.5"/>
-      <path d="M 145 102 C 150 84 164 70 182 66" stroke-width="0.8" opacity="0.45"/>
-      <path d="M 235 102 C 230 84 216 70 198 66" stroke-width="0.8" opacity="0.45"/>
-      <path d="M 144 116 C 146 100 154 84 168 74" stroke-width="0.8" opacity="0.4"/>
-      <path d="M 236 116 C 234 100 226 84 212 74" stroke-width="0.8" opacity="0.4"/>
-      <path d="M 143 124 Q 146 118 146 112" stroke-width="0.8" opacity="0.55"/>
-      <path d="M 237 124 Q 234 118 234 112" stroke-width="0.8" opacity="0.55"/>
-      <path d="M 144 126 Q 141 132 141.5 138" stroke-width="0.7" opacity="0.4"/>
-      <path d="M 236 126 Q 239 132 238.5 138" stroke-width="0.7" opacity="0.4"/>
-      <path d="M 158 70 C 168 63 180 60 190 60" stroke-width="0.7" opacity="0.35"/>
-      <path d="M 222 70 C 212 63 200 60 190 60" stroke-width="0.7" opacity="0.35"/>
+      <path d="M 142.5 131 C 141 125 140 119 140 112" stroke-width="1.4" opacity="0.75"/>
+      <path d="M 145 112 C 147 93 164 82 190 82 C 216 82 233 93 235 112" stroke-width="1" opacity="0.6"/>
+      <path d="M 148 88 C 156 72 172 62 190 61" stroke-width="1.1" opacity="0.7"/>
+      <path d="M 152 78 C 162 66 176 59 191 58" stroke-width="0.9" opacity="0.55"/>
+      <path d="M 232 88 C 224 72 208 62 190 61" stroke-width="1.1" opacity="0.7"/>
+      <path d="M 228 78 C 218 66 204 59 189 58" stroke-width="0.9" opacity="0.55"/>
+      <path d="M 146 100 C 152 82 166 68 184 64" stroke-width="0.9" opacity="0.5"/>
+      <path d="M 234 100 C 228 82 214 68 196 64" stroke-width="0.9" opacity="0.5"/>
+      <path d="M 150 92 C 158 78 172 68 188 66" stroke-width="0.8" opacity="0.4"/>
+      <path d="M 230 92 C 222 78 208 68 192 66" stroke-width="0.8" opacity="0.4"/>
+      <path d="M 154 90 C 160 96 168 99 176 99" stroke-width="0.8" opacity="0.45"/>
+      <path d="M 226 90 C 220 96 212 99 204 99" stroke-width="0.8" opacity="0.45"/>
+      <path d="M 165 86 C 173 91 182 93 190 93" stroke-width="0.7" opacity="0.35"/>
+      <path d="M 215 86 C 207 91 198 93 190 93" stroke-width="0.7" opacity="0.35"/>
+      <path d="M 144 118 Q 146.5 112 146.5 106" stroke-width="0.8" opacity="0.55"/>
+      <path d="M 236 118 Q 233.5 112 233.5 106" stroke-width="0.8" opacity="0.55"/>
+      <path d="M 145 126 Q 142 132 142.5 138" stroke-width="0.7" opacity="0.4"/>
+      <path d="M 235 126 Q 238 132 237.5 138" stroke-width="0.7" opacity="0.4"/>
+      <path d="M 158 70 C 168 63 180 60 190 60" stroke-width="0.7" opacity="0.4"/>
+      <path d="M 222 70 C 212 63 200 60 190 60" stroke-width="0.7" opacity="0.4"/>
     </g>
 
     <!-- bead strand -->

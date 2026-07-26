@@ -78,12 +78,12 @@
     <!-- garment neckline under scarf -->
     <path d="M 152 260 C 166 251.5 178 247.5 190 248 C 202 247.5 214 251.5 228 260" fill="none" stroke="url(#s)" stroke-width="0.9" stroke-linecap="round" opacity="0.4"/>
 
-    <!-- hair visible at forehead -->
-    <path d="M 152 116 C 153 98 168 84 190 82 C 212 84 227 98 228 116 C 224 106 216 96 206 91 C 196 86.6 184 86.6 174 91 C 164 96 156 106 152 116 Z" fill="#0c0c11" opacity="0.85"/>
-    <path d="M 190 84 C 181 86 172 91 166 98" fill="none" stroke="url(#s)" stroke-width="0.9" stroke-linecap="round" opacity="0.6"/>
-    <path d="M 190 84 C 199 86 208 91 214 98" fill="none" stroke="url(#s)" stroke-width="0.9" stroke-linecap="round" opacity="0.6"/>
-    <path d="M 190 86 C 183 89 176 94 171 101" fill="none" stroke="url(#s)" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
-    <path d="M 190 86 C 197 89 204 94 209 101" fill="none" stroke="url(#s)" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+    <!-- hair visible at forehead : soft parted crescent -->
+    <path d="M 154 108 C 156 90 170 80 190 78.5 C 210 80 224 90 226 108 C 220 96.5 210 89.5 199 87.5 C 193 86.4 187 86.4 181 87.5 C 170 89.5 160 96.5 154 108 Z" fill="#0c0c11" opacity="0.8"/>
+    <path d="M 190 80 C 181 82 172 87 165 95" fill="none" stroke="url(#s)" stroke-width="0.9" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 190 80 C 199 82 208 87 215 95" fill="none" stroke="url(#s)" stroke-width="0.9" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 190 82 C 183 84.5 176 89 171 95.5" fill="none" stroke="url(#s)" stroke-width="0.7" stroke-linecap="round" opacity="0.35"/>
+    <path d="M 190 82 C 197 84.5 204 89 209 95.5" fill="none" stroke="url(#s)" stroke-width="0.7" stroke-linecap="round" opacity="0.35"/>
 
     <!-- headscarf : loose drape -->
     <path d="M 190 46
