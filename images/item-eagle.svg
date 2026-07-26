@@ -94,10 +94,10 @@
 <path d="M185,160 Q200,167 215,160" fill="none" stroke="#6b6f78" stroke-width="0.9" opacity="0.85"/>
 <path d="M187,171 Q200,178 213,171" fill="none" stroke="#6b6f78" stroke-width="0.9" opacity="0.85"/>
 <path d="M189,182 Q200,189 211,182" fill="none" stroke="#6b6f78" stroke-width="0.9" opacity="0.85"/>
-<path d="M213,120 Q217,94 202,86 Q186,79 174,88 Q167,93 164,100 Q162,106 167,109 Q171,111 173,106 L180,112 Q186,122 190,120 Q200,130 213,120 Z" fill="url(#psil)" stroke="#3a3d44" stroke-width="1.5" stroke-linejoin="round"/>
-<path d="M174,95 Q178,100 181,106" fill="none" stroke="#6b6f78" stroke-width="1" opacity="0.85"/>
-<circle cx="189" cy="96" r="2.8" fill="#3a3d44"/>
-<circle cx="188" cy="95" r="1" fill="#f6f8fb"/>
+<path d="M213,120 Q216,96 203,88 Q190,81 178,87 Q169,89 164,95 Q158,99 159,108 Q160,114 165,111 Q169,108 170,104 Q175,106 183,114 Q188,124 192,121 Q200,130 213,120 Z" fill="url(#psil)" stroke="#3a3d44" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M161,103 Q167,102 172,98" fill="none" stroke="#6b6f78" stroke-width="1" opacity="0.9"/>
+<circle cx="184" cy="97" r="2.8" fill="#3a3d44"/>
+<circle cx="183" cy="96" r="1" fill="#f6f8fb"/>
 <circle cx="202" cy="72" r="9.5" fill="none" stroke="url(#psil)" stroke-width="5.4"/>
 <circle cx="202" cy="72" r="9.5" fill="none" stroke="#3a3d44" stroke-width="1.1" opacity="0.6"/>
 </g>
