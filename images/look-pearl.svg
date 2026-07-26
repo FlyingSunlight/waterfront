@@ -154,13 +154,15 @@
   <path d="M 174 191 C 148 199 121 212 105 228 C 93 240 88 268 86 300 L 314 300 C 312 268 307 240 295 228 C 279 212 253 199 226 190 C 219 203 210 214 200 222 C 190 214 181 203 174 191 Z" fill="url(#dress)"/>
   <g fill="none" stroke-linecap="round">
     <path d="M 174 191 C 182 204 191 215 200 222 C 209 215 218 203 226 190" stroke="#3a3a46" stroke-width="1.4" opacity="0.8"/>
-    <g stroke="#31313c" filter="url(#f3)">
-      <path d="M 132 232 C 124 254 119 276 117 298" stroke-width="4" opacity="0.9"/>
-      <path d="M 163 216 C 157 244 153 272 152 298" stroke-width="3.5" opacity="0.8"/>
-      <path d="M 189 234 C 185 258 183 278 182 298" stroke-width="3" opacity="0.8"/>
-      <path d="M 214 236 C 219 258 222 278 223 298" stroke-width="3" opacity="0.75"/>
-      <path d="M 243 219 C 250 244 254 272 256 296" stroke-width="3.5" opacity="0.8"/>
-      <path d="M 281 233 C 288 252 292 274 294 296" stroke-width="4" opacity="0.9"/>
+    <g stroke="#31313c" filter="url(#f4)">
+      <path d="M 132 232 C 122 252 117 274 115 298" stroke-width="5" opacity="0.7"/>
+      <path d="M 164 216 C 156 242 151 270 150 296" stroke-width="4.5" opacity="0.6"/>
+      <path d="M 190 234 C 184 256 181 276 180 296" stroke-width="4" opacity="0.6"/>
+      <path d="M 213 236 C 220 258 224 278 225 298" stroke-width="4" opacity="0.55"/>
+      <path d="M 242 219 C 251 244 256 272 258 296" stroke-width="4.5" opacity="0.6"/>
+      <path d="M 280 233 C 289 252 294 274 296 296" stroke-width="5" opacity="0.7"/>
+      <path d="M 150 262 C 168 268 190 270 200 270" stroke-width="3.5" opacity="0.45"/>
+      <path d="M 250 260 C 234 266 214 269 202 269.5" stroke-width="3.5" opacity="0.4"/>
     </g>
     <path d="M 108 230 C 126 214 152 202 173 194 L 178 202 C 158 209 134 222 117 238 Z" fill="#4a4a58" opacity="0.5" filter="url(#f4)" stroke="none"/>
     <path d="M 290 227 C 300 237 306 253 309 269 L 302 271 C 299 253 293 239 285 231 Z" fill="#5a6474" opacity="0.4" filter="url(#f3)" stroke="none"/>

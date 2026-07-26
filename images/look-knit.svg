@@ -158,6 +158,9 @@
       <path d="M 276 230 C 284 251 289 274 291 298" stroke-width="1.1"/>
     </g>
   </g>
+  <!-- cross folds breaking the ribs -->
+  <path d="M 128 244 C 150 252 176 256 200 256 C 224 256 250 252 272 244" fill="none" stroke="#08080b" stroke-width="5" opacity="0.4" filter="url(#f4)"/>
+  <path d="M 140 226 C 160 234 180 238 200 238" fill="none" stroke="#08080b" stroke-width="4" opacity="0.3" filter="url(#f4)"/>
   <!-- shoulder shading + key light -->
   <path d="M 108 231 C 126 215 152 203 172 196 L 177 204 C 157 210 133 223 117 239 Z" fill="#454554" opacity="0.55" filter="url(#f4)"/>
   <path d="M 292 228 C 302 238 308 254 311 270 L 303 272 C 300 254 294 240 286 232 Z" fill="#5a6474" opacity="0.4" filter="url(#f3)"/>
