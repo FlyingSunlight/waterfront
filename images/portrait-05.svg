@@ -307,8 +307,8 @@
     <g>
       <path d="M 152 112 C 152 86 168 73 194 72 C 220 71 240 84 246 112 C 238 94 224 84 206 82 C 196 80.8 186 81 177 84 C 164 88 156 98 152 112 Z" fill="#1c120c"/>
       <path d="M 186 82.5 L 186.4 75.5" stroke="#332015" stroke-width="1" opacity="0.7"/>
-      <ellipse cx="153.5" cy="103" rx="5" ry="11" fill="#1c120c" opacity="0.9" transform="rotate(-30 153.5 103)"/>
-      <ellipse cx="243" cy="101" rx="4.6" ry="10" fill="#1c120c" opacity="0.85" transform="rotate(28 243 101)"/>
+      <ellipse cx="153" cy="99" rx="3.6" ry="7" fill="#1c120c" opacity="0.85" transform="rotate(-32 153 99)"/>
+      <ellipse cx="242.5" cy="97.5" rx="3.4" ry="6.5" fill="#1c120c" opacity="0.8" transform="rotate(30 242.5 97.5)"/>
     </g>
   </g>
 
