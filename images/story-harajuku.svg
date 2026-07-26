@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="夕暮れの原宿。二階の窓に灯りがともる小さな店と、静かに並ぶ人々">
+  <defs>
+    <radialGradient id="sh-glow" gradientUnits="userSpaceOnUse" cx="730" cy="182" r="200">
+      <stop offset="0" stop-color="#f2d894" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#d9b25f" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#d9b25f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sh-glass" gradientUnits="userSpaceOnUse" x1="730" y1="150" x2="730" y2="215">
+      <stop offset="0" stop-color="#f4dc9c"/>
+      <stop offset="0.6" stop-color="#d9b25f"/>
+      <stop offset="1" stop-color="#b98f3f"/>
+    </linearGradient>
+    <radialGradient id="sh-spill" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d9b25f" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#d9b25f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sh-lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f2d894" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f2d894" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- dusk sky hatching -->
+  <g stroke="#6b6f78" stroke-width="0.8" stroke-linecap="round" opacity="0.18" fill="none">
+    <path d="M30 60 H150"/><path d="M52 74 H196"/><path d="M20 88 H118"/>
+    <path d="M540 52 H700"/><path d="M580 66 H668"/>
+    <path d="M1006 100 H1180"/><path d="M1056 86 H1192"/><path d="M978 114 H1088"/>
+  </g>
+
+  <!-- crescent moon -->
+  <path d="M994 42 a25 25 0 1 0 0 50 a20 20 0 1 1 0 -50 z" fill="none" stroke="#6b6f78" stroke-width="1.1" opacity="0.5"/>
+
+  <!-- birds -->
+  <g stroke="#1c1b19" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.65">
+    <path d="M424 84 Q430 76 436 84 Q442 76 448 84"/>
+    <path d="M468 68 Q473 61 478 68 Q483 61 488 68"/>
+    <path d="M502 92 Q506 86 510 92 Q514 86 518 92"/>
+  </g>
+
+  <!-- background rooflines -->
+  <g stroke="#6b6f78" fill="none" stroke-linejoin="round">
+    <path d="M0 232 H70 V196 H150 V244 H230 V210 H320 V252 H380 V228 H470 V258 H540 V240 H612" stroke-width="1.1" opacity="0.5"/>
+    <path d="M912 240 H980 V206 H1050 V250 H1120 V226 H1200" stroke-width="1.1" opacity="0.5"/>
+    <path d="M70 196 V340 M230 210 V340 M380 228 V340 M540 240 V340 M980 206 V340 M1120 226 V340" stroke-width="0.8" opacity="0.16"/>
+    <!-- faint distant windows -->
+    <path d="M92 214 h12 M114 214 h12 M92 230 h12 M114 230 h12 M250 228 h11 M272 228 h11 M250 244 h11 M1002 224 h11 M1024 224 h11 M1002 240 h11" stroke-width="0.9" opacity="0.28"/>
+  </g>
+
+  <!-- power poles and sagging wires -->
+  <g stroke="#1c1b19" fill="none" stroke-linecap="round">
+    <path d="M328 342 V100" stroke-width="1.8" opacity="0.7"/>
+    <path d="M306 112 H350 M312 126 H344" stroke-width="1.3" opacity="0.7"/>
+    <path d="M312 112 v-5 M328 112 v-5 M344 112 v-5" stroke-width="0.9" opacity="0.6"/>
+    <path d="M1032 342 V102" stroke-width="1.6" opacity="0.6"/>
+    <path d="M1012 114 H1052" stroke-width="1.2" opacity="0.6"/>
+    <path d="M328 114 C560 136 800 136 1032 116" stroke-width="0.9" opacity="0.4"/>
+    <path d="M328 128 C560 148 800 148 1032 128" stroke-width="0.8" opacity="0.3"/>
+  </g>
+
+  <!-- zelkova tree, left foreground -->
+  <g stroke="#1c1b19" stroke-linecap="round" fill="none">
+    <path d="M140 342 C137 300 143 262 140 234" stroke-width="2.4"/>
+    <path d="M140 246 C122 214 108 196 96 176" stroke-width="1.5"/>
+    <path d="M140 240 C156 210 170 194 184 176" stroke-width="1.5"/>
+    <path d="M130 268 C118 250 110 240 102 228" stroke-width="1.1"/>
+    <path d="M149 262 C160 246 168 236 176 224" stroke-width="1.1"/>
+    <path d="M96 176 C90 168 86 162 84 154 M96 176 C102 168 104 162 104 154" stroke-width="0.9" opacity="0.8"/>
+    <path d="M184 176 C190 168 194 160 196 152 M184 176 C178 166 176 160 176 152" stroke-width="0.9" opacity="0.8"/>
+  </g>
+  <g stroke="#6b6f78" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.5">
+    <path d="M70 190 q7 -6 14 -2"/><path d="M96 168 q8 -6 15 -1"/><path d="M124 150 q8 -5 15 0"/>
+    <path d="M156 146 q8 -5 15 1"/><path d="M186 160 q8 -4 14 2"/><path d="M204 182 q7 -4 13 2"/>
+    <path d="M84 214 q7 -5 14 -1"/><path d="M196 208 q7 -5 13 0"/>
+  </g>
+
+  <!-- small tree, right -->
+  <g stroke="#1c1b19" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M1090 342 C1088 312 1092 284 1090 262" stroke-width="1.8"/>
+    <path d="M1090 274 C1078 256 1070 246 1064 236" stroke-width="1.1"/>
+    <path d="M1090 270 C1102 252 1110 244 1116 234" stroke-width="1.1"/>
+  </g>
+  <g stroke="#6b6f78" stroke-width="0.9" stroke-linecap="round" fill="none" opacity="0.45">
+    <path d="M1054 234 q7 -5 13 -1"/><path d="M1082 220 q7 -5 14 0"/><path d="M1108 230 q7 -4 13 1"/>
+  </g>
+
+  <!-- warm glow from the second-floor window -->
+  <circle cx="730" cy="182" r="200" fill="url(#sh-glow)"/>
+  <ellipse cx="730" cy="350" rx="180" ry="20" fill="url(#sh-spill)"/>
+
+  <!-- the shop building -->
+  <g stroke="#1c1b19" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- parapet / roof -->
+    <path d="M612 118 H912" stroke-width="2.2"/>
+    <path d="M618 112 H906" stroke-width="1.2" opacity="0.7"/>
+    <!-- walls -->
+    <path d="M620 118 V340" stroke-width="2"/>
+    <path d="M905 118 V340" stroke-width="2"/>
+    <!-- floor divider -->
+    <path d="M620 238 H905" stroke-width="1.1" opacity="0.6"/>
+    <!-- downpipe -->
+    <path d="M629 122 V338" stroke-width="0.9" opacity="0.45"/>
+    <path d="M626 160 h6 M626 260 h6" stroke-width="0.9" opacity="0.45"/>
+  </g>
+
+  <!-- 2F window: warm glass, mullions, quiet interior -->
+  <rect x="651" y="151" width="158" height="62" rx="2" fill="url(#sh-glass)" opacity="0.8"/>
+  <g stroke="#1c1b19" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="648" y="148" width="164" height="68" rx="2" stroke-width="2.2"/>
+    <path d="M704 148 V216 M757 148 V216" stroke-width="1.4"/>
+    <path d="M648 181 H812" stroke-width="1.1" opacity="0.8"/>
+  </g>
+  <g stroke="#1c1b19" fill="none" stroke-linecap="round" opacity="0.8">
+    <!-- hanging lamp -->
+    <path d="M676 148 V160" stroke-width="1"/>
+    <path d="M671 160 h10 l-3 5 h-4 z" stroke-width="1"/>
+    <!-- counter and a quiet figure at the bench -->
+    <path d="M660 205 H700" stroke-width="1.2"/>
+    <circle cx="686" cy="188" r="4.6" stroke-width="1.2"/>
+    <path d="M686 193 C683 197 681 201 680 205 M686 193 C690 196 692 200 693 205" stroke-width="1.2"/>
+    <!-- shelf with small pieces -->
+    <path d="M766 170 h36 M766 182 h36 M766 194 h36" stroke-width="1"/>
+    <path d="M772 167 v3 M784 167 v3 M796 167 v3 M778 179 v3 M790 179 v3 M772 191 v3 M796 191 v3" stroke-width="1.4"/>
+  </g>
+
+  <!-- projecting sign with feather mark -->
+  <g stroke="#1c1b19" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M620 150 H598" stroke-width="1.4"/>
+    <rect x="582" y="138" width="18" height="26" rx="2" stroke-width="1.4"/>
+    <path d="M591 143 C587 148 587 153 591 159 M591 143 C595 148 595 153 591 159 M591 143 V159" stroke-width="0.9"/>
+  </g>
+  <circle cx="591" cy="146" r="1.8" fill="#3aa8a0"/>
+
+  <!-- 1F: shuttered window, stair entrance, awning -->
+  <g stroke="#1c1b19" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="644" y="262" width="136" height="70" rx="2" stroke-width="1.2" opacity="0.7"/>
+    <path d="M648 272 h128 M648 282 h128 M648 292 h128 M648 302 h128 M648 312 h128 M648 322 h128" stroke-width="0.8" opacity="0.3"/>
+    <!-- awning over the entrance -->
+    <path d="M826 246 H900 L906 260 H820 Z" stroke-width="1.4"/>
+    <path d="M840 246 L836 260 M858 246 L856 260 M876 246 L876 260 M892 246 L894 260" stroke-width="0.8" opacity="0.5"/>
+    <!-- entrance and staircase up to 2F -->
+    <rect x="836" y="262" width="54" height="78" stroke-width="1.6"/>
+    <path d="M842 334 h10 v-10 h10 v-10 h10 v-10 h10 v-10 h4" stroke-width="1.1" opacity="0.85"/>
+    <path d="M844 330 L888 272" stroke-width="0.9" opacity="0.55"/>
+    <!-- small board beside the door -->
+    <rect x="816" y="268" width="12" height="52" stroke-width="1" opacity="0.7"/>
+    <path d="M819 278 h6 M819 288 h6 M819 298 h6" stroke-width="0.9" opacity="0.6"/>
+  </g>
+
+  <!-- street lamp -->
+  <circle cx="552" cy="162" r="22" fill="url(#sh-lamp)"/>
+  <g stroke="#1c1b19" fill="none" stroke-linecap="round">
+    <path d="M520 340 V178" stroke-width="1.8"/>
+    <path d="M520 178 C520 162 534 156 548 158" stroke-width="1.4"/>
+    <path d="M544 158 h12 l-2 8 h-8 z" stroke-width="1.1"/>
+  </g>
+  <circle cx="550" cy="167" r="2.2" fill="#c9a24b"/>
+
+  <!-- the quiet queue -->
+  <g stroke="#1c1b19" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- 1 -->
+    <circle cx="395" cy="296" r="6"/>
+    <path d="M390 307 Q395 305 400 307 M395 303 L394 328 M394 328 L389 342 M394 328 L398 342"/>
+    <!-- 2: long coat -->
+    <circle cx="448" cy="294" r="6"/>
+    <path d="M443 302 L440 332 H456 L452 302 M444 332 L443 342 M452 332 L451 342 M443 306 C438 312 437 318 439 323"/>
+    <!-- 3: looking at phone -->
+    <circle cx="500" cy="297" r="6"/>
+    <path d="M500 304 L500 328 M500 310 L491 316 L493 321 M500 328 L495 342 M500 328 L504 342"/>
+    <!-- 4: turned to chat -->
+    <circle cx="552" cy="295" r="6"/>
+    <path d="M552 302 C554 312 554 320 553 328 M553 308 C558 308 562 311 564 315 M553 328 L548 342 M553 328 L557 342"/>
+    <!-- 5: tote bag -->
+    <circle cx="602" cy="296" r="6"/>
+    <path d="M602 303 L602 328 M602 308 C606 312 609 316 610 320 M602 328 L597 342 M602 328 L606 342"/>
+    <path d="M606 321 h9 v11 h-9 z M607 321 C607 316 613 316 613 321" stroke-width="1.2"/>
+    <!-- 6: smaller -->
+    <circle cx="655" cy="301" r="5.4"/>
+    <path d="M655 307 L655 329 M651 311 Q655 309 659 311 M655 329 L651 342 M655 329 L659 342"/>
+    <!-- 7: adjusting hair -->
+    <circle cx="708" cy="295" r="6"/>
+    <path d="M708 303 L707 328 M708 306 C713 302 714 298 712 295 M707 328 L702 342 M707 328 L711 342"/>
+    <!-- 8 -->
+    <circle cx="758" cy="296" r="6"/>
+    <path d="M758 303 L758 328 M753 308 C750 313 749 318 750 322 M758 328 L753 342 M758 328 L762 342"/>
+    <!-- 9: stepping toward the door -->
+    <circle cx="812" cy="294" r="6"/>
+    <path d="M812 301 C814 312 815 320 814 328 M813 306 C818 309 821 313 822 318 M814 328 L808 342 M814 328 L821 341"/>
+  </g>
+
+  <!-- street -->
+  <g stroke="#1c1b19" fill="none" stroke-linecap="round">
+    <path d="M0 342 H1200" stroke-width="2.2"/>
+    <path d="M0 356 H1200" stroke-width="1" opacity="0.5"/>
+    <path d="M90 344 v9 M270 344 v9 M450 344 v9 M630 344 v9 M810 344 v9 M990 344 v9 M1150 344 v9" stroke-width="0.8" opacity="0.3"/>
+    <path d="M40 380 H1160" stroke-width="1.6" opacity="0.35" stroke-dasharray="26 34"/>
+  </g>
+  <!-- warm light pooling on the pavement -->
+  <g stroke="#c9a24b" stroke-linecap="round" fill="none">
+    <path d="M688 349 H772" stroke-width="1.2" opacity="0.35"/>
+    <path d="M700 357 H760" stroke-width="0.9" opacity="0.18"/>
+  </g>
+</svg>

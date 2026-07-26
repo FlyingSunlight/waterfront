@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="手鏡に三日月の光が映り、銀のフェザーペンダントが縁にかかっている線画">
+  <defs>
+    <linearGradient id="pmSilver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.55" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="pmSilverUp" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.6" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <radialGradient id="pmBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5BCEFA" stop-opacity="0.16"/>
+      <stop offset="0.55" stop-color="#5BCEFA" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#5BCEFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pmPink" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5A9B8" stop-opacity="0.14"/>
+      <stop offset="0.55" stop-color="#F5A9B8" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#F5A9B8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pmSheen" cx="0.38" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#eef1f6" stop-opacity="0.13"/>
+      <stop offset="0.6" stop-color="#c9cdd6" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#c9cdd6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="pmBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <!-- soft aurora light behind the mirror -->
+  <ellipse cx="215" cy="245" rx="250" ry="190" fill="url(#pmBlue)"/>
+  <ellipse cx="400" cy="215" rx="240" ry="185" fill="url(#pmPink)"/>
+
+  <g transform="rotate(-9 300 200)">
+    <!-- ===== hand mirror ===== -->
+    <!-- frame -->
+    <ellipse cx="300" cy="195" rx="118" ry="142" fill="none" stroke="url(#pmSilver)" stroke-width="3.4"/>
+    <ellipse cx="300" cy="195" rx="110" ry="134" fill="none" stroke="url(#pmSilverUp)" stroke-width="1"/>
+    <ellipse cx="300" cy="195" rx="100" ry="123" fill="none" stroke="url(#pmSilver)" stroke-width="1.6"/>
+    <!-- glass -->
+    <ellipse cx="300" cy="195" rx="100" ry="123" fill="url(#pmSheen)"/>
+    <!-- stamped bezel dots -->
+    <g fill="#c9cdd6" opacity="0.75">
+      <circle cx="414" cy="195" r="1.6"/><circle cx="398.7" cy="264" r="1.6"/>
+      <circle cx="357" cy="314.5" r="1.6"/><circle cx="300" cy="333" r="1.6"/>
+      <circle cx="243" cy="314.5" r="1.6"/><circle cx="201.3" cy="264" r="1.6"/>
+      <circle cx="186" cy="195" r="1.6"/><circle cx="201.3" cy="126" r="1.6"/>
+      <circle cx="243" cy="75.5" r="1.6"/><circle cx="300" cy="57" r="1.6"/>
+      <circle cx="357" cy="75.5" r="1.6"/><circle cx="398.7" cy="126" r="1.6"/>
+    </g>
+
+    <!-- reflection hatching in the glass -->
+    <g stroke="#c9cdd6" stroke-width="0.6" opacity="0.22">
+      <line x1="236" y1="268" x2="296" y2="238"/>
+      <line x1="248" y1="282" x2="308" y2="252"/>
+      <line x1="262" y1="294" x2="322" y2="264"/>
+      <line x1="278" y1="303" x2="330" y2="277"/>
+    </g>
+
+    <!-- crescent of light reflected in the glass -->
+    <path d="M330 108 A52 52 0 1 1 330 212 A38 52 0 1 0 330 108 Z"
+          fill="none" stroke="#eef1f6" stroke-width="3" opacity="0.5" filter="url(#pmBlur)"/>
+    <path d="M330 108 A52 52 0 1 1 330 212 A38 52 0 1 0 330 108 Z"
+          fill="url(#pmSilver)" fill-opacity="0.22" stroke="#eef1f6" stroke-width="1.5" opacity="0.95"/>
+
+    <!-- sparkles -->
+    <path d="M368 113 L370 120 L377 122 L370 124 L368 131 L366 124 L359 122 L366 120 Z" fill="#eef1f6" opacity="0.9"/>
+    <path d="M300 243 L301.4 247.5 L306 249 L301.4 250.5 L300 255 L298.6 250.5 L294 249 L298.6 247.5 Z" fill="#eef1f6" opacity="0.65"/>
+
+    <!-- collar and handle -->
+    <path d="M286 330 C292 336 308 336 314 330" fill="none" stroke="url(#pmSilver)" stroke-width="1.2"/>
+    <path d="M288 340 C293 344 307 344 312 340" fill="none" stroke="url(#pmSilver)" stroke-width="1"/>
+    <path d="M290 338 C284 368 285 394 294 414" fill="none" stroke="url(#pmSilver)" stroke-width="2.2"/>
+    <path d="M310 338 C316 368 315 394 306 414" fill="none" stroke="url(#pmSilver)" stroke-width="2.2"/>
+    <path d="M300 342 C298 368 298 392 300 408" fill="none" stroke="#c9cdd6" stroke-width="0.7" opacity="0.4"/>
+    <circle cx="300" cy="421" r="8" fill="none" stroke="url(#pmSilverUp)" stroke-width="2"/>
+    <circle cx="300" cy="421" r="3.2" fill="none" stroke="#c9cdd6" stroke-width="1" opacity="0.8"/>
+
+    <!-- ===== feather pendant draped over the rim ===== -->
+    <!-- bead chain -->
+    <path d="M160 40 C196 62 226 88 246 118" fill="none" stroke="url(#pmSilver)"
+          stroke-width="6.5" stroke-linecap="round" stroke-dasharray="0.1 11"/>
+    <!-- bail -->
+    <circle cx="247" cy="126" r="5.5" fill="none" stroke="url(#pmSilverUp)" stroke-width="1.8"/>
+    <!-- feather body -->
+    <path d="M247 132 C230 162 222 202 233 244 C238 266 248 282 262 296 C272 282 277 260 278 234 C280 196 270 158 252 134 Z"
+          fill="#17171c" fill-opacity="0.35" stroke="url(#pmSilver)" stroke-width="1.8"/>
+    <!-- gold tip (先金) -->
+    <path d="M233 244 C238 266 248 282 262 296 C272 282 277 260 278 234 C270 245 258 251 246 249 C241 248 236 246 233 244 Z"
+          fill="#c9a24b" fill-opacity="0.75" stroke="#c9a24b" stroke-width="1"/>
+    <!-- shaft -->
+    <path d="M247 132 C243 176 246 226 262 296" fill="none" stroke="#eef1f6" stroke-width="2.2" opacity="0.9"/>
+    <!-- barbs -->
+    <g stroke="#c9cdd6" stroke-width="0.7" opacity="0.6">
+      <line x1="244" y1="156" x2="232" y2="166"/><line x1="242" y1="172" x2="228" y2="184"/>
+      <line x1="241" y1="188" x2="226" y2="202"/><line x1="241" y1="204" x2="227" y2="220"/>
+      <line x1="242" y1="220" x2="230" y2="236"/><line x1="244" y1="236" x2="234" y2="252"/>
+      <line x1="247" y1="252" x2="240" y2="268"/>
+      <line x1="247" y1="158" x2="262" y2="168"/><line x1="246" y1="174" x2="264" y2="186"/>
+      <line x1="246" y1="190" x2="266" y2="204"/><line x1="247" y1="206" x2="268" y2="222"/>
+      <line x1="249" y1="222" x2="270" y2="238"/><line x1="252" y1="240" x2="271" y2="254"/>
+    </g>
+  </g>
+</svg>

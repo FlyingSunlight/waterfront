@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-label="チェーンの長さ40〜70cmが落ちる位置を示す図解。リングの断面と手首のバングルの小図を添えて">
+  <defs>
+    <marker id="arr-s" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#6b6f78" stroke-width="1.4"/>
+    </marker>
+  </defs>
+
+  <!-- ============ main diagram : neck & bust with chain arcs ============ -->
+  <!-- jaw / chin hint -->
+  <g fill="none" stroke="#1c1b19" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M268 36 C273 60 288 74 300 76 C312 74 327 60 332 36"/>
+    <!-- neck -->
+    <path d="M282 74 C282 96 280 112 271 124"/>
+    <path d="M318 74 C318 96 320 112 329 124"/>
+    <!-- shoulders -->
+    <path d="M271 124 C238 135 189 149 148 178"/>
+    <path d="M329 124 C362 135 411 149 452 178"/>
+    <!-- upper chest contour -->
+    <path d="M148 178 C136 226 132 300 140 380 C143 408 145 425 146 440" opacity="0.85"/>
+    <path d="M452 178 C464 226 468 300 460 380 C457 408 455 425 454 440" opacity="0.85"/>
+  </g>
+  <!-- collarbone hints -->
+  <g fill="none" stroke="#6b6f78" stroke-width="1.1" opacity="0.7" stroke-linecap="round">
+    <path d="M226 170 C252 180 274 183 296 180"/>
+    <path d="M374 170 C348 180 326 183 304 180"/>
+  </g>
+  <!-- center guide axis -->
+  <path d="M300 88 L300 420" stroke="#6b6f78" stroke-width="0.7" stroke-dasharray="2 6" opacity="0.5"/>
+
+  <!-- chain arcs (from neck points, dipping at centre) -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M271 124 C280 160 320 160 329 124" stroke="#6b6f78" stroke-width="1.5"/>
+    <path d="M271 124 C280 213 320 213 329 124" stroke="#1c1b19" stroke-width="1.8"/>
+    <path d="M271 124 C280 273 320 273 329 124" stroke="#6b6f78" stroke-width="1.5"/>
+    <path d="M271 124 C280 372 320 372 329 124" stroke="#6b6f78" stroke-width="1.5"/>
+    <path d="M271 124 C280 472 320 472 329 124" stroke="#6b6f78" stroke-width="1.5"/>
+  </g>
+  <!-- gold ticks at each drop point -->
+  <g fill="#c9a24b">
+    <circle cx="300" cy="151" r="2.4"/>
+    <circle cx="300" cy="191" r="2.4"/>
+    <circle cx="300" cy="236" r="2.4"/>
+    <circle cx="300" cy="311" r="2.4"/>
+    <circle cx="300" cy="386" r="2.4"/>
+  </g>
+  <!-- small feather charm on the 60cm arc -->
+  <g fill="none" stroke="#1c1b19" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 314 C306 321 307 333 300 344 C293 333 294 321 300 314"/>
+    <path d="M300 314 L300 344"/>
+  </g>
+
+  <!-- dashed leaders + labels -->
+  <g stroke="#6b6f78" stroke-width="0.9" stroke-dasharray="4 5">
+    <line x1="312" y1="151" x2="556" y2="151"/>
+    <line x1="312" y1="191" x2="556" y2="191"/>
+    <line x1="312" y1="236" x2="556" y2="236"/>
+    <line x1="312" y1="311" x2="556" y2="311"/>
+    <line x1="312" y1="386" x2="556" y2="386"/>
+  </g>
+  <g font-family="serif" fill="#1c1b19">
+    <text x="568" y="147" font-size="17" letter-spacing="1">40cm</text>
+    <text x="568" y="164" font-size="11.5" fill="#6b6f78">チョーカー丈・首に沿う</text>
+    <text x="568" y="187" font-size="17" letter-spacing="1">45cm</text>
+    <text x="568" y="204" font-size="11.5" fill="#6b6f78">定番・鎖骨の下に</text>
+    <text x="568" y="232" font-size="17" letter-spacing="1">50cm</text>
+    <text x="568" y="249" font-size="11.5" fill="#6b6f78">鎖骨と胸もとの中間</text>
+    <text x="568" y="307" font-size="17" letter-spacing="1">60cm</text>
+    <text x="568" y="324" font-size="11.5" fill="#6b6f78">胸もとに落ちる</text>
+    <text x="568" y="382" font-size="17" letter-spacing="1">70cm</text>
+    <text x="568" y="399" font-size="11.5" fill="#6b6f78">ロング丈・縦のライン</text>
+  </g>
+
+  <!-- vertical dimension line -->
+  <g stroke="#6b6f78" stroke-width="0.9">
+    <line x1="96" y1="124" x2="96" y2="386" marker-start="url(#arr-s)" marker-end="url(#arr-s)"/>
+    <line x1="88" y1="124" x2="104" y2="124"/>
+    <line x1="88" y1="386" x2="104" y2="386"/>
+  </g>
+  <text x="82" y="252" font-family="serif" font-size="11.5" fill="#6b6f78" transform="rotate(-90 82 252)" text-anchor="middle" letter-spacing="2">首もとからの落ち感</text>
+
+  <!-- separator -->
+  <line x1="60" y1="462" x2="740" y2="462" stroke="#6b6f78" stroke-width="0.7" opacity="0.35"/>
+
+  <!-- ============ inset : ring cross-section ============ -->
+  <g fill="none" stroke="#1c1b19" stroke-linecap="round">
+    <circle cx="170" cy="536" r="44" stroke-width="1.8"/>
+    <circle cx="170" cy="536" r="33" stroke-width="1.5" stroke="#6b6f78"/>
+  </g>
+  <!-- turquoise inlay on the band -->
+  <circle cx="170" cy="497.5" r="3.2" fill="#3aa8a0"/>
+  <!-- inner diameter arrows -->
+  <line x1="140" y1="536" x2="200" y2="536" stroke="#6b6f78" stroke-width="0.9" marker-start="url(#arr-s)" marker-end="url(#arr-s)"/>
+  <text x="170" y="530" font-family="serif" font-size="11.5" fill="#1c1b19" text-anchor="middle">内径</text>
+  <!-- band width bracket -->
+  <g stroke="#c9a24b" stroke-width="1">
+    <line x1="216" y1="524" x2="216" y2="548"/>
+    <line x1="212" y1="524" x2="220" y2="524"/>
+    <line x1="212" y1="548" x2="220" y2="548"/>
+  </g>
+  <text x="226" y="540" font-family="serif" font-size="11.5" fill="#6b6f78">幅</text>
+  <text x="170" y="602" font-family="serif" font-size="12.5" fill="#1c1b19" text-anchor="middle" letter-spacing="1">号数は内周で決まる・幅広は大きめに</text>
+
+  <!-- ============ inset : wrist with bangle ============ -->
+  <g fill="none" stroke="#1c1b19" stroke-width="1.6" stroke-linecap="round">
+    <!-- forearm to hand -->
+    <path d="M462 500 C530 495 610 493 706 497"/>
+    <path d="M462 566 C530 571 610 573 706 569"/>
+    <!-- wrist bone -->
+    <path d="M668 497 C674 501 678 506 679 511" stroke-width="1.1" stroke="#6b6f78"/>
+  </g>
+  <!-- bangle: open C around wrist -->
+  <g fill="none" stroke="#1c1b19" stroke-width="2" stroke-linecap="round">
+    <path d="M586 480 C556 486 550 578 588 586"/>
+    <path d="M600 481 C578 490 574 576 602 585" stroke-width="1.2" stroke="#6b6f78"/>
+  </g>
+  <circle cx="587" cy="480" r="2.6" fill="#c9a24b"/>
+  <circle cx="589" cy="586" r="2.6" fill="#c9a24b"/>
+  <!-- ease arrows between bangle and wrist -->
+  <line x1="596" y1="504" x2="596" y2="522" stroke="#3aa8a0" stroke-width="0.9" marker-start="url(#arr-s)" marker-end="url(#arr-s)"/>
+  <text x="640" y="530" font-family="serif" font-size="11.5" fill="#6b6f78">ゆとり 1〜1.5cm</text>
+  <text x="596" y="602" font-family="serif" font-size="12.5" fill="#1c1b19" text-anchor="middle" letter-spacing="1">バングルは手首の骨のすぐ腕側に</text>
+</svg>

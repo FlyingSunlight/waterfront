@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="フェザーペンダントを手から手へそっと渡す、大きさの異なる手の線画">
+  <defs>
+    <linearGradient id="chSil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.55" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <radialGradient id="chBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5BCEFA" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#5BCEFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="chPink" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5A9B8" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#F5A9B8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- soft aurora glow -->
+  <ellipse cx="195" cy="185" rx="215" ry="160" fill="url(#chBlue)"/>
+  <ellipse cx="415" cy="260" rx="215" ry="165" fill="url(#chPink)"/>
+
+  <!-- left hand: offering, from the left -->
+  <g fill="none" stroke="url(#chSil)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- back of hand -->
+    <path d="M-8 128 C 50 118, 100 116, 138 124"/>
+    <!-- index finger -->
+    <path d="M138 124 C 168 132, 196 146, 212 160 C 217 164, 217 171, 211 171 C 190 168, 166 158, 146 148"/>
+    <!-- middle and ring fingers -->
+    <path d="M142 150 C 168 160, 190 172, 202 183 C 206 188, 204 194, 198 193 C 176 188, 154 176, 136 164"/>
+    <!-- little finger -->
+    <path d="M132 166 C 150 176, 164 185, 172 193 C 175 197, 172 202, 167 201 C 152 196, 138 187, 126 178"/>
+    <!-- thumb and lower contour -->
+    <path d="M-8 200 C 40 204, 84 200, 116 188 C 130 183, 140 173, 146 163"/>
+  </g>
+  <!-- knuckle hints -->
+  <g fill="none" stroke="url(#chSil)" stroke-width="1.2" opacity="0.45" stroke-linecap="round">
+    <path d="M120 130 C 128 134, 134 140, 138 146"/>
+    <path d="M104 176 C 112 172, 120 170, 128 170"/>
+  </g>
+
+  <!-- right hand: receiving, from the right, slightly smaller -->
+  <g fill="none" stroke="url(#chSil)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M608 146 C 550 136, 500 134, 462 142"/>
+    <path d="M462 142 C 432 150, 404 164, 388 178 C 383 182, 383 189, 389 189 C 410 186, 434 176, 454 166"/>
+    <path d="M458 168 C 432 178, 410 190, 398 201 C 394 206, 396 212, 402 211 C 424 206, 446 194, 464 182"/>
+    <path d="M468 184 C 450 194, 436 203, 428 211 C 425 215, 428 220, 433 219 C 448 214, 462 205, 474 196"/>
+    <path d="M608 218 C 560 222, 516 218, 484 206 C 470 201, 460 191, 454 181"/>
+  </g>
+  <g fill="none" stroke="url(#chSil)" stroke-width="1.2" opacity="0.45" stroke-linecap="round">
+    <path d="M480 148 C 472 152, 466 158, 462 164"/>
+    <path d="M496 194 C 488 190, 480 188, 472 188"/>
+  </g>
+
+  <!-- leather cord, draped between the two hands -->
+  <g fill="none" stroke="url(#chSil)" stroke-linecap="round">
+    <path d="M212 166 C 255 275, 345 275, 388 180" stroke-width="2"/>
+    <path d="M211 172 C 254 281, 346 281, 389 186" stroke-width="1.3" opacity="0.55"/>
+  </g>
+
+  <!-- bail -->
+  <circle cx="300" cy="252" r="7" fill="none" stroke="url(#chSil)" stroke-width="2"/>
+
+  <!-- feather pendant -->
+  <g fill="none" stroke="url(#chSil)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 260 C 288 280, 283 308, 289 338 C 292 352, 296 362, 299 369 C 306 354, 311 324, 309 298 C 308 284, 305 270, 300 260 Z" stroke-width="2.2"/>
+    <path d="M300 262 C 299 298, 298 334, 299 367" stroke-width="1.5"/>
+    <g stroke-width="1.1" opacity="0.7">
+      <path d="M299 288 L 290 297"/>
+      <path d="M299 302 L 290 313"/>
+      <path d="M299 316 L 291 328"/>
+      <path d="M299 330 L 293 341"/>
+      <path d="M300 294 L 307 302"/>
+      <path d="M300 308 L 307 318"/>
+      <path d="M300 322 L 306 333"/>
+    </g>
+  </g>
+
+  <!-- third, smaller hand: cupped beneath, palm up -->
+  <g fill="none" stroke="url(#chSil)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M232 458 C 244 424, 262 402, 288 392"/>
+    <path d="M288 392 C 306 385, 322 382, 336 384 C 341 385, 342 391, 337 393 C 322 396, 308 398, 296 402"/>
+    <path d="M300 404 C 316 398, 331 396, 344 398 C 349 399, 350 405, 345 407 C 330 409, 316 411, 304 414"/>
+    <path d="M310 417 C 324 412, 336 411, 347 413 C 351 414, 352 419, 348 421 C 336 423, 324 424, 314 426"/>
+    <path d="M260 460 C 274 436, 292 422, 314 414"/>
+  </g>
+  <path d="M270 424 C 282 413, 296 406, 310 403" fill="none" stroke="url(#chSil)" stroke-width="1.2" opacity="0.45" stroke-linecap="round"/>
+
+  <!-- faint sparkles -->
+  <g stroke="#eef1f6" stroke-width="1.2" stroke-linecap="round" opacity="0.6">
+    <path d="M252 300 v10 M247 305 h10"/>
+    <path d="M352 288 v8 M348 292 h8"/>
+  </g>
+  <circle cx="330" cy="240" r="1.4" fill="#eef1f6" opacity="0.7"/>
+  <circle cx="266" cy="248" r="1.1" fill="#eef1f6" opacity="0.5"/>
+</svg>

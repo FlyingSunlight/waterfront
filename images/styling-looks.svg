@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="銀のジュエリーをまとった三人の女性のファッションイラスト">
+  <defs>
+    <linearGradient id="slv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef1f6"/>
+      <stop offset="0.55" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="slv-soft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9cdd6"/>
+      <stop offset="1" stop-color="#8b8f99"/>
+    </linearGradient>
+    <linearGradient id="gld" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6c97e"/>
+      <stop offset="1" stop-color="#a8823a"/>
+    </linearGradient>
+    <radialGradient id="glow-b" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5BCEFA" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#5BCEFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-p" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5A9B8" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#F5A9B8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-w" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#eef1f6" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#eef1f6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- soft aurora glows -->
+  <ellipse cx="150" cy="330" rx="230" ry="260" fill="url(#glow-b)"/>
+  <ellipse cx="400" cy="320" rx="240" ry="270" fill="url(#glow-w)"/>
+  <ellipse cx="650" cy="330" rx="230" ry="260" fill="url(#glow-p)"/>
+
+  <!-- ============ figure 1 : silk blouse + single feather pendant ============ -->
+  <g fill="none" stroke="url(#slv)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- hair: soft low chignon -->
+    <path d="M126 118 C118 78 148 62 152 62 C186 60 190 96 182 122"/>
+    <path d="M129 96 C140 76 166 74 174 92"/>
+    <ellipse cx="184" cy="128" rx="11" ry="9" stroke-width="1.4"/>
+    <!-- head -->
+    <ellipse cx="152" cy="114" rx="24" ry="31"/>
+    <!-- neck -->
+    <path d="M142 143 C142 157 140 165 133 172"/>
+    <path d="M162 143 C162 157 164 165 171 172"/>
+    <!-- blouse collar / lapels -->
+    <path d="M133 172 C112 179 95 189 85 206"/>
+    <path d="M171 172 C192 179 209 189 219 206"/>
+    <path d="M137 171 C143 194 148 216 152 238"/>
+    <path d="M167 171 C161 194 156 216 152 238"/>
+    <!-- blouse body, fluid silk sides -->
+    <path d="M85 206 C76 262 78 332 88 402 C93 444 95 486 92 545"/>
+    <path d="M219 206 C228 262 226 332 216 402 C211 444 209 486 212 545"/>
+    <!-- silk fold lines -->
+    <g stroke="url(#slv-soft)" stroke-width="1" opacity="0.55">
+      <path d="M118 254 C114 320 118 388 128 452"/>
+      <path d="M186 254 C190 320 186 388 176 452"/>
+      <path d="M150 262 C149 330 150 400 152 470"/>
+    </g>
+    <!-- sleeve seams -->
+    <path d="M92 214 C100 224 104 238 104 252" stroke-width="1.2" opacity="0.7"/>
+    <path d="M212 214 C204 224 200 238 200 252" stroke-width="1.2" opacity="0.7"/>
+  </g>
+  <!-- chain + small feather -->
+  <g fill="none" stroke="#eef1f6" stroke-width="1.1" stroke-linecap="round">
+    <path d="M140 177 C145 226 149 266 152 298"/>
+    <path d="M164 177 C159 226 155 266 152 298"/>
+  </g>
+  <circle cx="152" cy="301" r="2.6" fill="none" stroke="url(#gld)" stroke-width="1.3"/>
+  <g fill="none" stroke="url(#slv)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M152 305 C160 314 162 330 152 346 C142 330 144 314 152 305"/>
+    <path d="M152 305 L152 346"/>
+    <g stroke-width="0.9" opacity="0.8">
+      <path d="M152 314 L158 311"/>
+      <path d="M152 320 L146 317"/>
+      <path d="M152 327 L158 324"/>
+      <path d="M152 334 L146 331"/>
+    </g>
+  </g>
+
+  <!-- ============ figure 2 : dress + long chain, fuller silhouette ============ -->
+  <g fill="none" stroke="url(#slv)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- long flowing hair -->
+    <path d="M375 96 C371 62 429 62 425 96"/>
+    <path d="M375 92 C360 122 355 172 362 214"/>
+    <path d="M425 92 C440 122 445 172 438 214"/>
+    <path d="M369 110 C358 146 356 186 361 214" stroke-width="1" opacity="0.6"/>
+    <path d="M431 110 C442 146 444 186 439 214" stroke-width="1" opacity="0.6"/>
+    <!-- head -->
+    <ellipse cx="400" cy="100" rx="25" ry="32"/>
+    <!-- neck -->
+    <path d="M390 130 C390 144 388 152 381 160"/>
+    <path d="M410 130 C410 144 412 152 419 160"/>
+    <!-- scooped dress neckline -->
+    <path d="M370 170 C384 188 416 188 430 170"/>
+    <!-- shoulders -->
+    <path d="M381 160 C358 168 340 179 330 196"/>
+    <path d="M419 160 C442 168 460 179 470 196"/>
+    <!-- dress body: soft, fuller curves -->
+    <path d="M330 196 C318 258 322 318 338 372 C348 412 350 468 342 552"/>
+    <path d="M470 196 C482 258 478 318 462 372 C452 412 450 468 458 552"/>
+    <!-- drape lines -->
+    <g stroke="url(#slv-soft)" stroke-width="1" opacity="0.55">
+      <path d="M372 210 C366 280 370 360 382 452"/>
+      <path d="M428 210 C434 280 430 360 418 452"/>
+      <path d="M400 232 C398 320 399 420 400 500"/>
+      <path d="M356 330 C366 372 372 428 372 488"/>
+      <path d="M444 330 C434 372 428 428 428 488"/>
+    </g>
+  </g>
+  <!-- long chain with beads + feather -->
+  <g fill="none" stroke="#eef1f6" stroke-width="1.1" stroke-linecap="round">
+    <path d="M383 174 C391 250 397 322 400 366"/>
+    <path d="M417 174 C409 250 403 322 400 366"/>
+  </g>
+  <g fill="none" stroke="url(#slv)" stroke-width="1.2">
+    <circle cx="388" cy="228" r="3"/>
+    <circle cx="412" cy="228" r="3"/>
+    <circle cx="392" cy="264" r="3"/>
+    <circle cx="408" cy="264" r="3"/>
+  </g>
+  <circle cx="400" cy="369" r="2.8" fill="none" stroke="url(#gld)" stroke-width="1.3"/>
+  <g fill="none" stroke="url(#slv)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M400 374 C412 386 415 410 400 432 C385 410 388 386 400 374"/>
+    <path d="M400 374 L400 432"/>
+    <g stroke-width="0.9" opacity="0.8">
+      <path d="M400 386 L408 382"/>
+      <path d="M400 394 L392 390"/>
+      <path d="M400 403 L408 399"/>
+      <path d="M400 412 L392 408"/>
+      <path d="M400 420 L406 417"/>
+    </g>
+  </g>
+
+  <!-- ============ figure 3 : knit + bead choker, broader shoulders ============ -->
+  <g fill="none" stroke="url(#slv)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- short bob hair -->
+    <path d="M624 108 C618 72 682 72 676 108"/>
+    <path d="M624 108 C617 132 619 148 628 160"/>
+    <path d="M676 108 C683 132 681 148 672 160"/>
+    <path d="M630 92 C642 80 660 80 670 92" stroke-width="1" opacity="0.6"/>
+    <!-- head -->
+    <ellipse cx="650" cy="116" rx="24" ry="31"/>
+    <!-- turtleneck collar -->
+    <path d="M631 154 C640 150 660 150 669 154"/>
+    <path d="M629 156 L627 186"/>
+    <path d="M671 156 L673 186"/>
+    <path d="M627 186 C640 195 660 195 673 186"/>
+    <g stroke-width="0.9" opacity="0.6">
+      <path d="M638 156 L637 188"/>
+      <path d="M650 157 L650 190"/>
+      <path d="M662 156 L663 188"/>
+    </g>
+    <!-- broad shoulders -->
+    <path d="M627 186 C599 193 574 204 562 222"/>
+    <path d="M673 186 C701 193 726 204 738 222"/>
+    <!-- knit body, straighter fall -->
+    <path d="M562 222 C553 282 555 352 566 422 C572 470 574 514 571 552"/>
+    <path d="M738 222 C747 282 745 352 734 422 C728 470 726 514 729 552"/>
+    <!-- knit rib lines -->
+    <g stroke="url(#slv-soft)" stroke-width="1" opacity="0.5">
+      <path d="M600 236 C596 320 598 420 604 500"/>
+      <path d="M625 232 C622 330 623 430 627 516"/>
+      <path d="M650 230 C649 330 649 430 650 520"/>
+      <path d="M675 232 C678 330 677 430 673 516"/>
+      <path d="M700 236 C704 320 702 420 696 500"/>
+    </g>
+    <!-- sleeve seams -->
+    <path d="M572 232 C580 244 584 258 584 274" stroke-width="1.2" opacity="0.7"/>
+    <path d="M728 232 C720 244 716 258 716 274" stroke-width="1.2" opacity="0.7"/>
+  </g>
+  <!-- bead choker resting on the knit -->
+  <path d="M616 198 C630 210 670 210 684 198" fill="none" stroke="#eef1f6" stroke-width="0.9" opacity="0.7"/>
+  <g fill="none" stroke="url(#slv)" stroke-width="1.4">
+    <circle cx="617" cy="199" r="4"/>
+    <circle cx="628" cy="203" r="4"/>
+    <circle cx="639" cy="206" r="4"/>
+    <circle cx="661" cy="206" r="4"/>
+    <circle cx="672" cy="203" r="4"/>
+    <circle cx="683" cy="199" r="4"/>
+  </g>
+  <circle cx="650" cy="208" r="4.6" fill="#3aa8a0" stroke="url(#slv)" stroke-width="1.2"/>
+
+  <!-- faint ground line -->
+  <path d="M60 566 L740 566" stroke="url(#slv-soft)" stroke-width="0.8" opacity="0.25"/>
+</svg>
