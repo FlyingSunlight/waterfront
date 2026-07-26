@@ -39,7 +39,8 @@
       <path d="M112 138 C88 149 68 159 50 169" stroke-width="1.4"/>
       <path d="M118 143 C96 158 78 171 62 184" stroke-width="1.3"/>
       <path d="M126 148 C106 165 90 179 76 193" stroke-width="1.2"/>
-      <!-- covert scallops -->
+      <!-- inner trailing edge + covert scallops -->
+      <path d="M184 154 C158 170 130 174 106 166" stroke-width="1.1" opacity="0.45"/>
       <path d="M172 150 q-10 12 -20 10 q-10 11 -20 9 q-10 10 -20 8 q-10 9 -19 7" stroke-width="1.1" opacity="0.8"/>
       <path d="M176 160 q-9 11 -18 9 q-9 10 -18 8 q-9 9 -18 7" stroke-width="1" opacity="0.55"/>
       <!-- shoulder hatch -->
@@ -98,9 +99,12 @@
     <path d="M192 162 q8 5 16 0" stroke-width="0.9" opacity="0.55"/>
     <path d="M193 174 q7 5 14 0" stroke-width="0.9" opacity="0.5"/>
     <path d="M195 186 q5 4 10 0" stroke-width="0.9" opacity="0.45"/>
-    <!-- head, facing left -->
-    <path d="M212 124 C218 116 220 104 213 97 C206 90 194 91 188 99 L178 106 Q174 109 178 112 L184 112 C184 118 188 122 192 126" stroke-width="2"/>
-    <path d="M195 118 q6 4 12 1" stroke-width="0.9" opacity="0.5"/>
+    <!-- head, raptor profile facing left -->
+    <path d="M212 126 C218 116 217 102 208 95 C199 89 186 92 181 100" stroke-width="2"/>
+    <path d="M181 100 L169 104 Q164 107 167 112 L175 115 Q180 116 183 112" stroke-width="1.8"/>
+    <path d="M183 112 C185 117 188 122 192 127" stroke-width="1.8"/>
+    <path d="M187 100 L198 97" stroke-width="1.1" opacity="0.75"/>
+    <path d="M197 118 q6 4 12 1" stroke-width="0.9" opacity="0.5"/>
     <!-- tail -->
     <path d="M191 206 C182 224 172 238 164 248" stroke-width="1.5"/>
     <path d="M196 208 C191 226 186 242 182 252" stroke-width="1.4"/>
@@ -111,9 +115,9 @@
   </g>
 
   <!-- beak accent -->
-  <path d="M179 107 L185 110" stroke="url(#he-gold)" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+  <path d="M171 106 L177 110" stroke="url(#he-gold)" stroke-width="1.4" stroke-linecap="round" fill="none"/>
   <!-- eye -->
-  <circle cx="203" cy="103" r="2.1" fill="#eef1f6"/>
+  <circle cx="195" cy="103" r="2.1" fill="#eef1f6"/>
 
   <!-- turquoise chest stone in silver bezel -->
   <ellipse cx="200" cy="145" rx="6.4" ry="8.4" fill="url(#he-tq)"/>
