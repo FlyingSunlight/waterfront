@@ -40,30 +40,29 @@
 <rect x="45" y="270" width="70" height="46" rx="10" fill="none" stroke="#1b3a55" stroke-width="2"/>
 
 <!-- elder seated on bed edge -->
-<g transform="translate(150,348)">
-<ellipse cx="0" cy="4" rx="46" ry="8" fill="#0b1d2e" opacity="0.15"/>
+<g transform="translate(182,344)">
+<ellipse cx="0" cy="4" rx="42" ry="8" fill="#0b1d2e" opacity="0.15"/>
 <g transform="rotate(6 -12 -46)"><rect x="-22" y="-46" width="20" height="50" rx="8" fill="#8a5a86"/></g>
 <g transform="rotate(-4 12 -46)"><rect x="2" y="-46" width="20" height="50" rx="8" fill="#6f4770"/></g>
-<rect x="-34" y="-118" width="68" height="76" rx="24" fill="#8a5a86"/>
-<g transform="rotate(24 -34 -100)"><rect x="-46" y="-100" width="24" height="20" rx="9" fill="#8a5a86"/><circle cx="-40" cy="-90" r="10" fill="#d9a271"/></g>
-<g transform="rotate(-20 34 -102)"><rect x="22" y="-102" width="24" height="20" rx="9" fill="#8a5a86"/><circle cx="44" cy="-94" r="10" fill="#d9a271"/></g>
-<circle cx="0" cy="-150" r="26" fill="#d9a271"/>
-<path d="M -26,-154 C -28,-172 -14,-184 0,-184 C 14,-184 28,-172 26,-154 C 14,-164 -14,-164 -26,-154 Z" fill="#e4ded2"/>
+<rect x="-32" y="-116" width="64" height="72" rx="18" fill="#8a5a86"/>
+<g transform="rotate(24 -32 -98)"><rect x="-44" y="-98" width="24" height="20" rx="9" fill="#8a5a86"/><circle cx="-38" cy="-88" r="10" fill="#d9a271"/></g>
+<g transform="rotate(-20 32 -100)"><rect x="20" y="-100" width="24" height="20" rx="9" fill="#8a5a86"/><circle cx="42" cy="-92" r="10" fill="#d9a271"/></g>
+<circle cx="0" cy="-146" r="25" fill="#d9a271"/>
+<path d="M -25,-150 C -27,-168 -13,-179 0,-179 C 13,-179 27,-168 25,-150 C 13,-160 -13,-160 -25,-150 Z" fill="#e4ded2"/>
 </g>
 
 <!-- nurse standing, assisting -->
-<g transform="translate(85,412)">
+<g transform="translate(62,412)">
 <ellipse cx="0" cy="4" rx="50" ry="8" fill="#0b1d2e" opacity="0.15"/>
 <g transform="rotate(-6 -14 -50)"><rect x="-25" y="-50" width="22" height="56" rx="9" fill="#f7f5f0"/></g>
 <g transform="rotate(8 14 -50)"><rect x="3" y="-50" width="22" height="56" rx="9" fill="#eeeae1"/></g>
-<rect x="-38" y="-146" width="76" height="102" rx="26" fill="#f7f5f0"/>
-<rect x="-38" y="-146" width="76" height="102" rx="26" fill="none" stroke="#3fbf9a" stroke-width="5"/>
-<g transform="rotate(-46 -34 -122)"><rect x="-46" y="-122" width="26" height="60" rx="12" fill="#f7f5f0"/><circle cx="-38" cy="-68" r="11" fill="#f0c8a0"/></g>
-<g transform="rotate(30 34 -120)"><rect x="22" y="-120" width="26" height="52" rx="12" fill="#f7f5f0"/><circle cx="41" cy="-73" r="11" fill="#f0c8a0"/></g>
-<path d="M -8,-56 Q -8,-30 8,-30" stroke="#3fbf9a" stroke-width="5" fill="none"/><circle cx="8" cy="-30" r="6" fill="#3fbf9a"/>
+<rect x="-36" y="-142" width="72" height="98" rx="18" fill="#f7f5f0"/>
+<rect x="-36" y="-142" width="72" height="98" rx="18" fill="none" stroke="#3fbf9a" stroke-width="5"/>
+<g transform="rotate(-40 -32 -118)"><rect x="-44" y="-118" width="24" height="58" rx="11" fill="#eeeae1"/><circle cx="-37" cy="-64" r="11" fill="#f0c8a0"/></g>
+<g transform="rotate(28 32 -116)"><rect x="20" y="-116" width="24" height="50" rx="11" fill="#eeeae1"/><circle cx="38" cy="-70" r="11" fill="#f0c8a0"/></g>
+<path d="M -14,-172 Q 0,-160 14,-172" stroke="#3fbf9a" stroke-width="5" fill="none"/><circle cx="0" cy="-150" r="7" fill="#3fbf9a"/>
 <circle cx="0" cy="-182" r="28" fill="#f0c8a0"/>
 <path d="M -28,-186 C -30,-206 -14,-220 0,-220 C 14,-220 30,-206 28,-186 C 16,-198 -16,-198 -28,-186 Z" fill="#0b1d2e"/>
-<circle cx="0" cy="-160" r="4" fill="#1b3a55"/>
 </g>
 </g>
 
@@ -97,20 +96,20 @@
 <!-- electrician figure, central and large -->
 <g transform="translate(-4,414)">
 <ellipse cx="0" cy="4" rx="54" ry="9" fill="#0b1d2e" opacity="0.16"/>
-<g transform="rotate(8 -16 -56)"><rect x="-28" y="-56" width="24" height="60" rx="10" fill="#12293e"/></g>
-<g transform="rotate(-6 16 -56)"><rect x="4" y="-56" width="24" height="60" rx="10" fill="#0b1d2e"/></g>
+<g transform="rotate(8 -16 -70)"><rect x="-28" y="-70" width="24" height="74" rx="10" fill="#12293e"/></g>
+<g transform="rotate(-6 16 -70)"><rect x="4" y="-70" width="24" height="74" rx="10" fill="#0b1d2e"/></g>
 <rect x="-16" y="4" width="18" height="14" rx="5" fill="#c9a227"/>
 <rect x="16" y="4" width="18" height="14" rx="5" fill="#c9a227"/>
-<rect x="-44" y="-134" width="88" height="90" rx="22" fill="#e8a33d"/>
-<rect x="-50" y="-72" width="100" height="20" rx="8" fill="#12293e"/>
-<rect x="-14" y="-70" width="28" height="16" rx="4" fill="#c9a227"/>
-<g transform="rotate(-70 -40 -108)"><rect x="-52" y="-108" width="24" height="58" rx="11" fill="#e8a33d"/><circle cx="-44" cy="-52" r="12" fill="#b07b4d"/></g>
-<g transform="rotate(50 40 -110)"><rect x="28" y="-110" width="24" height="50" rx="11" fill="#e8a33d"/><circle cx="46" cy="-64" r="12" fill="#b07b4d"/></g>
-<path d="M -44,-160 L -8,-186" stroke="#8a5a35" stroke-width="9" stroke-linecap="round"/>
-<circle cx="-6" cy="-188" r="8" fill="#8a5a35"/>
-<circle cx="0" cy="-186" r="30" fill="#b07b4d"/>
-<path d="M -32,-190 C -34,-214 0,-230 26,-216 C 30,-208 30,-198 26,-190 C 10,-208 -18,-208 -32,-190 Z" fill="#1b3a55"/>
-<path d="M -34,-198 C -36,-224 8,-238 34,-218 C 40,-212 40,-200 34,-192 C 40,-208 34,-224 14,-232 C -6,-238 -30,-224 -34,-198 Z" fill="#e0c163"/>
+<rect x="-44" y="-134" width="88" height="66" rx="20" fill="#e8a33d"/>
+<rect x="-50" y="-78" width="100" height="20" rx="8" fill="#12293e"/>
+<rect x="-14" y="-76" width="28" height="16" rx="4" fill="#c9a227"/>
+<g transform="rotate(-70 -40 -122)"><rect x="-52" y="-122" width="24" height="58" rx="11" fill="#e8a33d"/><circle cx="-44" cy="-66" r="12" fill="#b07b4d"/></g>
+<g transform="rotate(50 40 -122)"><rect x="28" y="-122" width="24" height="50" rx="11" fill="#e8a33d"/><circle cx="46" cy="-76" r="12" fill="#b07b4d"/></g>
+<path d="M -44,-140 L -8,-166" stroke="#8a5a35" stroke-width="9" stroke-linecap="round"/>
+<circle cx="-6" cy="-168" r="8" fill="#8a5a35"/>
+<circle cx="0" cy="-164" r="28" fill="#b07b4d"/>
+<path d="M -30,-168 C -32,-190 0,-206 24,-193 C 28,-186 28,-177 24,-170 C 10,-186 -17,-186 -30,-168 Z" fill="#1b3a55"/>
+<path d="M -32,-176 C -34,-200 7,-213 32,-194 C 37,-188 37,-177 32,-170 C 37,-185 32,-200 13,-207 C -6,-213 -29,-200 -32,-176 Z" fill="#e0c163"/>
 </g>
 </g>
 
