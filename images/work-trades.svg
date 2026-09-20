@@ -1,103 +1,188 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Five scenes of work in Norway: a nurse caring for an elder in a care home, a woman in a hijab wiring a site as an electrician, a bus driver at the wheel, an engineer at a screen, and a chef in a kitchen. Mixed genders and backgrounds, all competent and busy.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Five scenes of skilled work in Norway: a nurse caring for an elder in a care home, a woman in a hijab and hard hat working as an electrician, a bus driver at the wheel, an engineer at a desk, and a chef at the pass. Mixed genders and backgrounds, all competent and busy.">
 <title>Work: skilled and busy across sectors</title>
 <defs>
-<linearGradient id="panelLight" x1="0" y1="0" x2="0" y2="1">
+<linearGradient id="wkSky" x1="0" y1="0" x2="0" y2="1">
 <stop offset="0" stop-color="#eeeae1"/>
-<stop offset="1" stop-color="#e4ded2"/>
+<stop offset="1" stop-color="#f7f5f0"/>
 </linearGradient>
 </defs>
 
-<rect x="0" y="0" width="1200" height="520" fill="#f7f5f0"/>
+<rect x="0" y="0" width="1200" height="520" fill="url(#wkSky)"/>
 
-<!-- panel backgrounds -->
-<rect x="0" y="0" width="240" height="520" fill="url(#panelLight)"/>
+<!-- zone backgrounds, each a distinct tone -->
+<rect x="0" y="0" width="240" height="520" fill="#c9dedb"/>
 <rect x="240" y="0" width="240" height="520" fill="#eeeae1"/>
-<rect x="480" y="0" width="240" height="520" fill="url(#panelLight)"/>
-<rect x="720" y="0" width="240" height="520" fill="#eeeae1"/>
-<rect x="960" y="0" width="240" height="520" fill="url(#panelLight)"/>
-<g stroke="#1b3a55" stroke-width="2" opacity="0.25">
-<line x1="240" y1="0" x2="240" y2="520"/>
-<line x1="480" y1="0" x2="480" y2="520"/>
-<line x1="720" y1="0" x2="720" y2="520"/>
-<line x1="960" y1="0" x2="960" y2="520"/>
+<rect x="480" y="0" width="240" height="520" fill="#1b3a55"/>
+<rect x="720" y="0" width="240" height="520" fill="#e4ded2"/>
+<rect x="960" y="0" width="240" height="520" fill="#f3e2c2"/>
+<g stroke="#0b1d2e" stroke-width="1" opacity="0.12">
+<line x1="240" y1="0" x2="240" y2="520"/><line x1="480" y1="0" x2="480" y2="520"/><line x1="720" y1="0" x2="720" y2="520"/><line x1="960" y1="0" x2="960" y2="520"/>
 </g>
 
-<!-- PANEL 1: nurse in care home -->
-<g transform="translate(120,0)">
-<rect x="-120" y="60" width="240" height="120" fill="#4fb8b8" opacity="0.35"/>
-<rect x="-60" y="70" width="60" height="70" rx="6" fill="#1f8a8a"/>
-<!-- elder seated -->
-<g transform="translate(-70,300)">
-<rect x="-24" y="-6" width="48" height="70" rx="16" fill="#1b3a55"/>
-<circle cx="0" cy="-30" r="24" fill="#d9a271"/>
-<path d="M-20 -38 Q-18 -50 0 -52 Q18 -50 20 -38 Q13 -43 0 -44 Q-13 -43 -20 -38Z" fill="#e4ded2"/>
+<!-- floor lines per zone -->
+<rect x="0" y="420" width="240" height="100" fill="#a9c9c4"/>
+<rect x="240" y="420" width="240" height="100" fill="#e4ded2"/>
+<rect x="480" y="420" width="240" height="100" fill="#0b1d2e"/>
+<rect x="720" y="420" width="240" height="100" fill="#d3ccbe"/>
+<rect x="960" y="420" width="240" height="100" fill="#e6cf9c"/>
+
+<!-- ============ ZONE 1: NURSE IN CARE HOME ============ -->
+<g>
+<rect x="10" y="60" width="90" height="120" rx="4" fill="#f7f5f0"/>
+<rect x="24" y="74" width="62" height="92" rx="2" fill="#a9d8d2"/>
+<line x1="55" y1="74" x2="55" y2="166" stroke="#f7f5f0" stroke-width="4"/>
+<path d="M150 190 q14 -22 30 0 q10 -14 22 0 L 202 210 L 148 210 Z" fill="#3fbf9a" opacity="0.55"/>
+
+<!-- bed -->
+<rect x="30" y="330" width="150" height="18" rx="4" fill="#1b3a55"/>
+<rect x="30" y="290" width="20" height="60" rx="4" fill="#1b3a55"/>
+<rect x="45" y="270" width="70" height="46" rx="10" fill="#f7f5f0"/>
+<rect x="45" y="270" width="70" height="46" rx="10" fill="none" stroke="#1b3a55" stroke-width="2"/>
+
+<!-- elder seated on bed edge -->
+<g transform="translate(150,348)">
+<ellipse cx="0" cy="4" rx="46" ry="8" fill="#0b1d2e" opacity="0.15"/>
+<g transform="rotate(6 -12 -46)"><rect x="-22" y="-46" width="20" height="50" rx="8" fill="#8a5a86"/></g>
+<g transform="rotate(-4 12 -46)"><rect x="2" y="-46" width="20" height="50" rx="8" fill="#6f4770"/></g>
+<rect x="-34" y="-118" width="68" height="76" rx="24" fill="#8a5a86"/>
+<g transform="rotate(24 -34 -100)"><rect x="-46" y="-100" width="24" height="20" rx="9" fill="#8a5a86"/><circle cx="-40" cy="-90" r="10" fill="#d9a271"/></g>
+<g transform="rotate(-20 34 -102)"><rect x="22" y="-102" width="24" height="20" rx="9" fill="#8a5a86"/><circle cx="44" cy="-94" r="10" fill="#d9a271"/></g>
+<circle cx="0" cy="-150" r="26" fill="#d9a271"/>
+<path d="M -26,-154 C -28,-172 -14,-184 0,-184 C 14,-184 28,-172 26,-154 C 14,-164 -14,-164 -26,-154 Z" fill="#e4ded2"/>
 </g>
-<!-- nurse standing -->
-<g transform="translate(30,300)">
-<rect x="-28" y="-16" width="56" height="94" rx="20" fill="#f7f5f0"/>
-<rect x="-28" y="-16" width="56" height="94" rx="20" fill="none" stroke="#3fbf9a" stroke-width="4"/>
-<circle cx="0" cy="-48" r="27" fill="#8a5a35"/>
-<path d="M-24 -56 Q-22 -70 0 -72 Q22 -70 24 -56 Q15 -62 0 -63 Q-15 -62 -24 -56Z" fill="#0b1d2e"/>
-<circle cx="0" cy="8" r="10" fill="#3fbf9a"/>
+
+<!-- nurse standing, assisting -->
+<g transform="translate(85,412)">
+<ellipse cx="0" cy="4" rx="50" ry="8" fill="#0b1d2e" opacity="0.15"/>
+<g transform="rotate(-6 -14 -50)"><rect x="-25" y="-50" width="22" height="56" rx="9" fill="#f7f5f0"/></g>
+<g transform="rotate(8 14 -50)"><rect x="3" y="-50" width="22" height="56" rx="9" fill="#eeeae1"/></g>
+<rect x="-38" y="-146" width="76" height="102" rx="26" fill="#f7f5f0"/>
+<rect x="-38" y="-146" width="76" height="102" rx="26" fill="none" stroke="#3fbf9a" stroke-width="5"/>
+<g transform="rotate(-46 -34 -122)"><rect x="-46" y="-122" width="26" height="60" rx="12" fill="#f7f5f0"/><circle cx="-38" cy="-68" r="11" fill="#f0c8a0"/></g>
+<g transform="rotate(30 34 -120)"><rect x="22" y="-120" width="26" height="52" rx="12" fill="#f7f5f0"/><circle cx="41" cy="-73" r="11" fill="#f0c8a0"/></g>
+<path d="M -8,-56 Q -8,-30 8,-30" stroke="#3fbf9a" stroke-width="5" fill="none"/><circle cx="8" cy="-30" r="6" fill="#3fbf9a"/>
+<circle cx="0" cy="-182" r="28" fill="#f0c8a0"/>
+<path d="M -28,-186 C -30,-206 -14,-220 0,-220 C 14,-220 30,-206 28,-186 C 16,-198 -16,-198 -28,-186 Z" fill="#0b1d2e"/>
+<circle cx="0" cy="-160" r="4" fill="#1b3a55"/>
 </g>
 </g>
 
-<!-- PANEL 2: electrician, woman in hijab -->
+<!-- ============ ZONE 2: ELECTRICIAN, WOMAN IN HIJAB + HARD HAT ============ -->
 <g transform="translate(360,0)">
-<rect x="-120" y="40" width="240" height="18" fill="#1b3a55"/>
-<rect x="-90" y="58" width="14" height="130" fill="#c9a227"/>
-<rect x="76" y="58" width="14" height="130" fill="#c9a227"/>
-<g transform="translate(0,320)">
-<rect x="-30" y="-14" width="60" height="90" rx="18" fill="#e8a33d"/>
-<circle cx="0" cy="-48" r="27" fill="#b07b4d"/>
-<path d="M-30 -54 Q0 -84 30 -54 Q32 -20 24 4 L-24 4 Q-32 -20 -30 -54Z" fill="#12293e"/>
-<path d="M-26 -60 Q0 -78 26 -60 Q28 -66 20 -70 Q0 -78 -20 -70 Q-28 -66 -26 -60Z" fill="#c9a227"/>
-<rect x="-40" y="6" width="16" height="10" rx="4" fill="#12293e"/>
-<rect x="-4" y="-90" width="34" height="10" rx="5" fill="#8a5a35" transform="rotate(-70 -4 -90)"/>
+<rect x="-96" y="40" width="192" height="20" fill="#1b3a55"/>
+<rect x="-96" y="60" width="20" height="330" fill="#c9a227"/>
+<rect x="76" y="60" width="20" height="330" fill="#c9a227"/>
+<rect x="-40" y="70" width="80" height="110" rx="4" fill="#e4ded2"/>
+<circle cx="-20" cy="100" r="7" fill="#ba0c2f"/><circle cx="0" cy="100" r="7" fill="#3fbf9a"/><circle cx="20" cy="100" r="7" fill="#e0c163"/>
+<rect x="-32" y="120" width="64" height="8" rx="3" fill="#1b3a55" opacity="0.5"/>
+<rect x="-32" y="136" width="64" height="8" rx="3" fill="#1b3a55" opacity="0.5"/>
+<rect x="-32" y="152" width="40" height="8" rx="3" fill="#1b3a55" opacity="0.5"/>
+
+<!-- ladder -->
+<g stroke="#e4ded2" stroke-width="7" stroke-linecap="round">
+<line x1="-86" y1="390" x2="-66" y2="210"/>
+<line x1="-56" y1="390" x2="-36" y2="210"/>
+<line x1="-80" y1="330" x2="-42" y2="322"/>
+<line x1="-77" y1="290" x2="-39" y2="282"/>
+<line x1="-74" y1="250" x2="-36" y2="242"/>
+</g>
+
+<!-- cable reel -->
+<g transform="translate(70,378)">
+<circle cx="0" cy="0" r="30" fill="#e0c163"/>
+<circle cx="0" cy="0" r="12" fill="#12293e"/>
+<path d="M -30,0 A30 30 0 0 1 30,0" fill="none" stroke="#12293e" stroke-width="6"/>
+</g>
+
+<!-- electrician figure, central and large -->
+<g transform="translate(-4,414)">
+<ellipse cx="0" cy="4" rx="54" ry="9" fill="#0b1d2e" opacity="0.16"/>
+<g transform="rotate(8 -16 -56)"><rect x="-28" y="-56" width="24" height="60" rx="10" fill="#12293e"/></g>
+<g transform="rotate(-6 16 -56)"><rect x="4" y="-56" width="24" height="60" rx="10" fill="#0b1d2e"/></g>
+<rect x="-16" y="4" width="18" height="14" rx="5" fill="#c9a227"/>
+<rect x="16" y="4" width="18" height="14" rx="5" fill="#c9a227"/>
+<rect x="-44" y="-134" width="88" height="90" rx="22" fill="#e8a33d"/>
+<rect x="-50" y="-72" width="100" height="20" rx="8" fill="#12293e"/>
+<rect x="-14" y="-70" width="28" height="16" rx="4" fill="#c9a227"/>
+<g transform="rotate(-70 -40 -108)"><rect x="-52" y="-108" width="24" height="58" rx="11" fill="#e8a33d"/><circle cx="-44" cy="-52" r="12" fill="#b07b4d"/></g>
+<g transform="rotate(50 40 -110)"><rect x="28" y="-110" width="24" height="50" rx="11" fill="#e8a33d"/><circle cx="46" cy="-64" r="12" fill="#b07b4d"/></g>
+<path d="M -44,-160 L -8,-186" stroke="#8a5a35" stroke-width="9" stroke-linecap="round"/>
+<circle cx="-6" cy="-188" r="8" fill="#8a5a35"/>
+<circle cx="0" cy="-186" r="30" fill="#b07b4d"/>
+<path d="M -32,-190 C -34,-214 0,-230 26,-216 C 30,-208 30,-198 26,-190 C 10,-208 -18,-208 -32,-190 Z" fill="#1b3a55"/>
+<path d="M -34,-198 C -36,-224 8,-238 34,-218 C 40,-212 40,-200 34,-192 C 40,-208 34,-224 14,-232 C -6,-238 -30,-224 -34,-198 Z" fill="#e0c163"/>
 </g>
 </g>
 
-<!-- PANEL 3: bus driver -->
+<!-- ============ ZONE 3: BUS DRIVER ============ -->
 <g transform="translate(600,0)">
-<rect x="-120" y="200" width="240" height="140" fill="#1f8f74" opacity="0.25"/>
-<rect x="-110" y="230" width="220" height="90" rx="16" fill="#1b3a55"/>
-<rect x="-90" y="240" width="80" height="40" rx="6" fill="#eeeae1"/>
-<circle cx="-20" cy="330" r="26" fill="#0b1d2e"/>
-<circle cx="-20" cy="330" r="10" fill="#c9a227"/>
-<g transform="translate(-20,290)">
-<rect x="-24" y="0" width="48" height="60" rx="16" fill="#12293e"/>
-<circle cx="0" cy="-24" r="24" fill="#8a5a35"/>
-<path d="M-20 -32 Q-18 -46 0 -48 Q18 -46 20 -32 Q12 -37 0 -38 Q-12 -37 -20 -32Z" fill="#e4ded2"/>
+<rect x="-108" y="120" width="216" height="230" rx="18" fill="#12293e"/>
+<rect x="-90" y="140" width="80" height="70" rx="8" fill="#a9c9d8"/>
+<rect x="0" y="140" width="80" height="70" rx="8" fill="#a9c9d8"/>
+<rect x="-96" y="230" width="192" height="10" fill="#3fbf9a" opacity="0.7"/>
+<circle cx="-30" cy="374" r="34" fill="#0b1d2e"/>
+<circle cx="-30" cy="374" r="14" fill="#c9a227"/>
+<path d="M -30,344 L -30,404 M -30,374 L -4,362 M -30,374 L -8,392" stroke="#c9a227" stroke-width="5" stroke-linecap="round"/>
+
+<g transform="translate(18,412)">
+<ellipse cx="0" cy="4" rx="48" ry="8" fill="#0b1d2e" opacity="0.2"/>
+<rect x="-24" y="-58" width="20" height="62" rx="8" fill="#12293e"/>
+<rect x="4" y="-58" width="20" height="62" rx="8" fill="#0b1d2e"/>
+<rect x="-40" y="-150" width="80" height="98" rx="22" fill="#1b3a55"/>
+<g transform="rotate(-50 -46 -100)"><rect x="-58" y="-100" width="24" height="54" rx="11" fill="#1b3a55"/><circle cx="-50" cy="-48" r="11" fill="#8a5a35"/></g>
+<g transform="rotate(24 44 -98)"><rect x="32" y="-98" width="24" height="50" rx="11" fill="#1b3a55"/><circle cx="48" cy="-52" r="11" fill="#8a5a35"/></g>
+<circle cx="0" cy="-182" r="28" fill="#8a5a35"/>
+<path d="M -28,-188 C -30,-208 -14,-220 0,-220 C 14,-220 30,-208 28,-188 C 16,-200 -16,-200 -28,-188 Z" fill="#0b1d2e"/>
 </g>
 </g>
 
-<!-- PANEL 4: engineer at a screen -->
+<!-- ============ ZONE 4: ENGINEER AT DESK ============ -->
 <g transform="translate(840,0)">
-<rect x="-70" y="260" width="140" height="70" rx="6" fill="#1b3a55"/>
-<rect x="-60" y="270" width="120" height="50" fill="#3fbf9a" opacity="0.5"/>
-<rect x="-8" y="330" width="16" height="20" fill="#12293e"/>
-<rect x="-40" y="350" width="80" height="8" rx="4" fill="#c9a227"/>
-<g transform="translate(0,300)">
-<rect x="-27" y="20" width="54" height="70" rx="18" fill="#1f8a8a"/>
-<circle cx="0" cy="-6" r="26" fill="#f0c8a0"/>
-<path d="M-30 -14 Q0 -40 30 -14 Q32 24 22 44 L-22 44 Q-32 24 -30 -14Z" fill="#e0c163"/>
+<rect x="-100" y="230" width="200" height="130" rx="6" fill="#1b3a55"/>
+<rect x="-84" y="244" width="168" height="94" fill="#3fbf9a" opacity="0.5"/>
+<path d="M -70,320 L -20,270 L 10,300 L 60,254" stroke="#f7f5f0" stroke-width="4" fill="none"/>
+<circle cx="-70" cy="320" r="4" fill="#f7f5f0"/><circle cx="-20" cy="270" r="4" fill="#f7f5f0"/><circle cx="10" cy="300" r="4" fill="#f7f5f0"/><circle cx="60" cy="254" r="4" fill="#f7f5f0"/>
+<rect x="-6" y="360" width="12" height="24" fill="#12293e"/>
+<rect x="-60" y="384" width="120" height="10" rx="5" fill="#c9a227"/>
+<rect x="60" y="374" width="26" height="30" rx="4" fill="#e4ded2"/>
+<rect x="66" y="368" width="14" height="8" fill="#8a5a35"/>
+
+<g transform="translate(-10,412)">
+<ellipse cx="0" cy="4" rx="52" ry="9" fill="#0b1d2e" opacity="0.16"/>
+<rect x="-40" y="-30" width="80" height="60" rx="16" fill="#1f8a8a"/>
+<rect x="-46" y="-118" width="92" height="94" rx="24" fill="#e0c163"/>
+<g transform="rotate(-30 -40 -70)"><rect x="-52" y="-70" width="24" height="46" rx="11" fill="#e0c163"/><circle cx="-44" cy="-26" r="11" fill="#f0c8a0"/></g>
+<g transform="rotate(34 40 -70)"><rect x="28" y="-70" width="24" height="46" rx="11" fill="#e0c163"/><circle cx="46" cy="-28" r="11" fill="#f0c8a0"/></g>
+<circle cx="0" cy="-146" r="28" fill="#f0c8a0"/>
+<path d="M -28,-150 C -30,-170 -14,-182 0,-182 C 14,-182 30,-170 28,-150 C 20,-166 -20,-166 -28,-150 Z" fill="#12293e"/>
 </g>
 </g>
 
-<!-- PANEL 5: chef in kitchen -->
+<!-- ============ ZONE 5: CHEF AT THE PASS ============ -->
 <g transform="translate(1080,0)">
-<rect x="-100" y="80" width="200" height="60" rx="6" fill="#1b3a55"/>
-<circle cx="-60" cy="70" r="10" fill="#0b1d2e"/>
-<circle cx="-20" cy="70" r="10" fill="#0b1d2e"/>
-<circle cx="20" cy="70" r="10" fill="#0b1d2e"/>
-<circle cx="60" cy="70" r="10" fill="#0b1d2e"/>
-<g transform="translate(0,300)">
-<rect x="-28" y="-6" width="56" height="80" rx="18" fill="#f7f5f0"/>
-<rect x="-28" y="-6" width="56" height="80" rx="18" fill="none" stroke="#1b3a55" stroke-width="3"/>
-<circle cx="0" cy="-40" r="26" fill="#d9a271"/>
-<path d="M-24 -50 Q-26 -76 0 -80 Q26 -76 24 -50 Q24 -60 0 -62 Q-24 -60 -24 -50Z" fill="#f7f5f0"/>
-<rect x="-22" y="-78" width="44" height="16" rx="8" fill="#f7f5f0"/>
-<rect x="14" y="4" width="34" height="9" rx="4" fill="#8a5a35" transform="rotate(-20 14 4)"/>
+<rect x="-100" y="150" width="200" height="90" rx="6" fill="#1b3a55"/>
+<circle cx="-64" cy="140" r="11" fill="#0b1d2e"/><circle cx="-22" cy="140" r="11" fill="#0b1d2e"/><circle cx="20" cy="140" r="11" fill="#0b1d2e"/><circle cx="62" cy="140" r="11" fill="#0b1d2e"/>
+<ellipse cx="-64" cy="128" rx="20" ry="10" fill="#e4ded2" opacity="0.6"/>
+<ellipse cx="20" cy="126" rx="24" ry="12" fill="#e4ded2" opacity="0.6"/>
+<path d="M -70,120 q6 -24 -4 -40 M -58,120 q10 -20 2 -44" stroke="#e4ded2" stroke-width="5" fill="none" opacity="0.55" stroke-linecap="round"/>
+<rect x="-96" y="250" width="192" height="14" rx="4" fill="#e4ded2"/>
+<rect x="-90" y="264" width="70" height="60" rx="4" fill="#eeeae1"/>
+<rect x="16" y="264" width="70" height="60" rx="4" fill="#eeeae1"/>
+
+<g transform="translate(0,412)">
+<ellipse cx="0" cy="4" rx="52" ry="9" fill="#0b1d2e" opacity="0.16"/>
+<g transform="rotate(6 -14 -52)"><rect x="-26" y="-52" width="22" height="56" rx="9" fill="#f7f5f0"/></g>
+<g transform="rotate(-8 14 -52)"><rect x="4" y="-52" width="22" height="56" rx="9" fill="#eeeae1"/></g>
+<rect x="-40" y="-142" width="80" height="98" rx="22" fill="#f7f5f0"/>
+<rect x="-40" y="-142" width="80" height="98" rx="22" fill="none" stroke="#1b3a55" stroke-width="3"/>
+<g transform="rotate(48 -38 -110)"><rect x="-50" y="-110" width="24" height="50" rx="11" fill="#f7f5f0"/><circle cx="-30" cy="-66" r="11" fill="#d9a271"/></g>
+<g transform="rotate(-60 38 -112)"><rect x="26" y="-112" width="24" height="56" rx="11" fill="#f7f5f0"/><circle cx="46" cy="-58" r="11" fill="#d9a271"/></g>
+<path d="M 30,-70 L 58,-52" stroke="#8a5a35" stroke-width="7" stroke-linecap="round"/>
+<circle cx="0" cy="-176" r="27" fill="#d9a271"/>
+<rect x="-22" y="-224" width="44" height="34" rx="14" fill="#f7f5f0"/>
+<rect x="-27" y="-200" width="54" height="18" rx="9" fill="#f7f5f0"/>
+<path d="M -22,-206 a22 22 0 0 1 44 0" fill="none" stroke="#e4ded2" stroke-width="2"/>
 </g>
 </g>
+
 </svg>

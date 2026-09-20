@@ -263,8 +263,7 @@ a.source:hover { background: rgba(31, 143, 116, 0.25); }
 /* ---------- cards ---------- */
 .card-grid { display: grid; gap: 1rem; margin: var(--space-block) 0; }
 @media (min-width: 40rem) { .card-grid { grid-template-columns: 1fr 1fr; } }
-.card-grid--3 { grid-template-columns: 1fr; }
-@media (min-width: 46rem) { .card-grid--3 { grid-template-columns: repeat(3, 1fr); } }
+.card-grid--3 { grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); }
 
 .card {
   background: var(--snow-2);
