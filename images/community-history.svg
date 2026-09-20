@@ -1,268 +1,251 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-label="Five vignettes tracing Pakistani migration to Norway from the early 1970s to today, moving from muted tones on the left to full colour on the right.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-label="Five vignettes tracing Pakistani migration to Norway from around 1970 to today: young men arriving at a dock with suitcases, shipyard work with a crane and sparks, a family arriving and a first small shop opening, a busy grocery with produce outside and children in school clothes, and a multigenerational family outside a modern building today, linked by a timeline">
 <title>A history of arrival, work and family</title>
 <defs>
-  <linearGradient id="skyTime" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#1b3a55"/>
-    <stop offset="26%" stop-color="#1b3a55"/>
-    <stop offset="52%" stop-color="#1f8a8a"/>
-    <stop offset="76%" stop-color="#e4ded2"/>
-    <stop offset="100%" stop-color="#eeeae1"/>
-  </linearGradient>
-  <linearGradient id="waterTime" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#0b1d2e"/>
-    <stop offset="100%" stop-color="#1b3a55"/>
-  </linearGradient>
-  <radialGradient id="auroraWashHist" cx="0.8" cy="0.15" r="0.6">
-    <stop offset="0%" stop-color="#3fbf9a" stop-opacity="0.35"/>
-    <stop offset="100%" stop-color="#3fbf9a" stop-opacity="0"/>
-  </radialGradient>
+<linearGradient id="chSky" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#1b3a55"/>
+<stop offset="24%" stop-color="#1b3a55"/>
+<stop offset="48%" stop-color="#1f8a8a"/>
+<stop offset="72%" stop-color="#e4ded2"/>
+<stop offset="100%" stop-color="#f7f5f0"/>
+</linearGradient>
+<linearGradient id="chGround" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#12293e"/>
+<stop offset="24%" stop-color="#12293e"/>
+<stop offset="48%" stop-color="#1b3a55"/>
+<stop offset="72%" stop-color="#d3ccbe"/>
+<stop offset="100%" stop-color="#eeeae1"/>
+</linearGradient>
 </defs>
 
-<rect x="0" y="0" width="1200" height="420" fill="url(#skyTime)"/>
-<rect x="0" y="0" width="1200" height="560" fill="url(#auroraWashHist)"/>
-<rect x="0" y="420" width="1200" height="140" fill="#e4ded2"/>
-<rect x="0" y="420" width="240" height="140" fill="#1b3a55" opacity="0.55"/>
-<rect x="240" y="420" width="240" height="140" fill="#1b3a55" opacity="0.35"/>
-<rect x="480" y="420" width="240" height="140" fill="#c9a227" opacity="0.10"/>
+<rect x="0" y="0" width="1200" height="560" fill="url(#chSky)"/>
+<rect x="0" y="430" width="1200" height="130" fill="url(#chGround)" opacity="0.9"/>
+<g stroke="#f7f5f0" stroke-width="1" opacity="0.08">
+<line x1="240" y1="0" x2="240" y2="430"/><line x1="480" y1="0" x2="480" y2="430"/><line x1="720" y1="0" x2="720" y2="430"/><line x1="960" y1="0" x2="960" y2="430"/>
+</g>
 
-<!-- ===================== PANEL A: c.1970 dock arrival ===================== -->
+<!-- ================= A: c.1970 DOCK ARRIVAL ================= -->
 <g>
-  <rect x="0" y="430" width="240" height="10" fill="#12293e"/>
-  <rect x="-20" y="250" width="140" height="185" fill="#12293e"/>
-  <rect x="-20" y="250" width="140" height="14" fill="#1b3a55"/>
-  <circle cx="20" cy="290" r="7" fill="#e4ded2" opacity="0.5"/>
-  <circle cx="50" cy="290" r="7" fill="#e4ded2" opacity="0.5"/>
-  <circle cx="80" cy="290" r="7" fill="#e4ded2" opacity="0.5"/>
-  <path d="M120 250 L150 250 L165 300 L120 300 Z" fill="#0b1d2e"/>
-  <path d="M118 300 L170 300 L172 435 L112 435 Z" fill="#1b3a55"/>
-  <path d="M100 435 L172 300 L182 305 L118 440 Z" fill="#e4ded2" opacity="0.6"/>
+<path d="M -20,170 C 46,138 120,140 138,182 L 138,432 L -20,432 Z" fill="#0b1d2e"/>
+<circle cx="40" cy="230" r="11" fill="#e4ded2" opacity="0.35"/>
+<circle cx="82" cy="248" r="11" fill="#e4ded2" opacity="0.35"/>
+<circle cx="46" cy="290" r="11" fill="#e4ded2" opacity="0.35"/>
+<path d="M 138,340 L 186,430 L 138,430 Z" fill="#12293e"/>
+<rect x="150" y="330" width="10" height="110" fill="#e4ded2" opacity="0.5" transform="rotate(18 150 330)"/>
 
-  <!-- figure 1 -->
-  <g transform="translate(150,330)">
-    <ellipse cx="0" cy="106" rx="20" ry="5" fill="#0b1d2e" opacity="0.3"/>
-    <path d="M-13 40 Q-16 0 0 -6 Q16 0 13 40 Z" fill="#1b3a55"/>
-    <circle cx="0" cy="-22" r="13" fill="#b07b4d"/>
-    <rect x="-6" y="40" width="6" height="30" fill="#12293e"/>
-    <rect x="2" y="40" width="6" height="30" fill="#12293e"/>
-    <rect x="14" y="55" width="20" height="15" rx="2" fill="#0b1d2e"/>
-    <rect x="15" y="52" width="18" height="4" fill="#c9a227"/>
-  </g>
-  <!-- figure 2 -->
-  <g transform="translate(190,340)">
-    <ellipse cx="0" cy="98" rx="18" ry="5" fill="#0b1d2e" opacity="0.3"/>
-    <path d="M-12 36 Q-15 0 0 -5 Q15 0 12 36 Z" fill="#12293e"/>
-    <circle cx="0" cy="-20" r="12" fill="#8a5a35"/>
-    <rect x="-5" y="36" width="5" height="28" fill="#0b1d2e"/>
-    <rect x="2" y="36" width="5" height="28" fill="#0b1d2e"/>
-    <path d="M-24 10 L-14 20 L-24 34 Z" fill="#1b3a55"/>
-  </g>
+<g transform="translate(158,470)">
+<ellipse cx="0" cy="4" rx="34" ry="7" fill="#0b1d2e" opacity="0.3"/>
+<rect x="-15" y="-34" width="13" height="36" rx="6" fill="#12293e"/>
+<rect x="2" y="-34" width="13" height="36" rx="6" fill="#0b1d2e"/>
+<rect x="-24" y="-96" width="48" height="66" rx="16" fill="#e4ded2"/>
+<g transform="rotate(30 16 -78)"><rect x="9" y="-78" width="13" height="36" rx="6" fill="#e4ded2"/><circle cx="15" cy="-40" r="9" fill="#b07b4d"/></g>
+<rect x="-22" y="-80" width="12" height="34" rx="5" fill="#d9a271" transform="rotate(-16 -16 -80)"/>
+<circle cx="0" cy="-114" r="19" fill="#b07b4d"/>
+<path d="M -19,-118 a19 19 0 0 1 38 0 q-19,-9 -38,0 Z" fill="#0b1d2e"/>
+<rect x="18" y="-38" width="26" height="30" rx="4" fill="#c9a227"/>
+</g>
+<g transform="translate(206,470)">
+<ellipse cx="0" cy="4" rx="34" ry="7" fill="#0b1d2e" opacity="0.3"/>
+<g transform="rotate(-10 -8 -32)"><rect x="-15" y="-32" width="13" height="34" rx="6" fill="#0b1d2e"/></g>
+<g transform="rotate(12 8 -32)"><rect x="2" y="-32" width="13" height="34" rx="6" fill="#12293e"/></g>
+<rect x="-24" y="-92" width="48" height="64" rx="16" fill="#c9a9c0" opacity="0.9"/>
+<rect x="-24" y="-92" width="48" height="64" rx="16" fill="none" stroke="#e4ded2" stroke-width="2" opacity="0.4"/>
+<rect x="-34" y="-78" width="12" height="32" rx="5" fill="#d9a271" transform="rotate(20 -28 -78)"/>
+<rect x="18" y="-76" width="12" height="32" rx="5" fill="#8a5a35" transform="rotate(-14 24 -76)"/>
+<circle cx="0" cy="-110" r="18" fill="#8a5a35"/>
+<path d="M -18,-114 a18 18 0 0 1 36 0 q-18,-9 -36,0 Z" fill="#12293e"/>
+</g>
 </g>
 
-<!-- ===================== PANEL B: mid-1970s factory / shipyard ===================== -->
+<!-- ================= B: MID-1970s SHIPYARD ================= -->
 <g transform="translate(240,0)">
-  <rect x="0" y="300" width="240" height="140" fill="#12293e"/>
-  <rect x="10" y="330" width="90" height="110" fill="#0b1d2e"/>
-  <rect x="10" y="330" width="90" height="8" fill="#1b3a55"/>
-  <rect x="130" y="200" width="10" height="130" fill="#c9a227"/>
-  <rect x="60" y="196" width="120" height="9" fill="#c9a227"/>
-  <path d="M175 205 L175 250" stroke="#c9a227" stroke-width="3" fill="none"/>
-  <path d="M175 250 L160 262 L190 262 Z" fill="#c9a227"/>
-  <ellipse cx="205" cy="260" rx="16" ry="22" fill="#e4ded2" opacity="0.35"/>
-  <ellipse cx="215" cy="235" rx="20" ry="26" fill="#e4ded2" opacity="0.25"/>
+<path d="M 10,220 Q 70,180 150,210 L 150,430 L 10,430 Z" fill="#1b3a55"/>
+<rect x="10" y="220" width="140" height="14" fill="#0b1d2e" opacity="0.4"/>
+<circle cx="50" cy="270" r="4" fill="#e4ded2" opacity="0.5"/><circle cx="80" cy="264" r="4" fill="#e4ded2" opacity="0.5"/><circle cx="110" cy="262" r="4" fill="#e4ded2" opacity="0.5"/>
+<path d="M 170,430 L 178,140 L 186,140 L 210,200" stroke="#12293e" stroke-width="8" fill="none" stroke-linecap="round"/>
+<path d="M 178,150 L 150,190" stroke="#12293e" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M 208,198 L 208,246" stroke="#c9a227" stroke-width="4"/>
+<path d="M 40,196 L 60,168 L 66,172 L 48,200 Z" fill="#e0c163"/>
+<path d="M 66,178 L 80,158 L 86,162 L 72,182 Z" fill="#e8a33d"/>
 
-  <g transform="translate(130,345)">
-    <ellipse cx="0" cy="90" rx="22" ry="5" fill="#0b1d2e" opacity="0.3"/>
-    <path d="M-16 34 Q-19 -4 0 -10 Q19 -4 16 34 Z" fill="#1f8f74"/>
-    <circle cx="0" cy="-28" r="13" fill="#d9a271"/>
-    <path d="M-14 -34 Q0 -46 14 -34 Q10 -30 0 -30 Q-10 -30 -14 -34 Z" fill="#c9a227"/>
-    <rect x="-15" y="30" width="12" height="34" fill="#1b3a55"/>
-    <rect x="3" y="30" width="12" height="34" fill="#1b3a55"/>
-    <path d="M-16 -2 L-32 24" stroke="#1f8f74" stroke-width="9" stroke-linecap="round"/>
-  </g>
-  <g transform="translate(175,352)">
-    <ellipse cx="0" cy="83" rx="20" ry="5" fill="#0b1d2e" opacity="0.3"/>
-    <path d="M-15 32 Q-17 -4 0 -9 Q17 -4 15 32 Z" fill="#1f8a8a"/>
-    <circle cx="0" cy="-26" r="12" fill="#b07b4d"/>
-    <path d="M-13 -32 Q0 -43 13 -32 Q9 -28 0 -28 Q-9 -28 -13 -32 Z" fill="#c9a227"/>
-    <rect x="-14" y="28" width="11" height="32" fill="#12293e"/>
-    <rect x="3" y="28" width="11" height="32" fill="#12293e"/>
-  </g>
+<g transform="translate(96,470)">
+<ellipse cx="0" cy="4" rx="34" ry="7" fill="#0b1d2e" opacity="0.3"/>
+<g transform="rotate(14 -8 -32)"><rect x="-15" y="-32" width="13" height="34" rx="6" fill="#1b3a55"/></g>
+<g transform="rotate(-10 8 -32)"><rect x="2" y="-32" width="13" height="34" rx="6" fill="#12293e"/></g>
+<rect x="-26" y="-94" width="52" height="66" rx="14" fill="#e0c163"/>
+<g transform="rotate(-60 -20 -78)"><rect x="-32" y="-78" width="13" height="36" rx="6" fill="#e0c163"/><circle cx="-26" cy="-40" r="9" fill="#8a5a35"/></g>
+<g transform="rotate(40 22 -78)"><rect x="15" y="-78" width="13" height="34" rx="6" fill="#e0c163"/><circle cx="21" cy="-42" r="9" fill="#8a5a35"/></g>
+<circle cx="0" cy="-112" r="19" fill="#8a5a35"/>
+<path d="M -20,-118 a20 15 0 0 1 40 0 Z" fill="#1b3a55"/>
+</g>
+<g transform="translate(150,472)">
+<ellipse cx="0" cy="4" rx="30" ry="6" fill="#0b1d2e" opacity="0.3"/>
+<rect x="-13" y="-30" width="12" height="32" rx="5" fill="#0b1d2e"/>
+<rect x="2" y="-30" width="12" height="32" rx="5" fill="#12293e"/>
+<rect x="-22" y="-84" width="44" height="58" rx="12" fill="#eeeae1"/>
+<g transform="rotate(-50 -18 -70)"><rect x="-28" y="-70" width="12" height="32" rx="5" fill="#eeeae1"/><circle cx="-23" cy="-38" r="8" fill="#b07b4d"/></g>
+<circle cx="0" cy="-102" r="17" fill="#b07b4d"/>
+<path d="M -19,-108 a19 14 0 0 1 38 0 Z" fill="#12293e"/>
+</g>
 </g>
 
-<!-- ===================== PANEL C: family arrival + first shop, late 1970s-80s ===================== -->
+<!-- ================= C: FAMILY ARRIVES + FIRST SHOP ================= -->
 <g transform="translate(480,0)">
-  <rect x="0" y="340" width="240" height="100" fill="#eeeae1"/>
-  <rect x="20" y="230" width="200" height="115" fill="#e4ded2"/>
-  <rect x="30" y="245" width="24" height="30" fill="#1b3a55"/>
-  <rect x="90" y="245" width="24" height="30" fill="#1b3a55"/>
-  <rect x="150" y="245" width="24" height="30" fill="#1b3a55"/>
-  <rect x="130" y="300" width="70" height="45" fill="#1f8a8a"/>
-  <path d="M124 300 L206 300 L214 282 L116 282 Z" fill="#4fb8b8"/>
-  <path d="M124 300 L145 282" stroke="#f7f5f0" stroke-width="4"/>
-  <path d="M145 300 L166 282" stroke="#f7f5f0" stroke-width="4"/>
-  <path d="M166 300 L187 282" stroke="#f7f5f0" stroke-width="4"/>
-  <path d="M187 300 L206 282" stroke="#f7f5f0" stroke-width="4"/>
-  <rect x="150" y="255" width="40" height="14" rx="3" fill="none" stroke="#c9a227" stroke-width="2"/>
-  <rect x="165" y="315" width="30" height="30" fill="#0b1d2e"/>
+<rect x="130" y="230" width="100" height="200" rx="4" fill="#e4ded2"/>
+<rect x="130" y="210" width="100" height="22" fill="#1f8a8a"/>
+<rect x="150" y="270" width="60" height="70" rx="3" fill="#c9a227" opacity="0.5"/>
+<rect x="150" y="270" width="60" height="70" rx="3" fill="none" stroke="#1b3a55" stroke-width="3"/>
+<rect x="160" y="360" width="40" height="70" fill="#1b3a55"/>
+<circle cx="192" cy="395" r="3" fill="#c9a227"/>
 
-  <!-- shopkeeper in doorway -->
-  <g transform="translate(180,300)">
-    <path d="M-12 30 Q-14 0 0 -6 Q14 0 12 30 Z" fill="#c9a227" opacity="0.85"/>
-    <circle cx="0" cy="-18" r="11" fill="#8a5a35"/>
-    <rect x="-10" y="26" width="20" height="18" fill="#1f8a8a"/>
-  </g>
-
-  <!-- family -->
-  <g transform="translate(50,340)">
-    <ellipse cx="10" cy="98" rx="45" ry="6" fill="#1b3a55" opacity="0.2"/>
-    <!-- father -->
-    <g>
-      <path d="M-16 40 Q-19 -4 0 -10 Q19 -4 16 40 Z" fill="#1b3a55"/>
-      <circle cx="0" cy="-26" r="13" fill="#b07b4d"/>
-      <rect x="-13" y="36" width="11" height="32" fill="#12293e"/>
-      <rect x="2" y="36" width="11" height="32" fill="#12293e"/>
-      <rect x="16" y="20" width="18" height="26" rx="3" fill="#c9a227"/>
-    </g>
-    <!-- mother with headscarf -->
-    <g transform="translate(46,4)">
-      <path d="M-15 46 Q-19 -8 0 -18 Q19 -8 15 46 Z" fill="#ba0c2f" opacity="0.75"/>
-      <circle cx="0" cy="-24" r="12" fill="#d9a271"/>
-      <path d="M-14 -30 Q0 -44 14 -30 Q13 -8 6 6 Q0 10 -6 6 Q-13 -8 -14 -30 Z" fill="#e4ded2"/>
-      <rect x="-11" y="42" width="10" height="26" fill="#12293e"/>
-      <rect x="2" y="42" width="10" height="26" fill="#12293e"/>
-    </g>
-    <!-- child -->
-    <g transform="translate(20,40)">
-      <path d="M-9 26 Q-11 -2 0 -8 Q11 -2 9 26 Z" fill="#3fbf9a"/>
-      <circle cx="0" cy="-16" r="8" fill="#d9a271"/>
-      <rect x="-7" y="24" width="6" height="16" fill="#1b3a55"/>
-      <rect x="2" y="24" width="6" height="16" fill="#1b3a55"/>
-    </g>
-    <rect x="-30" y="70" width="20" height="26" rx="3" fill="#1b3a55"/>
-    <rect x="-30" y="68" width="20" height="4" fill="#c9a227"/>
-  </g>
+<g transform="translate(180,470)">
+<ellipse cx="0" cy="4" rx="28" ry="6" fill="#0b1d2e" opacity="0.2"/>
+<rect x="-12" y="-30" width="11" height="32" rx="5" fill="#12293e"/>
+<rect x="1" y="-30" width="11" height="32" rx="5" fill="#1b3a55"/>
+<rect x="-21" y="-84" width="42" height="58" rx="14" fill="#3fbf9a"/>
+<g transform="rotate(-24 -17 -70)"><rect x="-27" y="-70" width="11" height="30" rx="5" fill="#3fbf9a"/><circle cx="-21" cy="-38" r="8" fill="#d9a271"/></g>
+<circle cx="0" cy="-100" r="17" fill="#d9a271"/>
+<path d="M -17,-104 a17 17 0 0 1 34 0 q-17,-9 -34,0 Z" fill="#0b1d2e"/>
 </g>
 
-<!-- ===================== PANEL D: 1990s-2000s grocery + school children ===================== -->
+<g transform="translate(30,470)">
+<ellipse cx="4" cy="4" rx="36" ry="7" fill="#0b1d2e" opacity="0.25"/>
+<g transform="rotate(-8 -6 -34)"><rect x="-13" y="-34" width="12" height="36" rx="5" fill="#12293e"/></g>
+<g transform="rotate(10 10 -34)"><rect x="4" y="-34" width="12" height="36" rx="5" fill="#0b1d2e"/></g>
+<rect x="-22" y="-96" width="44" height="66" rx="14" fill="#1b3a55"/>
+<g transform="rotate(-30 -18 -80)"><rect x="-28" y="-80" width="12" height="34" rx="5" fill="#1b3a55"/><circle cx="-22" cy="-42" r="8" fill="#8a5a35"/></g>
+<rect x="14" y="-36" width="18" height="26" rx="4" fill="#c9a227"/>
+<circle cx="0" cy="-114" r="17" fill="#8a5a35"/>
+<path d="M -17,-118 a17 17 0 0 1 34 0 q-17,-9 -34,0 Z" fill="#12293e"/>
+</g>
+<g transform="translate(78,474)">
+<ellipse cx="0" cy="4" rx="32" ry="6" fill="#0b1d2e" opacity="0.25"/>
+<rect x="-12" y="-30" width="11" height="32" rx="5" fill="#6f4770"/>
+<rect x="1" y="-30" width="11" height="32" rx="5" fill="#8a5a86"/>
+<rect x="-20" y="-84" width="40" height="58" rx="14" fill="#ba0c2f"/>
+<rect x="-24" y="-116" width="48" height="44" rx="20" fill="#e4ded2"/>
+<circle cx="0" cy="-98" r="16" fill="#d9a271"/>
+<g transform="rotate(24 16 -72)"><rect x="9" y="-72" width="11" height="30" rx="5" fill="#ba0c2f"/><circle cx="15" cy="-40" r="7" fill="#d9a271"/></g>
+<rect x="26" y="-46" width="14" height="22" rx="3" fill="#8a5a35"/>
+</g>
+<g transform="translate(112,478)">
+<ellipse cx="0" cy="3" rx="20" ry="5" fill="#0b1d2e" opacity="0.25"/>
+<rect x="-9" y="-22" width="8" height="24" rx="4" fill="#12293e"/>
+<rect x="1" y="-22" width="8" height="24" rx="4" fill="#0b1d2e"/>
+<rect x="-15" y="-58" width="30" height="40" rx="10" fill="#e0c163"/>
+<circle cx="0" cy="-70" r="12" fill="#d9a271"/>
+</g>
+</g>
+
+<!-- ================= D: 1990s-2000s GROCERY ================= -->
 <g transform="translate(720,0)">
-  <rect x="0" y="300" width="240" height="140" fill="#eeeae1"/>
-  <rect x="10" y="180" width="220" height="130" fill="#f7f5f0"/>
-  <path d="M4 200 L236 200 L224 176 L16 176 Z" fill="#1f8a8a"/>
-  <path d="M4 200 L20 176" stroke="#4fb8b8" stroke-width="5"/>
-  <path d="M40 200 L54 176" stroke="#4fb8b8" stroke-width="5"/>
-  <path d="M76 200 L88 176" stroke="#4fb8b8" stroke-width="5"/>
-  <path d="M112 200 L124 176" stroke="#4fb8b8" stroke-width="5"/>
-  <path d="M148 200 L160 176" stroke="#4fb8b8" stroke-width="5"/>
-  <path d="M184 200 L196 176" stroke="#4fb8b8" stroke-width="5"/>
-  <path d="M220 200 L232 176" stroke="#4fb8b8" stroke-width="5"/>
-  <rect x="30" y="220" width="70" height="70" fill="#0b1d2e"/>
-  <rect x="150" y="230" width="60" height="60" rx="3" fill="none" stroke="#c9a227" stroke-width="2"/>
+<rect x="20" y="150" width="200" height="280" rx="4" fill="#eeeae1"/>
+<path d="M 12,150 L 228,150 L 210,120 L 30,120 Z" fill="#1f8a8a"/>
+<rect x="40" y="180" width="60" height="60" rx="2" fill="#1b3a55"/>
+<rect x="150" y="180" width="70" height="60" rx="2" fill="#c9a227" opacity="0.35"/>
+<rect x="150" y="180" width="70" height="60" rx="2" fill="none" stroke="#1b3a55" stroke-width="3"/>
 
-  <!-- crates of produce -->
-  <g>
-    <rect x="15" y="292" width="34" height="18" rx="2" fill="#1b3a55"/>
-    <circle cx="22" cy="290" r="6" fill="#e8a33d"/>
-    <circle cx="33" cy="288" r="6" fill="#c9a227"/>
-    <circle cx="44" cy="290" r="6" fill="#e8a33d"/>
-    <rect x="55" y="296" width="34" height="14" rx="2" fill="#1b3a55"/>
-    <circle cx="62" cy="294" r="5" fill="#3fbf9a"/>
-    <circle cx="72" cy="292" r="5" fill="#1f8f74"/>
-    <circle cx="82" cy="294" r="5" fill="#3fbf9a"/>
-  </g>
-
-  <!-- two children in uniforms walking -->
-  <g transform="translate(150,340)">
-    <ellipse cx="15" cy="82" rx="34" ry="5" fill="#1b3a55" opacity="0.2"/>
-    <g>
-      <path d="M-9 26 Q-11 -2 0 -8 Q11 -2 9 26 Z" fill="#1b3a55"/>
-      <circle cx="0" cy="-16" r="8" fill="#d9a271"/>
-      <rect x="-7" y="24" width="6" height="16" fill="#e4ded2"/>
-      <rect x="2" y="24" width="6" height="16" fill="#e4ded2"/>
-      <rect x="-11" y="-2" width="7" height="10" rx="2" fill="#c9a227"/>
-    </g>
-    <g transform="translate(28,2)">
-      <path d="M-14 -32 Q0 -44 14 -32 Q13 -14 6 -4 Q0 0 -6 -4 Q-13 -14 -14 -32 Z" fill="#e4ded2"/>
-      <path d="M-9 24 Q-11 -6 0 -10 Q11 -6 9 24 Z" fill="#3fbf9a"/>
-      <circle cx="0" cy="-20" r="8" fill="#b07b4d"/>
-      <rect x="-7" y="22" width="6" height="15" fill="#1b3a55"/>
-      <rect x="2" y="22" width="6" height="15" fill="#1b3a55"/>
-    </g>
-  </g>
+<g transform="translate(48,380)">
+<rect x="-30" y="-40" width="70" height="40" rx="4" fill="#8a5a35"/>
+<circle cx="-18" cy="-48" r="10" fill="#ba0c2f"/><circle cx="-2" cy="-50" r="10" fill="#ba0c2f"/><circle cx="14" cy="-48" r="10" fill="#3fbf9a"/><circle cx="30" cy="-50" r="10" fill="#e0c163"/>
+<circle cx="-10" cy="-36" r="10" fill="#e0c163"/><circle cx="8" cy="-36" r="10" fill="#3fbf9a"/><circle cx="24" cy="-36" r="10" fill="#ba0c2f"/>
+</g>
+<g transform="translate(150,378)">
+<rect x="-28" y="-30" width="66" height="30" rx="4" fill="#8a5a35"/>
+<ellipse cx="-14" cy="-38" rx="11" ry="9" fill="#3fbf9a"/><ellipse cx="4" cy="-40" rx="11" ry="9" fill="#3fbf9a"/><ellipse cx="22" cy="-38" rx="11" ry="9" fill="#1f8f74"/>
 </g>
 
-<!-- ===================== PANEL E: today, multigenerational family ===================== -->
+<g transform="translate(100,470)">
+<ellipse cx="0" cy="4" rx="32" ry="6" fill="#0b1d2e" opacity="0.15"/>
+<g transform="rotate(-8 -6 -32)"><rect x="-13" y="-32" width="12" height="34" rx="5" fill="#1b3a55"/></g>
+<g transform="rotate(10 10 -32)"><rect x="4" y="-32" width="12" height="34" rx="5" fill="#12293e"/></g>
+<rect x="-22" y="-90" width="44" height="62" rx="14" fill="#e8a33d"/>
+<g transform="rotate(-30 -16 -76)"><rect x="-26" y="-76" width="11" height="32" rx="5" fill="#e8a33d"/><circle cx="-20" cy="-40" r="8" fill="#d9a271"/></g>
+<circle cx="0" cy="-108" r="17" fill="#d9a271"/>
+<path d="M -25,-108 C -27,-124 -14,-134 0,-134 C 14,-134 27,-124 25,-108 C 25,-98 20,-92 12,-90 C 18,-98 18,-108 8,-114 C -2,-120 -18,-116 -22,-100 C -24,-104 -25,-106 -25,-108 Z" fill="#1b3a55"/>
+</g>
+<g transform="translate(186,474)">
+<ellipse cx="0" cy="4" rx="26" ry="6" fill="#0b1d2e" opacity="0.15"/>
+<g transform="rotate(-12 -6 -26)"><rect x="-12" y="-26" width="10" height="28" rx="5" fill="#12293e"/></g>
+<g transform="rotate(14 6 -26)"><rect x="1" y="-26" width="10" height="28" rx="5" fill="#1b3a55"/></g>
+<rect x="-19" y="-72" width="38" height="48" rx="12" fill="#3fbf9a"/>
+<rect x="-24" y="-68" width="12" height="26" rx="5" fill="#c9a227"/>
+<circle cx="0" cy="-86" r="15" fill="#f0c8a0"/>
+</g>
+<g transform="translate(214,478)">
+<ellipse cx="0" cy="3" rx="20" ry="5" fill="#0b1d2e" opacity="0.15"/>
+<rect x="-9" y="-22" width="8" height="24" rx="4" fill="#0b1d2e"/>
+<rect x="1" y="-22" width="8" height="24" rx="4" fill="#12293e"/>
+<rect x="-15" y="-56" width="30" height="38" rx="10" fill="#ba0c2f"/>
+<rect x="-18" y="-52" width="9" height="22" rx="4" fill="#e0c163"/>
+<circle cx="0" cy="-68" r="12" fill="#d9a271"/>
+</g>
+</g>
+
+<!-- ================= E: TODAY, MULTIGENERATIONAL FAMILY ================= -->
 <g transform="translate(960,0)">
-  <rect x="30" y="120" width="200" height="300" fill="#1b3a55"/>
-  <rect x="30" y="120" width="200" height="300" fill="url(#auroraWashHist)"/>
-  <g fill="#eeeae1" opacity="0.85">
-    <rect x="45" y="140" width="26" height="26"/>
-    <rect x="85" y="140" width="26" height="26"/>
-    <rect x="125" y="140" width="26" height="26"/>
-    <rect x="165" y="140" width="26" height="26"/>
-    <rect x="45" y="180" width="26" height="26"/>
-    <rect x="85" y="180" width="26" height="26"/>
-    <rect x="125" y="180" width="26" height="26"/>
-    <rect x="165" y="180" width="26" height="26"/>
-    <rect x="45" y="220" width="26" height="26"/>
-    <rect x="85" y="220" width="26" height="26"/>
-    <rect x="125" y="220" width="26" height="26"/>
-    <rect x="165" y="220" width="26" height="26"/>
-  </g>
-  <rect x="38" y="260" width="184" height="8" fill="#c9a227" opacity="0.8"/>
-  <rect x="38" y="300" width="184" height="8" fill="#c9a227" opacity="0.8"/>
-  <rect x="90" y="360" width="60" height="60" fill="#0b1d2e"/>
+<rect x="20" y="60" width="210" height="370" fill="#e4ded2"/>
+<g fill="#f7f5f0" opacity="0.9">
+<rect x="36" y="78" width="34" height="46" rx="2"/><rect x="86" y="78" width="34" height="46" rx="2"/><rect x="136" y="78" width="34" height="46" rx="2"/><rect x="186" y="78" width="34" height="46" rx="2"/>
+<rect x="36" y="140" width="34" height="46" rx="2"/><rect x="86" y="140" width="34" height="46" rx="2"/><rect x="136" y="140" width="34" height="46" rx="2"/><rect x="186" y="140" width="34" height="46" rx="2"/>
+<rect x="36" y="202" width="34" height="46" rx="2"/><rect x="86" y="202" width="34" height="46" rx="2"/><rect x="136" y="202" width="34" height="46" rx="2"/><rect x="186" y="202" width="34" height="46" rx="2"/>
+</g>
+<g fill="#e0c163" opacity="0.7">
+<rect x="86" y="78" width="34" height="46" rx="2"/><rect x="186" y="140" width="34" height="46" rx="2"/><rect x="36" y="202" width="34" height="46" rx="2"/>
+</g>
+<rect x="20" y="260" width="210" height="14" fill="#c9a227" opacity="0.6"/>
+<rect x="60" y="300" width="60" height="80" rx="4" fill="#1b3a55"/>
 
-  <!-- multigenerational group -->
-  <g transform="translate(50,352)">
-    <ellipse cx="70" cy="106" rx="120" ry="8" fill="#1b3a55" opacity="0.18"/>
-    <!-- grandfather -->
-    <g>
-      <path d="M-16 44 Q-19 -4 0 -10 Q19 -4 16 44 Z" fill="#1b3a55"/>
-      <circle cx="0" cy="-26" r="13" fill="#b07b4d"/>
-      <path d="M-13 -34 Q0 -40 13 -34" stroke="#e4ded2" stroke-width="5" fill="none" stroke-linecap="round"/>
-      <rect x="-13" y="40" width="11" height="34" fill="#0b1d2e"/>
-      <rect x="2" y="40" width="11" height="34" fill="#0b1d2e"/>
-    </g>
-    <!-- father -->
-    <g transform="translate(42,4)">
-      <path d="M-15 40 Q-18 -6 0 -12 Q18 -6 15 40 Z" fill="#1f8f74"/>
-      <circle cx="0" cy="-26" r="13" fill="#8a5a35"/>
-      <rect x="-12" y="36" width="10" height="32" fill="#12293e"/>
-      <rect x="2" y="36" width="10" height="32" fill="#12293e"/>
-    </g>
-    <!-- mother, hijab -->
-    <g transform="translate(84,0)">
-      <path d="M-16 48 Q-20 -10 0 -20 Q20 -10 16 48 Z" fill="#e0c163"/>
-      <circle cx="0" cy="-26" r="12" fill="#d9a271"/>
-      <path d="M-15 -32 Q0 -46 15 -32 Q14 -6 6 8 Q0 12 -6 8 Q-14 -6 -15 -32 Z" fill="#1f8a8a"/>
-      <rect x="-11" y="44" width="10" height="26" fill="#0b1d2e"/>
-      <rect x="2" y="44" width="10" height="26" fill="#0b1d2e"/>
-    </g>
-    <!-- teenage daughter -->
-    <g transform="translate(126,22)">
-      <path d="M-12 34 Q-14 -4 0 -10 Q14 -4 12 34 Z" fill="#ba0c2f" opacity="0.7"/>
-      <circle cx="0" cy="-20" r="10" fill="#b07b4d"/>
-      <path d="M0 -30 Q10 -20 6 4" stroke="#0b1d2e" stroke-width="6" fill="none" stroke-linecap="round"/>
-      <rect x="-9" y="30" width="8" height="22" fill="#1b3a55"/>
-      <rect x="2" y="30" width="8" height="22" fill="#1b3a55"/>
-    </g>
-    <!-- teenage son -->
-    <g transform="translate(158,26)">
-      <path d="M-11 32 Q-13 -4 0 -9 Q13 -4 11 32 Z" fill="#4fb8b8"/>
-      <circle cx="0" cy="-18" r="9" fill="#8a5a35"/>
-      <rect x="-8" y="28" width="7" height="20" fill="#12293e"/>
-      <rect x="2" y="28" width="7" height="20" fill="#12293e"/>
-    </g>
-  </g>
+<g transform="translate(48,470)">
+<ellipse cx="0" cy="4" rx="32" ry="6" fill="#0b1d2e" opacity="0.14"/>
+<rect x="-13" y="-32" width="12" height="34" rx="5" fill="#1b3a55"/>
+<rect x="2" y="-32" width="12" height="34" rx="5" fill="#12293e"/>
+<rect x="-22" y="-92" width="44" height="64" rx="14" fill="#e4ded2"/>
+<g transform="rotate(-30 -18 -78)"><rect x="-28" y="-78" width="11" height="32" rx="5" fill="#e4ded2"/><circle cx="-22" cy="-42" r="8" fill="#b07b4d"/></g>
+<path d="M -12,-92 L -30,4" stroke="#8a5a35" stroke-width="5" stroke-linecap="round"/>
+<circle cx="0" cy="-108" r="17" fill="#b07b4d"/>
+<path d="M -17,-112 a17 17 0 0 1 34 0 q-17,-9 -34,0 Z" fill="#e4ded2"/>
+</g>
+<g transform="translate(100,476)">
+<ellipse cx="0" cy="4" rx="36" ry="7" fill="#0b1d2e" opacity="0.14"/>
+<g transform="rotate(-8 -7 -36)"><rect x="-15" y="-36" width="13" height="38" rx="6" fill="#12293e"/></g>
+<g transform="rotate(10 7 -36)"><rect x="2" y="-36" width="13" height="38" rx="6" fill="#1b3a55"/></g>
+<rect x="-25" y="-100" width="50" height="70" rx="16" fill="#1f8a8a"/>
+<g transform="rotate(24 18 -84)"><rect x="11" y="-84" width="12" height="36" rx="6" fill="#1f8a8a"/><circle cx="17" cy="-46" r="9" fill="#f0c8a0"/></g>
+<circle cx="0" cy="-118" r="19" fill="#f0c8a0"/>
+<path d="M -19,-122 a19 19 0 0 1 38 0 q-19,-10 -38,0 Z" fill="#0b1d2e"/>
+</g>
+<g transform="translate(154,478)">
+<ellipse cx="0" cy="4" rx="36" ry="7" fill="#0b1d2e" opacity="0.14"/>
+<g transform="rotate(8 -7 -36)"><rect x="-15" y="-36" width="13" height="38" rx="6" fill="#0b1d2e"/></g>
+<g transform="rotate(-8 7 -36)"><rect x="2" y="-36" width="13" height="38" rx="6" fill="#12293e"/></g>
+<rect x="-25" y="-102" width="50" height="72" rx="15" fill="#ba0c2f"/>
+<g transform="rotate(-24 -18 -86)"><rect x="-30" y="-86" width="12" height="36" rx="6" fill="#ba0c2f"/><circle cx="-24" cy="-48" r="9" fill="#d9a271"/></g>
+<circle cx="2" cy="-130" r="20" fill="#d9a271"/>
+<path d="M -22,-134 C -24,-152 -12,-166 2,-166 C 18,-166 30,-152 26,-132 C 30,-148 24,-164 4,-170 C -16,-176 -32,-160 -26,-138 C -24,-136 -23,-135 -22,-134 Z" fill="#1b3a55"/>
+</g>
+<g transform="translate(202,474)">
+<ellipse cx="0" cy="3" rx="26" ry="6" fill="#0b1d2e" opacity="0.14"/>
+<rect x="-11" y="-26" width="10" height="28" rx="5" fill="#12293e"/>
+<rect x="1" y="-26" width="10" height="28" rx="5" fill="#1b3a55"/>
+<rect x="-18" y="-72" width="36" height="48" rx="12" fill="#3fbf9a"/>
+<circle cx="0" cy="-86" r="15" fill="#d9a271"/>
+<path d="M -15,-90 a15 10 0 0 1 30 0 Z" fill="#0b1d2e"/>
+</g>
 </g>
 
-<!-- timeline thread -->
-<g fill="none" stroke="#c9a227" stroke-width="2" stroke-dasharray="2 8" opacity="0.6">
-  <line x1="20" y1="500" x2="1180" y2="500"/>
+<!-- ================= TIMELINE THREAD ================= -->
+<g>
+<line x1="60" y1="522" x2="1140" y2="522" stroke="#c9a227" stroke-width="4" opacity="0.85"/>
+<circle cx="120" cy="522" r="8" fill="#c9a227"/>
+<circle cx="360" cy="522" r="8" fill="#c9a227"/>
+<circle cx="600" cy="522" r="8" fill="#c9a227"/>
+<circle cx="840" cy="522" r="8" fill="#c9a227"/>
+<circle cx="1080" cy="522" r="8" fill="#c9a227"/>
+<circle cx="120" cy="522" r="3.5" fill="#f7f5f0"/>
+<circle cx="360" cy="522" r="3.5" fill="#f7f5f0"/>
+<circle cx="600" cy="522" r="3.5" fill="#f7f5f0"/>
+<circle cx="840" cy="522" r="3.5" fill="#f7f5f0"/>
+<circle cx="1080" cy="522" r="3.5" fill="#f7f5f0"/>
 </g>
-<circle cx="120" cy="500" r="5" fill="#1b3a55"/>
-<circle cx="360" cy="500" r="6" fill="#1f8f74"/>
-<circle cx="600" cy="500" r="6.5" fill="#c9a227"/>
-<circle cx="840" cy="500" r="7" fill="#3fbf9a"/>
-<circle cx="1080" cy="500" r="8" fill="#e0c163"/>
+
 </svg>

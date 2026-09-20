@@ -59,7 +59,7 @@
 <rect x="-36" y="-142" width="72" height="98" rx="18" fill="#f7f5f0"/>
 <rect x="-36" y="-142" width="72" height="98" rx="18" fill="none" stroke="#3fbf9a" stroke-width="5"/>
 <g transform="rotate(-40 -32 -118)"><rect x="-44" y="-118" width="24" height="58" rx="11" fill="#eeeae1"/><circle cx="-37" cy="-64" r="11" fill="#f0c8a0"/></g>
-<g transform="rotate(28 32 -116)"><rect x="20" y="-116" width="24" height="50" rx="11" fill="#eeeae1"/><circle cx="38" cy="-70" r="11" fill="#f0c8a0"/></g>
+<g transform="rotate(46 32 -116)"><rect x="20" y="-116" width="24" height="62" rx="11" fill="#eeeae1"/><circle cx="38" cy="-58" r="11" fill="#f0c8a0"/></g>
 <path d="M -14,-172 Q 0,-160 14,-172" stroke="#3fbf9a" stroke-width="5" fill="none"/><circle cx="0" cy="-150" r="7" fill="#3fbf9a"/>
 <circle cx="0" cy="-182" r="28" fill="#f0c8a0"/>
 <path d="M -28,-186 C -30,-206 -14,-220 0,-220 C 14,-220 30,-206 28,-186 C 16,-198 -16,-198 -28,-186 Z" fill="#0b1d2e"/>
@@ -127,9 +127,9 @@
 <ellipse cx="0" cy="4" rx="48" ry="8" fill="#0b1d2e" opacity="0.2"/>
 <rect x="-24" y="-58" width="20" height="62" rx="8" fill="#12293e"/>
 <rect x="4" y="-58" width="20" height="62" rx="8" fill="#0b1d2e"/>
-<rect x="-40" y="-150" width="80" height="98" rx="22" fill="#1b3a55"/>
-<g transform="rotate(-50 -46 -100)"><rect x="-58" y="-100" width="24" height="54" rx="11" fill="#1b3a55"/><circle cx="-50" cy="-48" r="11" fill="#8a5a35"/></g>
-<g transform="rotate(24 44 -98)"><rect x="32" y="-98" width="24" height="50" rx="11" fill="#1b3a55"/><circle cx="48" cy="-52" r="11" fill="#8a5a35"/></g>
+<rect x="-40" y="-150" width="80" height="98" rx="22" fill="#1f8a8a"/>
+<g transform="rotate(-50 -46 -100)"><rect x="-58" y="-100" width="24" height="54" rx="11" fill="#1f8a8a"/><circle cx="-50" cy="-48" r="11" fill="#8a5a35"/></g>
+<g transform="rotate(24 44 -98)"><rect x="32" y="-98" width="24" height="50" rx="11" fill="#1f8a8a"/><circle cx="48" cy="-52" r="11" fill="#8a5a35"/></g>
 <circle cx="0" cy="-182" r="28" fill="#8a5a35"/>
 <path d="M -28,-188 C -30,-208 -14,-220 0,-220 C 14,-220 30,-208 28,-188 C 16,-200 -16,-200 -28,-188 Z" fill="#0b1d2e"/>
 </g>
