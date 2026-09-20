@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Dawn over the fjord: warm amber and brass light on the horizon, a small ferry crossing calm water, and a family of three standing quietly on a headland looking out">
+<title>Dawn over the fjord</title>
+<defs>
+<linearGradient id="dawnSky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#4fb8b8"/>
+<stop offset="0.38" stop-color="#eeeae1"/>
+<stop offset="0.72" stop-color="#e0c163"/>
+<stop offset="1" stop-color="#e8a33d"/>
+</linearGradient>
+<linearGradient id="dawnWater" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#e8a33d"/>
+<stop offset="0.25" stop-color="#e0c163" stop-opacity="0.7"/>
+<stop offset="0.6" stop-color="#1b3a55"/>
+<stop offset="1" stop-color="#12293e"/>
+</linearGradient>
+<radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#f7f5f0" stop-opacity="0.95"/>
+<stop offset="0.35" stop-color="#e0c163" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#e8a33d" stop-opacity="0"/>
+</radialGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="500" fill="url(#dawnSky)"/>
+
+<g opacity="0.5"><circle cx="150" cy="35" r="1.1" fill="#f7f5f0" opacity="0.5"/><circle cx="980" cy="25" r="0.9" fill="#f7f5f0" opacity="0.4"/><circle cx="1080" cy="55" r="1.2" fill="#f7f5f0" opacity="0.35"/><circle cx="60" cy="60" r="0.8" fill="#f7f5f0" opacity="0.3"/><circle cx="1140" cy="20" r="1.0" fill="#f7f5f0" opacity="0.4"/></g>
+
+<circle cx="700" cy="205" r="200" fill="url(#sun)"/>
+<circle cx="700" cy="205" r="52" fill="#e0c163"/>
+<circle cx="700" cy="205" r="52" fill="none" stroke="#f7f5f0" stroke-width="2" opacity="0.5"/>
+
+<path d="M 0,330 L 0,220 C 90,175 160,235 230,205 C 300,180 340,225 410,200 C 480,175 540,215 610,195 C 690,170 760,210 840,195 C 920,180 1000,220 1080,205 C 1130,195 1170,210 1200,200 L 1200,330 Z" fill="#1b3a55"/>
+
+<rect x="0" y="330" width="1200" height="170" fill="url(#dawnWater)"/>
+<ellipse cx="700" cy="365" rx="230" ry="12" fill="#f7f5f0" opacity="0.35"/>
+<ellipse cx="700" cy="392" rx="170" ry="9" fill="#e0c163" opacity="0.30"/>
+<ellipse cx="700" cy="415" rx="120" ry="7" fill="#e8a33d" opacity="0.22"/>
+
+<g id="ferry" transform="translate(400,336)">
+  <path d="M -42,10 C -42,20 42,20 42,10 L 33,-4 L -33,-4 Z" fill="#12293e"/>
+  <rect x="-20" y="-22" width="30" height="18" rx="2" fill="#1b3a55"/>
+  <rect x="-15" y="-17" width="7" height="7" fill="#e0c163" opacity="0.95"/>
+  <rect x="-3" y="-17" width="7" height="7" fill="#e8a33d" opacity="0.95"/>
+  <rect x="9" y="-17" width="7" height="7" fill="#e0c163" opacity="0.95"/>
+  <rect x="-2" y="-36" width="3" height="16" fill="#12293e"/>
+  <rect x="-6" y="-38" width="11" height="3" fill="#12293e"/>
+</g>
+<ellipse cx="400" cy="352" rx="46" ry="6" fill="#f7f5f0" opacity="0.25"/>
+
+<path d="M 0,500 L 0,380 C 90,362 160,382 225,405 C 260,418 285,430 300,442 L 300,500 Z" fill="#12293e"/>
+
+<g id="family">
+<g transform="translate(148,430)"><path d="M -15.6,0 C -16.6,-31.3 -8.6,-56.9 0,-56.9 C 8.6,-56.9 16.6,-31.3 15.6,0 Z" fill="#8a5a35"/><circle cx="0" cy="-58.5" r="10.5" fill="#8a5a35"/></g>
+<g transform="translate(196,434)"><path d="M -14.8,0 C -15.8,-29.7 -8.1,-54.0 0,-54.0 C 8.1,-54.0 15.8,-29.7 14.8,0 Z" fill="#8a5a35"/><circle cx="0" cy="-55.5" r="10.0" fill="#8a5a35"/><path d="M -11.8,-55.5 a 11.8 11.8 0 0 1 23.6,0 L 9.2,-39.6 C 4.1,-46.7 -4.1,-46.7 -9.2,-39.6 Z" fill="#8a5a35"/></g>
+<g transform="translate(174,440)"><path d="M -11.2,0 C -12.2,-22.5 -6.2,-40.9 0,-40.9 C 6.2,-40.9 12.2,-22.5 11.2,0 Z" fill="#8a5a35"/><circle cx="0" cy="-42.0" r="7.6" fill="#8a5a35"/></g>
+</g>
+</svg>

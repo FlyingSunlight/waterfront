@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="A calm, unhurried GP waiting room: a mother with a toddler, an older man, and a young woman in a hijab looking at her phone sit near a low table and a plant, while through a doorway a doctor greets a patient.">
+<title>Healthcare: a routine visit to the GP</title>
+<defs>
+<linearGradient id="winlight" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#eeeae1"/>
+<stop offset="1" stop-color="#e4ded2"/>
+</linearGradient>
+<radialGradient id="hlglow" cx="0.5" cy="0.2" r="0.9">
+<stop offset="0" stop-color="#e8a33d" stop-opacity="0.20"/>
+<stop offset="1" stop-color="#e8a33d" stop-opacity="0"/>
+</radialGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="520" fill="#f7f5f0"/>
+<rect x="0" y="0" width="1200" height="340" fill="#eeeae1"/>
+<rect x="0" y="340" width="1200" height="180" fill="#e4ded2"/>
+<rect x="0" y="336" width="1200" height="6" fill="#c9a227" opacity="0.45"/>
+
+<!-- soft window light on left wall -->
+<rect x="40" y="40" width="180" height="260" rx="8" fill="#0b1d2e"/>
+<rect x="52" y="52" width="156" height="236" fill="url(#winlight)"/>
+<rect x="122" y="52" width="8" height="236" fill="#0b1d2e"/>
+<rect x="52" y="166" width="156" height="8" fill="#0b1d2e"/>
+<polygon points="60,60 210,60 260,330 30,330" fill="url(#hlglow)"/>
+
+<!-- reception desk hint -->
+<rect x="300" y="70" width="230" height="90" rx="10" fill="#1b3a55"/>
+<rect x="310" y="55" width="210" height="20" rx="6" fill="#12293e"/>
+
+<!-- doorway into consultation room -->
+<g>
+<rect x="880" y="40" width="260" height="290" rx="10" fill="#1b3a55"/>
+<rect x="900" y="55" width="220" height="260" rx="6" fill="#eeeae1"/>
+<!-- doctor greeting patient -->
+<g transform="translate(970,235)">
+<rect x="-24" y="-6" width="48" height="80" rx="16" fill="#f7f5f0"/>
+<circle cx="0" cy="-32" r="24" fill="#f0c8a0"/>
+<path d="M-22 -40 Q0 -60 22 -40 Q22 -30 18 -24 Q18 -44 0 -46 Q-18 -44 -18 -24 Q-22 -30 -22 -40Z" fill="#1b3a55"/>
+<rect x="16" y="18" width="34" height="10" rx="5" fill="#f0c8a0" transform="rotate(-25 16 18)"/>
+</g>
+<g transform="translate(1055,240)">
+<rect x="-24" y="-4" width="48" height="78" rx="16" fill="#4fb8b8"/>
+<circle cx="0" cy="-30" r="24" fill="#b07b4d"/>
+<path d="M-22 -38 Q-20 -58 0 -60 Q20 -58 22 -38 Q14 -46 0 -48 Q-14 -46 -22 -38Z" fill="#12293e"/>
+<rect x="-50" y="18" width="34" height="10" rx="5" fill="#b07b4d" transform="rotate(20 -50 18)"/>
+</g>
+</g>
+
+<!-- plant -->
+<g transform="translate(210,420)">
+<rect x="-26" y="0" width="52" height="46" rx="8" fill="#c9a227"/>
+<path d="M0 0 Q-10 -60 -46 -78 Q-8 -70 0 -30 Q8 -70 46 -78 Q10 -60 0 0Z" fill="#1f8f74"/>
+<path d="M0 -10 Q-6 -50 -30 -66 Q-4 -58 0 -24 Q4 -58 30 -66 Q6 -50 0 -10Z" fill="#3fbf9a"/>
+</g>
+
+<!-- low table -->
+<g transform="translate(430,440)">
+<ellipse cx="0" cy="30" rx="120" ry="16" fill="#1b3a55" opacity="0.12"/>
+<rect x="-110" y="-6" width="220" height="16" rx="6" fill="#e0c163"/>
+<rect x="-96" y="10" width="10" height="26" fill="#c9a227"/>
+<rect x="86" y="10" width="10" height="26" fill="#c9a227"/>
+<rect x="-40" y="-22" width="60" height="18" rx="4" fill="#f7f5f0"/>
+<rect x="-40" y="-22" width="60" height="18" rx="4" fill="none" stroke="#1b3a55" stroke-width="2"/>
+<circle cx="40" cy="-14" r="10" fill="#e4ded2"/>
+</g>
+
+<!-- bench seating -->
+<rect x="40" y="400" width="300" height="24" rx="10" fill="#e0c163"/>
+<rect x="560" y="400" width="330" height="24" rx="10" fill="#e0c163"/>
+
+<!-- mother with toddler -->
+<g transform="translate(150,395)">
+<rect x="-26" y="-10" width="52" height="80" rx="18" fill="#1f8a8a"/>
+<circle cx="0" cy="-36" r="26" fill="#d9a271"/>
+<path d="M-24 -44 Q-22 -68 0 -70 Q22 -68 24 -44 Q22 -30 18 -22 Q20 -46 0 -50 Q-20 -46 -18 -22 Q-22 -30 -24 -44Z" fill="#0b1d2e"/>
+<g transform="translate(30,26)">
+<rect x="-16" y="-4" width="32" height="46" rx="14" fill="#e8a33d"/>
+<circle cx="0" cy="-18" r="16" fill="#f0c8a0"/>
+<path d="M-14 -24 Q0 -34 14 -24 Q14 -14 10 -10 Q12 -22 0 -24 Q-12 -22 -10 -10 Q-14 -14 -14 -24Z" fill="#8a5a35"/>
+</g>
+</g>
+
+<!-- older man -->
+<g transform="translate(280,398)">
+<rect x="-26" y="-8" width="52" height="76" rx="18" fill="#1b3a55"/>
+<circle cx="0" cy="-34" r="26" fill="#b07b4d"/>
+<path d="M-22 -42 Q-20 -56 0 -58 Q20 -56 22 -42 Q16 -48 0 -49 Q-16 -48 -22 -42Z" fill="#e4ded2"/>
+<rect x="-30" y="20" width="14" height="34" rx="6" fill="#12293e"/>
+<rect x="16" y="20" width="14" height="34" rx="6" fill="#12293e"/>
+</g>
+
+<!-- young woman in hijab on phone -->
+<g transform="translate(720,393)">
+<rect x="-27" y="-10" width="54" height="80" rx="18" fill="#3fbf9a"/>
+<circle cx="0" cy="-38" r="27" fill="#f0c8a0"/>
+<path d="M-30 -46 Q0 -74 30 -46 Q32 -6 24 18 L-24 18 Q-32 -6 -30 -46Z" fill="#ba0c2f"/>
+<rect x="6" y="-6" width="22" height="16" rx="4" fill="#12293e" transform="rotate(6 6 -6)"/>
+</g>
+
+<!-- second seated figure, waiting reader -->
+<g transform="translate(850,398)">
+<rect x="-25" y="-8" width="50" height="76" rx="18" fill="#c9a227"/>
+<circle cx="0" cy="-36" r="25" fill="#8a5a35"/>
+<path d="M-22 -44 Q-20 -60 0 -62 Q20 -60 22 -44 Q14 -50 0 -51 Q-14 -50 -22 -44Z" fill="#12293e"/>
+</g>
+</svg>

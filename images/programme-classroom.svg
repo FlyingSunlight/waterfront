@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-label="Adult students of many backgrounds sit together in a bright Norwegian-language classroom while a teacher points at simple marks on a whiteboard, with bare birch trees visible through tall winter windows.">
+<title>Introduksjonsprogrammet: an adult language classroom</title>
+<defs>
+<linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#eeeae1"/>
+<stop offset="1" stop-color="#e4ded2"/>
+</linearGradient>
+<radialGradient id="glow1" cx="0.5" cy="0.15" r="0.85">
+<stop offset="0" stop-color="#e8a33d" stop-opacity="0.28"/>
+<stop offset="1" stop-color="#e8a33d" stop-opacity="0"/>
+</radialGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="560" fill="#f7f5f0"/>
+<rect x="0" y="0" width="1200" height="378" fill="#eeeae1"/>
+<rect x="0" y="378" width="1200" height="182" fill="#e4ded2"/>
+<rect x="0" y="374" width="1200" height="8" fill="#c9a227" opacity="0.5"/>
+
+<!-- long low nordic light through windows -->
+<polygon points="90,60 260,60 520,378 60,378" fill="url(#glow1)"/>
+<polygon points="330,60 500,60 720,378 300,378" fill="url(#glow1)"/>
+
+<!-- windows -->
+<g>
+<rect x="55" y="45" width="215" height="300" rx="6" fill="#0b1d2e"/>
+<rect x="68" y="58" width="189" height="274" fill="url(#sky1)"/>
+<rect x="160" y="58" width="8" height="274" fill="#0b1d2e"/>
+<rect x="68" y="192" width="189" height="8" fill="#0b1d2e"/>
+<!-- birch trees -->
+<g stroke="#f7f5f0" stroke-width="6" stroke-linecap="round">
+<line x1="100" y1="332" x2="95" y2="90"/>
+<line x1="150" y1="332" x2="158" y2="70"/>
+<line x1="215" y1="332" x2="210" y2="100"/>
+</g>
+<g stroke="#1b3a55" stroke-width="2">
+<line x1="95" y1="150" x2="102" y2="150"/>
+<line x1="95" y1="190" x2="101" y2="190"/>
+<line x1="158" y1="140" x2="151" y2="143"/>
+<line x1="158" y1="180" x2="150" y2="182"/>
+<line x1="210" y1="160" x2="217" y2="162"/>
+</g>
+<g stroke="#1b3a55" stroke-width="3" stroke-linecap="round" fill="none">
+<path d="M95 120 Q70 100 55 78"/>
+<path d="M95 150 Q120 130 140 110"/>
+<path d="M158 110 Q135 88 118 70"/>
+<path d="M158 140 Q182 120 200 100"/>
+<path d="M210 130 Q190 108 175 90"/>
+</g>
+</g>
+
+<g>
+<rect x="295" y="45" width="215" height="300" rx="6" fill="#0b1d2e"/>
+<rect x="308" y="58" width="189" height="274" fill="url(#sky1)"/>
+<rect x="400" y="58" width="8" height="274" fill="#0b1d2e"/>
+<rect x="308" y="192" width="189" height="8" fill="#0b1d2e"/>
+<g stroke="#f7f5f0" stroke-width="6" stroke-linecap="round">
+<line x1="345" y1="332" x2="340" y2="95"/>
+<line x1="405" y1="332" x2="412" y2="75"/>
+<line x1="460" y1="332" x2="455" y2="105"/>
+</g>
+<g stroke="#1b3a55" stroke-width="3" stroke-linecap="round" fill="none">
+<path d="M340 150 Q315 130 300 108"/>
+<path d="M340 180 Q365 160 385 140"/>
+<path d="M412 130 Q390 108 375 90"/>
+<path d="M412 160 Q436 140 452 122"/>
+<path d="M455 140 Q432 118 418 100"/>
+</g>
+</g>
+
+<!-- whiteboard wall and teacher -->
+<rect x="560" y="70" width="580" height="230" rx="10" fill="#f7f5f0" stroke="#1b3a55" stroke-width="6"/>
+<g fill="#12293e">
+<rect x="590" y="105" width="60" height="8" rx="4"/>
+<circle cx="672" cy="109" r="6"/>
+<rect x="700" y="105" width="34" height="8" rx="4"/>
+<rect x="590" y="140" width="34" height="8" rx="4"/>
+<rect x="640" y="140" width="60" height="8" rx="4"/>
+<circle cx="722" cy="144" r="6"/>
+<rect x="590" y="175" width="70" height="8" rx="4"/>
+<rect x="680" y="175" width="34" height="8" rx="4"/>
+<circle cx="750" cy="179" r="6"/>
+</g>
+<polygon points="620,220 780,220 800,260 600,260" fill="#3fbf9a" opacity="0.18"/>
+
+<!-- teacher figure -->
+<g transform="translate(520,300)">
+<rect x="-22" y="-10" width="44" height="78" rx="14" fill="#1f8a8a"/>
+<circle cx="0" cy="-38" r="24" fill="#d9a271"/>
+<path d="M-24 -46 Q0 -70 24 -46 Q24 -28 18 -22 Q20 -46 0 -50 Q-20 -46 -18 -22 Q-24 -28 -24 -46Z" fill="#12293e"/>
+<rect x="18" y="4" width="46" height="9" rx="4" fill="#d9a271" transform="rotate(-18 18 4)"/>
+</g>
+
+<!-- floor baseboard accent -->
+<rect x="0" y="378" width="1200" height="4" fill="#1b3a55" opacity="0.35"/>
+
+<!-- row of desks and students -->
+<g>
+<!-- back row (smaller, higher) -->
+<g transform="translate(220,392) scale(0.86)">
+<rect x="-52" y="18" width="104" height="34" rx="8" fill="#e0c163"/>
+<rect x="-38" y="-42" width="76" height="66" rx="20" fill="#3fbf9a"/>
+<circle cx="0" cy="-58" r="25" fill="#b07b4d"/>
+<path d="M-27 -66 Q0 -92 27 -66 Q30 -20 20 0 L-20 0 Q-30 -20 -27 -66Z" fill="#c9a227"/>
+</g>
+<g transform="translate(430,388) scale(0.86)">
+<rect x="-52" y="18" width="104" height="34" rx="8" fill="#e0c163"/>
+<rect x="-38" y="-42" width="76" height="66" rx="20" fill="#1f8f74"/>
+<circle cx="0" cy="-58" r="25" fill="#f0c8a0"/>
+<path d="M-25 -70 Q-10 -84 12 -80 Q26 -76 26 -60 Q10 -68 0 -68 Q-14 -66 -25 -70Z" fill="#1b3a55"/>
+</g>
+<g transform="translate(660,390) scale(0.86)">
+<rect x="-52" y="18" width="104" height="34" rx="8" fill="#e0c163"/>
+<rect x="-38" y="-42" width="76" height="66" rx="20" fill="#c9a227"/>
+<circle cx="0" cy="-58" r="25" fill="#8a5a35"/>
+<path d="M-26 -62 Q-24 -86 0 -90 Q24 -86 26 -62 Q18 -70 0 -72 Q-18 -70 -26 -62Z" fill="#e4ded2"/>
+</g>
+<g transform="translate(880,388) scale(0.86)">
+<rect x="-52" y="18" width="104" height="34" rx="8" fill="#e0c163"/>
+<rect x="-38" y="-42" width="76" height="66" rx="20" fill="#4fb8b8"/>
+<circle cx="0" cy="-58" r="25" fill="#d9a271"/>
+<path d="M-24 -68 Q0 -90 24 -68 Q22 -50 16 -44 Q18 -66 0 -70 Q-18 -66 -16 -44 Q-22 -50 -24 -68Z" fill="#0b1d2e"/>
+</g>
+
+<!-- middle row -->
+<g transform="translate(120,470) scale(1)">
+<rect x="-56" y="20" width="112" height="36" rx="8" fill="#eeeae1"/>
+<rect x="-40" y="-46" width="80" height="70" rx="22" fill="#1b3a55"/>
+<circle cx="0" cy="-62" r="27" fill="#d9a271"/>
+<path d="M-29 -70 Q0 -96 29 -70 Q32 -22 22 2 L-22 2 Q-32 -22 -29 -70Z" fill="#e0c163"/>
+<rect x="-58" y="24" width="26" height="9" rx="4" fill="#f7f5f0"/>
+</g>
+<g transform="translate(360,474) scale(1)">
+<rect x="-56" y="20" width="112" height="36" rx="8" fill="#eeeae1"/>
+<rect x="-40" y="-46" width="80" height="70" rx="22" fill="#3fbf9a"/>
+<circle cx="0" cy="-62" r="27" fill="#f0c8a0"/>
+<path d="M-27 -75 Q-8 -90 15 -84 Q28 -78 27 -60 Q10 -70 -2 -70 Q-16 -68 -27 -75Z" fill="#1f8f74"/>
+</g>
+<g transform="translate(600,478) scale(1)">
+<rect x="-56" y="20" width="112" height="36" rx="8" fill="#eeeae1"/>
+<rect x="-40" y="-46" width="80" height="70" rx="22" fill="#e8a33d"/>
+<circle cx="0" cy="-62" r="27" fill="#8a5a35"/>
+<path d="M-28 -66 Q-27 -92 0 -96 Q27 -92 28 -66 Q18 -76 0 -78 Q-18 -76 -28 -66Z" fill="#f7f5f0"/>
+</g>
+<g transform="translate(840,472) scale(1)">
+<rect x="-56" y="20" width="112" height="36" rx="8" fill="#eeeae1"/>
+<rect x="-40" y="-46" width="80" height="70" rx="22" fill="#1f8a8a"/>
+<circle cx="0" cy="-62" r="27" fill="#b07b4d"/>
+<path d="M-30 -60 Q0 -84 30 -60 Q28 -42 22 -36 Q22 -62 0 -66 Q-22 -62 -22 -36 Q-28 -42 -30 -60Z" fill="#12293e"/>
+</g>
+<g transform="translate(1050,468) scale(1)">
+<rect x="-56" y="20" width="112" height="36" rx="8" fill="#eeeae1"/>
+<rect x="-40" y="-46" width="80" height="70" rx="22" fill="#c9a227"/>
+<circle cx="0" cy="-62" r="27" fill="#d9a271"/>
+<path d="M-30 -62 Q0 -88 30 -62 Q30 -44 24 -38 Q24 -64 0 -68 Q-24 -64 -24 -38 Q-30 -44 -30 -62Z" fill="#e4ded2"/>
+</g>
+
+<!-- front row -->
+<g transform="translate(260,552) scale(1.16)">
+<rect x="-58" y="22" width="116" height="36" rx="8" fill="#e4ded2"/>
+<rect x="-42" y="-50" width="84" height="76" rx="24" fill="#4fb8b8"/>
+<circle cx="0" cy="-68" r="29" fill="#f0c8a0"/>
+<path d="M-31 -76 Q0 -104 31 -76 Q34 -24 24 2 L-24 2 Q-34 -24 -31 -76Z" fill="#12293e"/>
+<rect x="-60" y="26" width="30" height="10" rx="5" fill="#f7f5f0"/>
+</g>
+<g transform="translate(560,556) scale(1.16)">
+<rect x="-58" y="22" width="116" height="36" rx="8" fill="#e4ded2"/>
+<rect x="-42" y="-50" width="84" height="76" rx="24" fill="#1f8f74"/>
+<circle cx="0" cy="-68" r="29" fill="#8a5a35"/>
+<path d="M-27 -84 Q-6 -98 18 -90 Q30 -84 28 -64 Q10 -74 -2 -74 Q-16 -72 -27 -84Z" fill="#e0c163"/>
+</g>
+<g transform="translate(870,552) scale(1.16)">
+<rect x="-58" y="22" width="116" height="36" rx="8" fill="#e4ded2"/>
+<rect x="-42" y="-50" width="84" height="76" rx="24" fill="#e8a33d"/>
+<circle cx="0" cy="-68" r="29" fill="#d9a271"/>
+<path d="M-32 -62 Q0 -88 32 -62 Q30 -42 24 -36 Q24 -64 0 -68 Q-24 -64 -24 -36 Q-30 -42 -32 -62Z" fill="#f7f5f0"/>
+</g>
+</g>
+</svg>

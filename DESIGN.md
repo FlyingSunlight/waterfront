@@ -1,116 +1,168 @@
-# goro's × Trans Women — Concept Site Design Plan
+# Norway: A Guide for Newcomers — Design & Content Plan
 
-> **Unofficial concept / tribute site.** Not affiliated with or endorsed by goro's.
-> All artwork is original SVG created for this project. The logotype is an
-> original hand-drawn-style recreation, not the official logo asset.
+> **Independent information site.** Not affiliated with, endorsed by, or speaking
+> for the Norwegian government, UDI, IMDi, NAV, or any mosque or organisation
+> named on it. All artwork is original SVG created for this project — the
+> illustrations are stylised drawings, **not photographs of real people**, and
+> no image should ever be captioned as documentary evidence of a real person
+> or event. Every figure on the site must carry a source and a date.
 
 ## 1. Concept
 
-**「銀は、ほんとうの自分を映す。」** — *Silver reflects who you truly are.*
+**"Velkommen. Here is what is true."**
 
-A very long-form, editorial, mobile-first Japanese website that introduces
-goro's silver jewelry culture to trans women: the history, the motifs and their
-meanings, how to choose and style pieces, how the Harajuku store's lottery
-system works, and how to shop safely and confidently.
+A long-form, warm, editorial, mobile-first English-language guide to Norway for
+Arabic- and Urdu-speaking newcomers — written for people from Gaza, Palestine
+and Pakistan, and useful to anyone arriving. It celebrates what is genuinely
+good about Norway and its Muslim community, and it tells the truth about how
+people actually get there and what they are actually entitled to.
 
-Tone: 敬意・静けさ・誇り (respect, quietness, pride). Luxury editorial, never
-salesy, never tokenizing. Trans-flag colors appear only as soft light
-gradients — an aurora, a dawn sky — woven into an otherwise ink-and-silver
-world.
+Tone: warm, dignified, generous, concrete. Never salesy. Never pitying. It
+speaks to an adult making a serious decision, and it respects them enough to
+give them real numbers and real rules.
+
+### The editorial rule that governs everything
+
+**Accuracy is not a constraint on the welcome — it *is* the welcome.**
+
+This site is attractive because Norway genuinely is generous, and because the
+guide is genuinely honest. Those are the same asset. A newcomer who arrives
+with correct expectations succeeds; one who arrives on a false promise does
+not, and pays for it with money, years and sometimes their life.
+
+Therefore:
+
+1. **No figure without a source and a year.** If a fact cannot be sourced to
+   UDI, IMDi, NAV, SSB, Helsenorge, Skatteetaten, Lovdata or Regjeringen,
+   it does not go on the page. Write "check the current figure with UDI"
+   rather than inventing one.
+2. **Never imply that arriving produces entitlement.** Almost every benefit on
+   this site follows from a *legal status* — a residence permit, registration
+   in Folkeregisteret, membership of Folketrygden, a grant of protection.
+   Every benefits section must say which status unlocks it.
+3. **The routes section is not optional and must not be softened.** Norway
+   issues no asylum visa; a claim must be made on Norwegian soil or at the
+   border; some nationalities are refused at very high rates. Saying so is
+   the single most useful thing this site does. Lead readers toward the routes
+   that actually work — skilled work, study, family — with equal warmth.
+4. **No fabricated testimonials.** No invented person, quote, photo or success
+   story presented as real. Illustrative composites must be labelled
+   *Illustration* / *تصوير توضيحي*. Prefer documented, citable history.
+5. **Positive, not partial.** Foreground what is good — there is a great deal.
+   Do not manufacture the good, and do not delete a decisive fact because it
+   is inconvenient. Difficulty is framed as *preparation*, not discouragement.
+6. **No legal advice.** Point to free, named, real sources of help (UDI,
+   NOAS, Jussbuss, Røde Kors) rather than telling anyone what their case is
+   worth.
 
 ## 2. Visual system
 
-### Palette (CSS custom properties, defined in `css/style.css`)
+Nordic light meets Islamic geometry: deep fjord blue and snow-paper, aurora
+green and brass, with eight-fold star and girih patterning used as quiet
+ornament — never as decoration-for-its-own-sake.
+
+### Palette (CSS custom properties in `css/style.css`)
 | Token | Value | Use |
 |---|---|---|
-| `--ink` | `#0e0e11` | dark section bg |
-| `--ink-2` | `#17171c` | dark cards |
-| `--paper` | `#f7f4ee` | light section bg |
-| `--paper-2` | `#efeae1` | light cards |
-| `--silver` | `#c9cdd6` | metal mid |
-| `--silver-hi` | `#eef1f6` | metal highlight |
-| `--turquoise` | `#3aa8a0` | goro's turquoise inlay |
-| `--gold` | `#c9a24b` | 金メタル accents |
-| `--trans-blue` | `#5BCEFA` | soft gradient light only |
-| `--trans-pink` | `#F5A9B8` | soft gradient light only |
-| `--text-ink` | `#1c1b19` | body text on paper |
-| `--text-paper` | `#e8e6e1` | body text on ink |
+| `--fjord` | `#0b1d2e` | deep section bg |
+| `--fjord-2` | `#12293e` | dark cards |
+| `--fjord-3` | `#1b3a55` | (see CSS) raised dark surface |
+| `--snow` | `#f7f5f0` | light section bg |
+| `--snow-2` | `#eeeae1` | light cards |
+| `--aurora` | `#3fbf9a` | primary accent, dark sections |
+| `--aurora-deep` | `#1f8f74` | accent on light |
+| `--brass` | `#c9a227` | lamps, ornament, numerals |
+| `--tile` | `#1f8a8a` | Islamic tilework teal |
+| `--rose` | `#ba0c2f` | Norwegian flag red, used sparingly |
+| `--amber` | `#e8a33d` | midnight-sun warmth |
 
 ### Typography
-- Headings: `"Shippori Mincho", serif` — classical, engraved feel
-- Body: `"Zen Kaku Gothic New", sans-serif`
-- Loaded via Google Fonts in `index.html` head.
-- Body 16px/1.9, headings tracked wide (`letter-spacing: .08em`).
-- Vertical text accents (`.tategaki`) for section openers.
+- Latin headings: `"Source Serif 4", serif`
+- Latin body: `"Inter", sans-serif`
+- Arabic: `"Amiri", serif` — used for real Arabic section titles
+- Urdu: `"Noto Nastaliq Urdu", serif` — used for real Urdu section titles
+- Body 16px/1.85. Headings tracked slightly wide.
+- Arabic/Urdu strings must carry `dir="rtl"` and `lang="ar"` / `lang="ur"`.
+  **Only use Arabic/Urdu you are confident is correct** — a wrong translation
+  in a heading is worse than an English-only heading.
 
 ### Layout
-- Mobile-first. Content column `max-width: 42rem`; full-bleed image bands.
-- Sections alternate ink/paper. Each opens with `.section-label`
-  (numbered `壱 弐 参 …` + romanized label), then `h2.heading-xl`.
-- Generous whitespace: `--space-section: clamp(5rem, 14vw, 9rem)`.
+- Mobile-first. Content column `max-width: 44rem`; full-bleed art bands.
+- Sections alternate fjord/snow. Each opens with `.section-label` (numbered
+  + English label + script title), then `h2.heading-xl`.
+- `--space-section: clamp(4.5rem, 13vw, 8rem)`.
 
-### SVG art style (all images are inline-able SVG files in `images/`)
-- Engraved line-art: strokes `#c9cdd6`→`#eef1f6` gradients on dark,
-  `#6b6f78` lines on paper. Turquoise/gold fills only where the real
-  materials appear. No external refs, no rasters. `viewBox` set, responsive.
+### SVG art style
+Flat editorial illustration with a limited palette, soft geometric shapes,
+long Nordic light. People are drawn as warm, dignified, non-caricatured
+figures — varied dress including hijab, worn as ordinary clothing, never as
+a visual punchline or a symbol of distress. No rasters, no external refs,
+`viewBox` set, responsive, `role="img"` with a real `alt`.
 
 ## 3. Page structure (single long page `index.html`)
 
-| # | File | Section | Owner |
-|---|---|---|---|
-| 01 | `sections/01-hero.html` | Hero: logo, eagle art, concept copy | Agent A |
-| 02 | `sections/02-story.html` | goro's の物語 — Goro Takahashi history | Agent A |
-| 03 | `sections/03-philosophy.html` | 銀とアイデンティティ — why silver speaks to trans women | Agent B |
-| 04 | `sections/04-motifs.html` | モチーフ事典 — feather/eagle/sun/moon/wheel meanings | Agent B |
-| 05 | `sections/05-feathers.html` | コレクション：フェザー | Agent C |
-| 06 | `sections/06-pendants.html` | コレクション：イーグル・ホイール・ビーズ | Agent C |
-| 07 | `sections/07-styling.html` | スタイリング — femme styling guide for trans women | Agent D |
-| 08 | `sections/08-sizing.html` | サイズとフィット | Agent D |
-| 09 | `sections/09-buying.html` | 原宿本店と抽選 — how to buy | Agent E |
-| 10 | `sections/10-care.html` | 銀のケア | Agent E |
-| 11 | `sections/11-community.html` | コミュニティと安心して買うために | Agent F |
-| 12 | `sections/12-faq.html` | FAQ | Agent F |
-| 13 | `sections/13-outro.html` | 結び + disclaimer footer | Agent F |
+| # | File | Section |
+|---|---|---|
+| 01 | `01-hero.html` | Hero — Velkommen, the promise of the page |
+| 02 | `02-why.html` | Why Norway — safety, trust, nature, work-life |
+| 03 | `03-routes.html` | **How people actually come** — the honest core |
+| 04 | `04-asylum.html` | If you seek protection — the real process |
+| 05 | `05-intro-programme.html` | Introduksjonsprogrammet — the two-year start |
+| 06 | `06-money.html` | Money: benefits, allowances, what unlocks them |
+| 07 | `07-health.html` | Healthcare & dental |
+| 08 | `08-education.html` | Language, school, university, Lånekassen |
+| 09 | `09-family.html` | Children, barnetrygd, parental leave, kindergarten |
+| 10 | `10-housing.html` | Housing: mottak, bosetting, bostøtte, Husbanken |
+| 11 | `11-work.html` | Work: shortages, recognition of qualifications |
+| 12 | `12-muslim-life.html` | The Muslim community — history & presence |
+| 13 | `13-mosques.html` | Mosques & Islamic institutions directory |
+| 14 | `14-halal.html` | Halal everyday life — food, burial, prayer, finance |
+| 15 | `15-family-values.html` | Family life & values in Norwegian law |
+| 16 | `16-realities.html` | What to prepare for — honest, constructive |
+| 17 | `17-faq.html` | FAQ |
+| 18 | `18-resources.html` | Real links & free help |
+| 19 | `19-outro.html` | Closing + full disclaimer |
 
-Assembly: `head.html` + sections in order + `foot.html` → `index.html`
-(concatenated by the lead).
+Assembly: `head.html` + `sections/*.html` in filename order + `foot.html`
+→ `index.html`, concatenated by `./build.sh`.
 
-## 4. Shared markup contract (agents MUST use these classes)
+## 4. Shared markup contract (sections MUST use these classes)
 
 ```html
-<section class="section section--dark" id="story">   <!-- or section--paper -->
+<section class="section section--fjord" id="money">
   <div class="container">
-    <p class="section-label"><span class="num">弐</span> STORY</p>
-    <h2 class="heading-xl">goro's の物語</h2>
-    <p class="lead">…導入文…</p>
-    <figure class="art art--band"><img src="images/xx.svg" alt="…"></figure>
-    <p>…本文…</p>
-    <div class="card-grid"> <article class="card">…</article> … </div>
+    <p class="section-label"><span class="num">06</span> MONEY
+      <span class="script" lang="ar" dir="rtl">المال</span></p>
+    <h2 class="heading-xl">What you receive, and what unlocks it</h2>
+    <p class="lead">…opening…</p>
+    <figure class="art art--band">
+      <img src="images/xx.svg" alt="…">
+      <figcaption>… <span class="illus">Illustration</span></figcaption>
+    </figure>
+    <p>…body…</p>
   </div>
 </section>
 ```
 
-Available components: `.lead`, `.art`(figure) with `figcaption`, `.card-grid`
-+ `.card`, `.product-card` (image + `h3` + `.product-meta` + description),
-`.timeline` + `.timeline-item`, `.qa` + `details.qa-item`, `.note`,
-`.quote-block`, `.pill-list`, `.step-list`, `.aurora` (soft trans-gradient
-glow div, position last inside section).
+Components: `.lead`, `.art` + `figcaption`, `.card-grid` + `.card`,
+`.fact-table` (figure + unit + source row), `.route-card` (with
+`.route-card__verdict`), `.timeline` + `.timeline-item`, `.qa` +
+`details.qa-item`, `.note` (neutral aside), `.note--warn` (the honest
+caution), `.note--good` (the genuine good news), `.quote-block`,
+`.pill-list`, `.step-list`, `.directory` + `.directory-item`,
+`.source` (inline citation), `.glow` (aurora wash, last child in section).
+
+### The `.source` rule
+Every number renders as: value, then `<span class="source">UDI, 2025</span>`.
+No exceptions. This is the site's credibility and its ethics at once.
 
 ## 5. Content rules
 
-- All copy in natural, polished Japanese (敬体 base, poetic fragments OK).
-- Factual accuracy about goro's: Goro Takahashi (高橋吾郎, 1939–2013),
-  leatherwork beginnings in the 1950s, travels to the U.S., initiation into
-  Lakota culture and the name "Yellow Eagle", the Harajuku store, the
-  first-come/lottery entry culture, one-purchase norms, no online sales,
-  beware of fakes/resale. If unsure, write cautiously (「〜と言われています」).
-- Trans women audience: empowering, practical, dignified. No stereotypes,
-  no medical claims, no fabricated testimonials presented as real — any
-  illustrative voice must be labeled 「イメージ」.
-- Footer must carry the unofficial-concept disclaimer.
-
-## 6. Interactions (`js/main.js`, by lead)
-
-- IntersectionObserver scroll-reveal (`.reveal` auto-applied to section children)
-- Sticky top nav (appears after hero) with smooth-scroll anchor links
-- Reduced-motion respected.
+- Copy in clear, warm English at a readability level that survives translation.
+  Short sentences. Concrete nouns. No idiom that breaks in Arabic or Urdu.
+- Currency always as `NOK 12,345` with an approximate USD/EUR hint on first
+  use in a section, and the year of the figure.
+- Any rule that commonly changes (salary thresholds, G, quotas, fees) gets a
+  "verify before you rely on this" line pointing at the official page.
+- Footer carries: independence disclaimer, "illustrations are not
+  photographs", the date the figures were checked, and the free-help links.

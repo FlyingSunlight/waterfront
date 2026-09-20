@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="A city park in early spring under low golden light: a father pushes a pram, two women share coffee on a bench, one wearing a hijab and one not, children play on a climbing frame, and an older couple walks past birch trees and patches of melting snow.">
+<title>Family life: an early spring afternoon in the park</title>
+<defs>
+<linearGradient id="skyF" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#eeeae1"/>
+<stop offset="1" stop-color="#e0c163"/>
+</linearGradient>
+<radialGradient id="sunF" cx="0.15" cy="0.15" r="0.55">
+<stop offset="0" stop-color="#e8a33d" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#e8a33d" stop-opacity="0"/>
+</radialGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="520" fill="url(#skyF)"/>
+<circle cx="150" cy="90" r="140" fill="url(#sunF)"/>
+<circle cx="150" cy="90" r="42" fill="#e8a33d"/>
+
+<!-- ground -->
+<rect x="0" y="300" width="1200" height="220" fill="#eeeae1"/>
+<path d="M0 300 Q300 280 600 298 Q900 316 1200 292 L1200 320 L0 320Z" fill="#e4ded2"/>
+
+<!-- melting snow patches -->
+<g fill="#f7f5f0" opacity="0.9">
+<ellipse cx="120" cy="360" rx="90" ry="22"/>
+<ellipse cx="640" cy="480" rx="130" ry="26"/>
+<ellipse cx="1040" cy="380" rx="100" ry="22"/>
+<ellipse cx="380" cy="500" rx="90" ry="20"/>
+</g>
+
+<!-- birch trees -->
+<g>
+<g stroke="#f7f5f0" stroke-width="10" stroke-linecap="round">
+<line x1="90" y1="330" x2="80" y2="120"/>
+<line x1="1120" y1="330" x2="1132" y2="110"/>
+</g>
+<g stroke="#1b3a55" stroke-width="3">
+<line x1="80" y1="200" x2="90" y2="200"/>
+<line x1="80" y1="250" x2="90" y2="250"/>
+<line x1="1132" y1="190" x2="1122" y2="192"/>
+<line x1="1132" y1="240" x2="1122" y2="242"/>
+</g>
+<g stroke="#1b3a55" stroke-width="4" stroke-linecap="round" fill="none">
+<path d="M80 170 Q40 140 20 110"/>
+<path d="M80 210 Q120 180 150 150"/>
+<path d="M80 150 Q110 120 130 95"/>
+<path d="M1132 160 Q1170 130 1190 100"/>
+<path d="M1132 200 Q1090 170 1060 145"/>
+</g>
+<g fill="#3fbf9a" opacity="0.85">
+<circle cx="30" cy="105" r="10"/>
+<circle cx="140" cy="145" r="9"/>
+<circle cx="120" cy="90" r="8"/>
+<circle cx="1185" cy="95" r="10"/>
+<circle cx="1065" cy="140" r="9"/>
+</g>
+</g>
+
+<!-- path -->
+<path d="M0 400 Q300 380 600 400 Q900 420 1200 395 L1200 460 Q900 480 600 462 Q300 442 0 462Z" fill="#e0c163" opacity="0.35"/>
+
+<!-- climbing frame -->
+<g transform="translate(940,340)">
+<rect x="-70" y="-100" width="8" height="120" fill="#1b3a55"/>
+<rect x="62" y="-100" width="8" height="120" fill="#1b3a55"/>
+<rect x="-70" y="-100" width="140" height="8" fill="#1b3a55"/>
+<rect x="-70" y="-40" width="140" height="6" fill="#c9a227"/>
+<rect x="-70" y="-70" width="140" height="6" fill="#c9a227"/>
+<rect x="-45" y="-100" width="6" height="120" fill="#12293e"/>
+<rect x="0" y="-100" width="6" height="120" fill="#12293e"/>
+<rect x="38" y="-100" width="6" height="120" fill="#12293e"/>
+</g>
+<!-- children on climbing frame -->
+<g transform="translate(895,270)">
+<rect x="-15" y="-4" width="30" height="38" rx="12" fill="#ba0c2f"/>
+<circle cx="0" cy="-22" r="16" fill="#f0c8a0"/>
+<path d="M-14 -28 Q0 -42 14 -28 Q14 -18 10 -14 Q12 -26 0 -28 Q-12 -26 -10 -14 Q-14 -18 -14 -28Z" fill="#12293e"/>
+</g>
+<g transform="translate(970,300)">
+<rect x="-14" y="-4" width="28" height="34" rx="11" fill="#3fbf9a"/>
+<circle cx="0" cy="-20" r="15" fill="#8a5a35"/>
+<path d="M-13 -26 Q-11 -38 0 -39 Q11 -38 13 -26 Q7 -30 0 -31 Q-7 -30 -13 -26Z" fill="#0b1d2e"/>
+</g>
+<g transform="translate(920,340)">
+<rect x="-13" y="-4" width="26" height="32" rx="10" fill="#e8a33d"/>
+<circle cx="0" cy="-19" r="14" fill="#d9a271"/>
+<path d="M-16 -22 Q0 -34 16 -22 Q17 -8 13 4 L-13 4 Q-17 -8 -16 -22Z" fill="#c9a227"/>
+</g>
+
+<!-- bench with two women -->
+<g transform="translate(320,420)">
+<rect x="-110" y="14" width="220" height="14" rx="6" fill="#c9a227"/>
+<rect x="-100" y="-6" width="200" height="14" rx="6" fill="#e0c163"/>
+<rect x="-96" y="10" width="10" height="30" fill="#12293e"/>
+<rect x="86" y="10" width="10" height="30" fill="#12293e"/>
+
+<g transform="translate(-40,-14)">
+<rect x="-25" y="-6" width="50" height="66" rx="18" fill="#1f8a8a"/>
+<circle cx="0" cy="-32" r="25" fill="#b07b4d"/>
+<path d="M-27 -40 Q0 -66 27 -40 Q29 -2 22 20 L-22 20 Q-29 -2 -27 -40Z" fill="#12293e"/>
+<ellipse cx="24" cy="16" rx="9" ry="11" fill="#f7f5f0"/>
+</g>
+<g transform="translate(42,-12)">
+<rect x="-25" y="-6" width="50" height="64" rx="18" fill="#e8a33d"/>
+<circle cx="0" cy="-32" r="25" fill="#f0c8a0"/>
+<path d="M-22 -40 Q-20 -56 0 -58 Q20 -56 22 -40 Q14 -46 0 -47 Q-14 -46 -22 -40Z" fill="#0b1d2e"/>
+<ellipse cx="-22" cy="14" rx="9" ry="11" fill="#f7f5f0"/>
+</g>
+</g>
+
+<!-- father pushing pram -->
+<g transform="translate(560,440)">
+<circle cx="-60" cy="30" r="16" fill="#1b3a55"/>
+<circle cx="-10" cy="30" r="16" fill="#1b3a55"/>
+<path d="M-70 30 Q-70 -20 -20 -22 L-6 -22 Q0 -22 0 -10 L0 30Z" fill="#e0c163"/>
+<path d="M-70 -20 Q-70 -40 -50 -40 L-50 -20Z" fill="#f7f5f0"/>
+<rect x="0" y="-4" width="60" height="8" rx="4" fill="#1b3a55"/>
+<g transform="translate(70,-4)">
+<rect x="-22" y="-4" width="44" height="70" rx="16" fill="#1f8f74"/>
+<circle cx="0" cy="-30" r="24" fill="#8a5a35"/>
+<path d="M-21 -38 Q-19 -52 0 -54 Q19 -52 21 -38 Q13 -44 0 -45 Q-13 -44 -21 -38Z" fill="#0b1d2e"/>
+</g>
+</g>
+
+<!-- older couple walking -->
+<g transform="translate(770,470)">
+<g transform="translate(0,0)">
+<rect x="-22" y="-6" width="44" height="60" rx="16" fill="#1b3a55"/>
+<circle cx="0" cy="-32" r="23" fill="#d9a271"/>
+<path d="M-19 -39 Q-17 -52 0 -54 Q17 -52 19 -39 Q11 -44 0 -45 Q-11 -44 -19 -39Z" fill="#e4ded2"/>
+</g>
+<g transform="translate(50,4)">
+<rect x="-21" y="-6" width="42" height="58" rx="15" fill="#c9a227"/>
+<circle cx="0" cy="-31" r="22" fill="#b07b4d"/>
+<path d="M-24 -36 Q-23 -54 0 -56 Q23 -54 24 -36 Q22 -20 18 -14 Q20 -38 0 -40 Q-20 -38 -18 -14 Q-22 -20 -24 -36Z" fill="#e4ded2"/>
+</g>
+</g>
+</svg>

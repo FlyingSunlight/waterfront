@@ -1,0 +1,284 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="A calm advice-office room. A volunteer caseworker sits at a table with a newly arrived mother and her child, papers and an open laptop and headphones between them, two glasses of water set out. Behind them a wall holds shelves of ring binders, a noticeboard with coloured slips, a window with winter daylight and a bare birch tree outside, and a plant. In the background a second desk hosts another quiet conversation.">
+<title>Advice office: a caseworker meets a newly arrived family</title>
+<defs>
+<linearGradient id="winlight" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#f7f5f0"/>
+<stop offset="1" stop-color="#e4ded2"/>
+</linearGradient>
+<radialGradient id="daylight" cx="0.25" cy="0.15" r="0.9">
+<stop offset="0" stop-color="#f7f5f0" stop-opacity="0.55"/>
+<stop offset="1" stop-color="#f7f5f0" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#4fb8b8"/>
+<stop offset="1" stop-color="#1f8a8a"/>
+</linearGradient>
+</defs>
+
+<!-- room -->
+<rect x="0" y="0" width="1200" height="520" fill="#f7f5f0"/>
+<rect x="0" y="0" width="1200" height="332" fill="#eeeae1"/>
+<rect x="0" y="332" width="1200" height="188" fill="#e4ded2"/>
+<rect x="0" y="328" width="1200" height="6" fill="#c9a227" opacity="0.4"/>
+<polygon points="0,0 420,0 260,332 0,332" fill="url(#daylight)"/>
+
+<!-- ============ WINDOW with bare birch outside ============ -->
+<g>
+<rect x="46" y="46" width="230" height="250" rx="6" fill="#0b1d2e"/>
+<rect x="60" y="60" width="202" height="222" fill="url(#winlight)"/>
+<rect x="156" y="60" width="8" height="222" fill="#0b1d2e"/>
+<rect x="60" y="166" width="202" height="8" fill="#0b1d2e"/>
+<!-- bare birch branches seen through the glass -->
+<g stroke="#1b3a55" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.75">
+<path d="M110 282 C104 220 118 190 100 130"/>
+<path d="M104 190 C120 178 132 168 148 158"/>
+<path d="M108 158 C96 148 88 138 82 122"/>
+<path d="M100 130 C112 116 118 104 116 86"/>
+<path d="M220 282 C214 232 226 200 214 150"/>
+<path d="M216 200 C230 190 240 182 252 174"/>
+<path d="M214 150 C224 138 230 126 226 108"/>
+</g>
+<g fill="#c9a227" opacity="0.8">
+<circle cx="116" cy="86" r="3"/><circle cx="82" cy="122" r="3"/><circle cx="148" cy="158" r="3"/>
+<circle cx="226" cy="108" r="3"/><circle cx="252" cy="174" r="3"/>
+</g>
+</g>
+
+<!-- ============ SHELVES of ring binders ============ -->
+<g>
+<rect x="330" y="58" width="270" height="230" rx="4" fill="#1b3a55" opacity="0.12"/>
+<g stroke="#12293e" stroke-width="6">
+<line x1="336" y1="130" x2="594" y2="130"/>
+<line x1="336" y1="200" x2="594" y2="200"/>
+<line x1="336" y1="270" x2="594" y2="270"/>
+</g>
+<!-- row 1 -->
+<g>
+<rect x="344" y="72" width="20" height="56" fill="#3fbf9a"/>
+<rect x="368" y="68" width="20" height="60" fill="#1f8a8a"/>
+<rect x="392" y="76" width="20" height="52" fill="#c9a227"/>
+<rect x="416" y="70" width="20" height="58" fill="#e0c163"/>
+<rect x="440" y="74" width="20" height="54" fill="#1f8f74"/>
+<rect x="464" y="68" width="20" height="60" fill="#4fb8b8"/>
+<rect x="488" y="76" width="20" height="52" fill="#3fbf9a"/>
+<rect x="512" y="70" width="20" height="58" fill="#e8a33d"/>
+<rect x="536" y="74" width="20" height="54" fill="#1f8a8a"/>
+<rect x="560" y="68" width="20" height="60" fill="#c9a227"/>
+</g>
+<!-- row 2 -->
+<g>
+<rect x="344" y="142" width="20" height="56" fill="#e0c163"/>
+<rect x="368" y="138" width="20" height="60" fill="#3fbf9a"/>
+<rect x="392" y="144" width="20" height="54" fill="#4fb8b8"/>
+<rect x="416" y="140" width="20" height="58" fill="#1f8f74"/>
+<rect x="440" y="146" width="20" height="52" fill="#c9a227"/>
+<rect x="464" y="140" width="20" height="58" fill="#1f8a8a"/>
+<rect x="488" y="144" width="20" height="54" fill="#e8a33d"/>
+<rect x="512" y="138" width="20" height="60" fill="#3fbf9a"/>
+<rect x="536" y="144" width="20" height="54" fill="#c9a227"/>
+<rect x="560" y="140" width="20" height="58" fill="#4fb8b8"/>
+</g>
+<!-- row 3 -->
+<g>
+<rect x="344" y="212" width="20" height="56" fill="#1f8a8a"/>
+<rect x="368" y="208" width="20" height="60" fill="#e0c163"/>
+<rect x="392" y="214" width="20" height="52" fill="#3fbf9a"/>
+<rect x="416" y="210" width="20" height="58" fill="#c9a227"/>
+<rect x="440" y="216" width="20" height="52" fill="#4fb8b8"/>
+<rect x="464" y="208" width="20" height="60" fill="#1f8f74"/>
+<rect x="488" y="214" width="20" height="52" fill="#e8a33d"/>
+<rect x="512" y="210" width="20" height="58" fill="#1f8a8a"/>
+<rect x="536" y="216" width="20" height="52" fill="#c9a227"/>
+<rect x="560" y="208" width="20" height="60" fill="#3fbf9a"/>
+</g>
+<!-- label ticks on each binder spine -->
+<g fill="#f7f5f0" opacity="0.85">
+<rect x="348" y="76" width="12" height="6"/><rect x="372" y="72" width="12" height="6"/><rect x="396" y="80" width="12" height="6"/>
+<rect x="420" y="74" width="12" height="6"/><rect x="444" y="78" width="12" height="6"/><rect x="468" y="72" width="12" height="6"/>
+<rect x="492" y="80" width="12" height="6"/><rect x="516" y="74" width="12" height="6"/><rect x="540" y="78" width="12" height="6"/><rect x="564" y="72" width="12" height="6"/>
+</g>
+</g>
+
+<!-- ============ NOTICEBOARD with abstract slips ============ -->
+<g>
+<rect x="650" y="62" width="220" height="160" rx="6" fill="#12293e"/>
+<rect x="662" y="74" width="196" height="136" rx="3" fill="#1b3a55"/>
+<g>
+<rect x="678" y="86" width="46" height="30" rx="3" fill="#e0c163" transform="rotate(-4 701 101)"/>
+<rect x="734" y="90" width="40" height="30" rx="3" fill="#3fbf9a" transform="rotate(3 754 105)"/>
+<rect x="784" y="84" width="44" height="28" rx="3" fill="#4fb8b8" transform="rotate(-2 806 98)"/>
+<rect x="686" y="132" width="42" height="28" rx="3" fill="#ba0c2f" transform="rotate(2 707 146)"/>
+<rect x="740" y="140" width="46" height="30" rx="3" fill="#e8a33d" transform="rotate(-3 763 155)"/>
+<rect x="796" y="134" width="40" height="28" rx="3" fill="#1f8f74" transform="rotate(4 816 148)"/>
+<rect x="672" y="172" width="44" height="28" rx="3" fill="#c9a227" transform="rotate(-2 694 186)"/>
+<rect x="760" y="176" width="42" height="26" rx="3" fill="#1f8a8a" transform="rotate(3 781 189)"/>
+</g>
+<g fill="#c9a227">
+<circle cx="701" cy="88" r="3.5"/><circle cx="754" cy="92" r="3.5"/><circle cx="806" cy="86" r="3.5"/>
+<circle cx="707" cy="134" r="3.5"/><circle cx="763" cy="142" r="3.5"/><circle cx="816" cy="136" r="3.5"/>
+<circle cx="694" cy="174" r="3.5"/><circle cx="781" cy="178" r="3.5"/>
+</g>
+</g>
+
+<!-- ============ BACKGROUND: second desk, quiet conversation ============ -->
+<g>
+<ellipse cx="1010" cy="272" rx="120" ry="14" fill="#1b3a55" opacity="0.10"/>
+<rect x="930" y="222" width="150" height="46" rx="6" fill="#1b3a55"/>
+<rect x="930" y="214" width="150" height="12" rx="4" fill="#e0c163"/>
+<!-- seated worker, small/back -->
+<g transform="translate(946,268)">
+<rect x="-24" y="-104" width="48" height="98" rx="18" fill="#1f8f74"/>
+<circle cx="0" cy="-128" r="23" fill="#d9a271"/>
+<path d="M-20 -140 Q-18 -156 0 -158 Q18 -156 20 -140 Q14 -148 0 -149 Q-14 -148 -20 -140Z" fill="#0b1d2e"/>
+<rect x="14" y="-56" width="30" height="13" rx="6" fill="#d9a271" transform="rotate(-18 14 -56)"/>
+<rect x="-18" y="-8" width="15" height="20" rx="5" fill="#12293e"/>
+<rect x="4" y="-8" width="15" height="20" rx="5" fill="#12293e"/>
+</g>
+<!-- visitor, small/back -->
+<g transform="translate(1078,270)">
+<rect x="-24" y="-100" width="48" height="94" rx="18" fill="#4fb8b8"/>
+<circle cx="0" cy="-122" r="23" fill="#b07b4d"/>
+<path d="M-21 -132 Q-19 -150 0 -152 Q19 -150 21 -132 Q21 -122 17 -114 Q19 -138 0 -140 Q-19 -138 -17 -114 Q-21 -122 -21 -132Z" fill="#1b3a55"/>
+<rect x="-44" y="-54" width="30" height="13" rx="6" fill="#b07b4d" transform="rotate(18 -44 -54)"/>
+<rect x="-16" y="-6" width="15" height="18" rx="5" fill="#0b1d2e"/>
+<rect x="6" y="-6" width="15" height="18" rx="5" fill="#0b1d2e"/>
+</g>
+</g>
+
+<!-- ============ plant, foreground corner ============ -->
+<g transform="translate(120,468)">
+<rect x="-30" y="0" width="60" height="48" rx="8" fill="#c9a227"/>
+<rect x="-30" y="0" width="60" height="10" rx="4" fill="#e0c163"/>
+<path d="M0 0 Q-14 -66 -54 -90 Q-10 -80 0 -34 Q10 -80 54 -90 Q14 -66 0 0Z" fill="#1f8f74"/>
+<path d="M0 -12 Q-8 -56 -34 -76 Q-6 -66 0 -26 Q6 -66 34 -76 Q8 -56 0 -12Z" fill="#3fbf9a"/>
+</g>
+
+<!-- ============ TABLE with items ============ -->
+<g>
+<ellipse cx="610" cy="472" rx="220" ry="20" fill="#1b3a55" opacity="0.12"/>
+<!-- front skirt -->
+<rect x="424" y="400" width="372" height="72" rx="8" fill="#1b3a55"/>
+<!-- top surface -->
+<rect x="416" y="384" width="388" height="24" rx="8" fill="#e0c163"/>
+<rect x="416" y="384" width="388" height="24" rx="8" fill="none" stroke="#c9a227" stroke-width="2"/>
+
+<!-- papers -->
+<g transform="translate(608,368)">
+<rect x="-34" y="-6" width="66" height="46" rx="3" fill="#eeeae1" transform="rotate(-6)"/>
+<rect x="-30" y="-12" width="66" height="46" rx="3" fill="#f7f5f0" transform="rotate(3)"/>
+<g transform="rotate(3)" stroke="#1b3a55" stroke-width="2" opacity="0.5">
+<line x1="-20" y1="-2" x2="20" y2="-2"/>
+<line x1="-20" y1="6" x2="16" y2="6"/>
+<line x1="-20" y1="14" x2="20" y2="14"/>
+</g>
+</g>
+
+<!-- open laptop -->
+<g transform="translate(500,372)">
+<path d="M-46 18 L46 18 L38 30 L-38 30 Z" fill="#12293e"/>
+<rect x="-42" y="-46" width="84" height="64" rx="4" fill="#1b3a55"/>
+<rect x="-36" y="-40" width="72" height="52" rx="2" fill="#4fb8b8"/>
+<rect x="-36" y="-40" width="72" height="52" rx="2" fill="#0b1d2e" opacity="0.18"/>
+</g>
+
+<!-- headphones (for interpreting) -->
+<g transform="translate(700,392)">
+<path d="M-30 -6 Q-30 -34 0 -34 Q30 -34 30 -6" fill="none" stroke="#12293e" stroke-width="7" stroke-linecap="round"/>
+<rect x="-38" y="-10" width="16" height="24" rx="8" fill="#12293e"/>
+<rect x="22" y="-10" width="16" height="24" rx="8" fill="#12293e"/>
+<circle cx="-30" cy="2" r="6" fill="#4fb8b8"/>
+<circle cx="30" cy="2" r="6" fill="#4fb8b8"/>
+</g>
+
+<!-- two glasses of water -->
+<g transform="translate(452,378)">
+<path d="M-10 -18 L10 -18 L8 20 Q0 26 -8 20 Z" fill="#eeeae1" opacity="0.55"/>
+<path d="M-8 -6 L8 -6 L6.5 18 Q0 22 -6.5 18 Z" fill="url(#glass)" opacity="0.85"/>
+</g>
+<g transform="translate(776,382)">
+<path d="M-10 -18 L10 -18 L8 20 Q0 26 -8 20 Z" fill="#eeeae1" opacity="0.55"/>
+<path d="M-8 -6 L8 -6 L6.5 18 Q0 22 -6.5 18 Z" fill="url(#glass)" opacity="0.85"/>
+</g>
+</g>
+
+<!-- ============ MAIN FIGURES ============ -->
+
+<!-- chairs (behind figures) -->
+<rect x="307" y="322" width="86" height="150" rx="14" fill="#1b3a55" opacity="0.55"/>
+<rect x="837" y="322" width="86" height="150" rx="14" fill="#1b3a55" opacity="0.55"/>
+<rect x="957" y="360" width="66" height="110" rx="12" fill="#1b3a55" opacity="0.45"/>
+
+<!-- CASEWORKER (left, facing the family) -->
+<g transform="translate(350,0)">
+<!-- shadow -->
+<ellipse cx="0" cy="478" rx="60" ry="12" fill="#1b3a55" opacity="0.14"/>
+<!-- legs -->
+<rect x="-32" y="440" width="24" height="34" rx="8" fill="#12293e"/>
+<rect x="6" y="440" width="24" height="34" rx="8" fill="#12293e"/>
+<rect x="-36" y="466" width="30" height="12" rx="5" fill="#0b1d2e"/>
+<rect x="4" y="466" width="30" height="12" rx="5" fill="#0b1d2e"/>
+<!-- torso: warm cardigan -->
+<rect x="-42" y="356" width="84" height="94" rx="26" fill="#3fbf9a"/>
+<rect x="-42" y="356" width="84" height="30" rx="15" fill="#1f8f74"/>
+<!-- near arm, resting at side -->
+<rect x="-40" y="378" width="24" height="66" rx="12" fill="#3fbf9a"/>
+<circle cx="-28" cy="440" r="12" fill="#d9a271"/>
+<!-- far arm, forearm resting flat on the tabletop -->
+<rect x="26" y="388" width="50" height="18" rx="9" fill="#3fbf9a"/>
+<rect x="60" y="388" width="18" height="18" rx="9" fill="#d9a271"/>
+<circle cx="74" cy="396" r="11" fill="#d9a271"/>
+<!-- neck + head -->
+<rect x="-12" y="332" width="24" height="26" fill="#d9a271"/>
+<circle cx="0" cy="316" r="36" fill="#d9a271"/>
+<!-- hair, tied back -->
+<path d="M-34 306 Q-30 268 0 264 Q30 268 34 306 Q34 292 26 282 Q10 270 0 270 Q-10 270 -26 282 Q-34 292 -34 306Z" fill="#12293e"/>
+</g>
+
+<!-- MOTHER (right, hijab, facing the caseworker) -->
+<g transform="translate(880,0)">
+<ellipse cx="0" cy="480" rx="62" ry="12" fill="#1b3a55" opacity="0.14"/>
+<!-- legs -->
+<rect x="-30" y="442" width="24" height="34" rx="8" fill="#0b1d2e"/>
+<rect x="8" y="442" width="24" height="34" rx="8" fill="#0b1d2e"/>
+<rect x="-34" y="468" width="30" height="12" rx="5" fill="#12293e"/>
+<rect x="4" y="468" width="30" height="12" rx="5" fill="#12293e"/>
+<!-- torso: coat -->
+<rect x="-44" y="358" width="88" height="96" rx="26" fill="#1f8a8a"/>
+<!-- near arm, resting at side -->
+<rect x="16" y="380" width="24" height="66" rx="12" fill="#1f8a8a"/>
+<circle cx="28" cy="442" r="12" fill="#8a5a35"/>
+<!-- far arm, forearm resting flat on the tabletop -->
+<rect x="-76" y="388" width="50" height="18" rx="9" fill="#1f8a8a"/>
+<rect x="-78" y="388" width="18" height="18" rx="9" fill="#8a5a35"/>
+<circle cx="-84" cy="396" r="11" fill="#8a5a35"/>
+<!-- neck + head -->
+<rect x="-12" y="332" width="24" height="26" fill="#8a5a35"/>
+<circle cx="0" cy="318" r="37" fill="#8a5a35"/>
+<!-- hijab, ordinary muted colour -->
+<path d="M-40 330 Q-44 262 0 256 Q44 262 40 330 Q40 300 34 286 Q18 270 0 270 Q-18 270 -34 286 Q-40 300 -40 330Z" fill="#e0c163"/>
+<path d="M-40 300 Q-30 358 -14 372 L-30 372 Q-46 340 -44 300Z" fill="#e0c163"/>
+<path d="M40 300 Q30 358 14 372 L30 372 Q46 340 44 300Z" fill="#e0c163"/>
+</g>
+
+<!-- CHILD (beside mother, small chair) -->
+<g transform="translate(1006,0)">
+<ellipse cx="0" cy="474" rx="42" ry="9" fill="#1b3a55" opacity="0.14"/>
+<!-- legs -->
+<rect x="-22" y="432" width="18" height="26" rx="7" fill="#1b3a55"/>
+<rect x="6" y="432" width="18" height="26" rx="7" fill="#1b3a55"/>
+<rect x="-25" y="452" width="24" height="10" rx="4" fill="#0b1d2e"/>
+<rect x="3" y="452" width="24" height="10" rx="4" fill="#0b1d2e"/>
+<!-- torso: coat -->
+<rect x="-32" y="374" width="64" height="70" rx="20" fill="#e8a33d"/>
+<!-- arms, hands together in lap -->
+<rect x="-38" y="386" width="20" height="46" rx="10" fill="#e8a33d"/>
+<rect x="18" y="386" width="20" height="46" rx="10" fill="#e8a33d"/>
+<circle cx="0" cy="424" r="10" fill="#f0c8a0"/>
+<!-- neck + head -->
+<rect x="-9" y="356" width="18" height="20" fill="#f0c8a0"/>
+<circle cx="0" cy="344" r="28" fill="#f0c8a0"/>
+<!-- hair -->
+<path d="M-26 340 Q-24 310 0 308 Q24 310 26 340 Q22 328 14 322 Q0 316 0 316 Q0 316 -14 322 Q-22 328 -26 340Z" fill="#0b1d2e"/>
+</g>
+
+</svg>
