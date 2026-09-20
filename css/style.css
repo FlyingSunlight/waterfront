@@ -644,3 +644,22 @@ a.source:hover { background: rgba(31, 143, 116, 0.25); }
 .section .container--wide .art--band figcaption {
   max-width: calc(66rem + 2 * clamp(1.25rem, 5vw, 2rem));
 }
+
+/* ---------- provenance banner ---------- */
+.provenance-banner {
+  background: var(--amber);
+  color: #2b1c06;
+  padding: 0.95rem 0;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  position: relative;
+  z-index: 40;
+}
+.provenance-banner p { margin: 0; }
+.provenance-banner strong { font-weight: 700; }
+.provenance-banner__ar {
+  font-family: var(--font-ar);
+  font-size: 1.05rem;
+  margin-top: 0.35rem !important;
+  opacity: 0.85;
+}
